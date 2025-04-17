@@ -4,139 +4,1532 @@
     "sector": "Pasta & Papel",
     "website": "https://altri.pt",
     "description": "Produtora portuguesa de pasta de papel e biomassa florestal.",
-    "history": [0.18, 0.20, 0.25, 0.28, 0.30]
+    "history": [0.18, 0.20, 0.25, 0.28, 0.30],
+    "index": "PSI"
   },
   {
     "name": "BCP",
     "sector": "Bancos",
     "website": "https://www.bcp.pt",
     "description": "Um dos maiores bancos portugueses, oferecendo uma vasta gama de serviços financeiros a particulares e empresas.",
-    "history": [-0.02, -0.05, 0.01, 0.03, 0.07]
+    "history": [-0.02, -0.05, 0.01, 0.03, 0.07],
+    "index": "PSI"
+  },
+  {
+    "name": "Corticeira Amorim",
+    "sector": "Materiais",
+    "website": "https://www.amorim.com",
+    "description": "Líder mundial na produção e distribuição de produtos de cortiça.",
+    "history": [0.10, 0.15, 0.18, 0.20, 0.22],
+    "index": "PSI"
+  },
+  {
+    "name": "CTT Correios de Portugal",
+    "sector": "Serviços Postais",
+    "website": "https://www.ctt.pt",
+    "description": "Empresa portuguesa de serviços postais e soluções empresariais.",
+    "history": [0.08, 0.10, 0.12, 0.15, 0.17],
+    "index": "PSI"
   },
   {
     "name": "EDP",
     "sector": "Energia",
     "website": "https://www.edp.pt",
     "description": "Principal grupo energético em Portugal, com atividades em geração, distribuição e comercialização de eletricidade e gás.",
-    "history": [0.15, 0.17, 0.19, 0.21, 0.23]
+    "history": [0.15, 0.17, 0.19, 0.21, 0.23],
+    "index": "PSI"
+  },
+  {
+    "name": "EDP Renováveis",
+    "sector": "Energia Renovável",
+    "website": "https://www.edpr.com",
+    "description": "Empresa global de energias renováveis, subsidiária da EDP.",
+    "history": [0.22, 0.25, 0.28, 0.30, 0.32],
+    "index": "PSI"
   },
   {
     "name": "Galp",
     "sector": "Energia",
     "website": "https://www.galp.com",
     "description": "Empresa de energia integrada, atuando em toda a cadeia de valor de petróleo e gás natural, bem como em energias renováveis.",
-    "history": [0.30, 0.32, 0.35, 0.38, 0.40]
+    "history": [0.30, 0.32, 0.35, 0.38, 0.40],
+    "index": "PSI"
+  },
+  {
+    "name": "Ibersol",
+    "sector": "Restauração",
+    "website": "https://www.ibersol.pt",
+    "description": "Grupo português de restauração, operando diversas marcas de restaurantes.",
+    "history": [0.12, 0.14, 0.16, 0.18, 0.20],
+    "index": "PSI"
+  },
+  {
+    "name": "Jerónimo Martins",
+    "sector": "Retalho Alimentar",
+    "website": "https://www.jeronimomartins.com",
+    "description": "Grupo internacional de distribuição alimentar e retalho especializado.",
+    "history": [0.25, 0.28, 0.30, 0.32, 0.35],
+    "index": "PSI"
+  },
+  {
+    "name": "Mota-Engil",
+    "sector": "Construção",
+    "website": "https://www.mota-engil.com",
+    "description": "Multinacional portuguesa de construção civil e obras públicas.",
+    "history": [0.15, 0.18, 0.20, 0.22, 0.25],
+    "index": "PSI"
+  },
+  {
+    "name": "NOS",
+    "sector": "Telecomunicações",
+    "website": "https://www.nos.pt",
+    "description": "Operadora de telecomunicações e entretenimento em Portugal.",
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26],
+    "index": "PSI"
+  },
+  {
+    "name": "REN",
+    "sector": "Energia",
+    "website": "https://www.ren.pt",
+    "description": "Empresa responsável pela gestão das redes de transporte de eletricidade e gás natural em Portugal.",
+    "history": [0.16, 0.18, 0.20, 0.22, 0.24],
+    "index": "PSI"
+  },
+  {
+    "name": "Sonae",
+    "sector": "Retalho",
+    "website": "https://www.sonae.pt",
+    "description": "Multinacional portuguesa com negócios em várias áreas, incluindo retalho, serviços financeiros e tecnologia.",
+    "history": [0.22, 0.24, 0.26, 0.28, 0.30],
+    "index": "PSI"
+  },
+  {
+    "name": "The Navigator Company",
+    "sector": "Pasta & Papel",
+    "website": "https://www.thenavigatorcompany.com",
+    "description": "Produtor português de pasta e papel, líder europeu na produção de papel de escritório.",
+    "history": [0.20, 0.22, 0.24, 0.26, 0.28],
+    "index": "PSI"
   },
   {
     "name": "Iberdrola",
     "sector": "Energia",
     "website": "https://www.iberdrola.com",
     "description": "Uma das maiores empresas de energia do mundo, com foco em energias renováveis e redes inteligentes.",
-    "history": [0.45, 0.48, 0.52, 0.55, 0.58]
+    "history": [0.45, 0.48, 0.52, 0.55, 0.58],
+    "index": "IBEX"
   },
   {
     "name": "Santander",
     "sector": "Bancos",
     "website": "https://www.santander.com",
     "description": "Um dos maiores grupos bancários do mundo, com forte presença na Europa e América Latina.",
-    "history": [0.22, 0.25, 0.28, 0.30, 0.33]
+    "history": [0.22, 0.25, 0.28, 0.30, 0.33],
+    "index": "IBEX"
   },
   {
     "name": "Repsol",
     "sector": "Energia",
     "website": "https://www.repsol.com",
     "description": "Empresa global de energia e petroquímica com sede em Espanha.",
-    "history": [0.55, 0.58, 0.62, 0.65, 0.68]
+    "history": [0.55, 0.58, 0.62, 0.65, 0.68],
+    "index": "IBEX"
   },
   {
     "name": "Telefónica",
     "sector": "Telecomunicações",
     "website": "https://www.telefonica.com",
     "description": "Uma das maiores empresas de telecomunicações do mundo, oferecendo serviços de telefonia fixa e móvel, internet e televisão.",
-    "history": [0.18, 0.20, 0.22, 0.24, 0.26]
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26],
+    "index": "IBEX"
   },
   {
-    "name": "Siemens",
-    "sector": "Engenharia e Indústria",
-    "website": "https://siemens.com",
-    "description": "Conglomerado industrial alemão que actua em energia, saúde e mobilidade.",
-    "history": [3.50, 3.50, 4.00, 4.25, 4.70]
+    "name": "Acciona",
+    "sector": "Construção e Infraestruturas",
+    "website": "https://www.acciona.com",
+    "description": "Empresa espanhola especializada em desenvolvimento e gestão de infraestruturas e energias renováveis.",
+    "history": [0.35, 0.38, 0.40, 0.42, 0.45],
+    "index": "IBEX"
   },
   {
-    "name": "SAP",
-    "sector": "Software",
-    "website": "https://www.sap.com",
-    "description": "Líder mundial em software de aplicações empresariais, auxiliando empresas de todos os tamanhos e setores a operar melhor.",
-    "history": [1.80, 1.95, 2.10, 2.25, 2.40]
+    "name": "Acerinox",
+    "sector": "Materiais",
+    "website": "https://www.acerinox.com",
+    "description": "Um dos maiores fabricantes de aço inoxidável do mundo.",
+    "history": [0.28, 0.30, 0.32, 0.34, 0.36],
+    "index": "IBEX"
   },
   {
-    "name": "Allianz",
-    "sector": "Seguros",
-    "website": "https://www.allianz.com",
-    "description": "Uma das maiores seguradoras e gestoras de ativos do mundo.",
-    "history": [4.10, 4.30, 4.50, 4.70, 4.90]
+    "name": "ACS",
+    "sector": "Construção",
+    "website": "https://www.grupoacs.com",
+    "description": "Uma das maiores empresas de construção e serviços do mundo.",
+    "history": [0.32, 0.34, 0.36, 0.38, 0.40],
+    "index": "IBEX"
   },
   {
-    "name": "BMW",
+    "name": "Aena",
+    "sector": "Transportes",
+    "website": "https://www.aena.es",
+    "description": "Operador aeroportuário líder mundial em número de passageiros.",
+    "history": [0.40, 0.42, 0.44, 0.46, 0.48],
+    "index": "IBEX"
+  },
+  {
+    "name": "Amadeus IT Group",
+    "sector": "Tecnologia",
+    "website": "https://www.amadeus.com",
+    "description": "Fornecedor líder de soluções tecnológicas para a indústria global de viagens.",
+    "history": [0.42, 0.45, 0.48, 0.50, 0.52],
+    "index": "IBEX"
+  },
+  {
+    "name": "ArcelorMittal",
+    "sector": "Materiais",
+    "website": "https://corporate.arcelormittal.com",
+    "description": "Maior produtora de aço do mundo.",
+    "history": [0.30, 0.32, 0.34, 0.36, 0.38],
+    "index": "IBEX"
+  },
+  {
+    "name": "Banco de Sabadell",
+    "sector": "Bancos",
+    "website": "https://www.grupbancsabadell.com",
+    "description": "Quarto maior grupo bancário privado espanhol.",
+    "history": [0.15, 0.17, 0.19, 0.21, 0.23],
+    "index": "IBEX"
+  },
+  {
+    "name": "Bankinter",
+    "sector": "Bancos",
+    "website": "https://www.bankinter.com",
+    "description": "Banco espanhol especializado em serviços para particulares e empresas.",
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26],
+    "index": "IBEX"
+  },
+  {
+    "name": "BBVA",
+    "sector": "Bancos",
+    "website": "https://www.bbva.com",
+    "description": "Segundo maior banco da Espanha e uma das maiores instituições financeiras do mundo.",
+    "history": [0.25, 0.27, 0.29, 0.31, 0.33],
+    "index": "IBEX"
+  },
+  {
+    "name": "CaixaBank",
+    "sector": "Bancos",
+    "website": "https://www.caixabank.com",
+    "description": "Maior banco espanhol por ativos domésticos.",
+    "history": [0.20, 0.22, 0.24, 0.26, 0.28],
+    "index": "IBEX"
+  },
+  {
+    "name": "Cellnex Telecom",
+    "sector": "Telecomunicações",
+    "website": "https://www.cellnextelecom.com",
+    "description": "Maior operador europeu de infraestruturas de telecomunicações wireless.",
+    "history": [0.35, 0.38, 0.40, 0.42, 0.45],
+    "index": "IBEX"
+  },
+  {
+    "name": "CIE Automotive",
     "sector": "Automóveis",
-    "website": "https://www.bmwgroup.com",
-    "description": "Fabricante alemã de automóveis e motociclos de luxo.",
-    "history": [2.80, 3.00, 3.20, 3.40, 3.60]
+    "website": "https://www.cieautomotive.com",
+    "description": "Fornecedor global de componentes e subconjuntos para o setor automóvel.",
+    "history": [0.30, 0.32, 0.34, 0.36, 0.38],
+    "index": "IBEX"
+  },
+  {
+    "name": "Corporación Acciona Energías Renovables",
+    "sector": "Energia Renovável",
+    "website": "https://www.acciona-energia.com",
+    "description": "Subsidiária de energia renovável do Grupo Acciona.",
+    "history": [0.38, 0.40, 0.42, 0.44, 0.46],
+    "index": "IBEX"
+  },
+  {
+    "name": "Enagás",
+    "sector": "Energia",
+    "website": "https://www.enagas.es",
+    "description": "Operador técnico do sistema gasista espanhol e principal transportador de gás natural em Espanha.",
+    "history": [0.25, 0.27, 0.29, 0.31, 0.33],
+    "index": "IBEX"
+  },
+  {
+    "name": "Endesa",
+    "sector": "Energia",
+    "website": "https://www.endesa.com",
+    "description": "Maior empresa de energia elétrica da Espanha.",
+    "history": [0.30, 0.32, 0.34, 0.36, 0.38],
+    "index": "IBEX"
+  },
+  {
+    "name": "Ferrovial",
+    "sector": "Construção e Infraestruturas",
+    "website": "https://www.ferrovial.com",
+    "description": "Multinacional espanhola que opera no setor de infraestruturas e serviços urbanos.",
+    "history": [0.35, 0.38, 0.40, 0.42, 0.45],
+    "index": "IBEX"
+  },
+  {
+    "name": "Fluidra",
+    "sector": "Bens de Consumo",
+    "website": "https://www.fluidra.com",
+    "description": "Líder mundial em equipamentos e soluções para piscinas e wellness.",
+    "history": [0.28, 0.30, 0.32, 0.34, 0.36],
+    "index": "IBEX"
+  },
+  {
+    "name": "Grifols",
+    "sector": "Saúde",
+    "website": "https://www.grifols.com",
+    "description": "Empresa global de saúde especializada em medicamentos derivados do plasma.",
+    "history": [0.40, 0.42, 0.44, 0.46, 0.48],
+    "index": "IBEX"
+  },
+  {
+    "name": "Inditex",
+    "sector": "Retalho",
+    "website": "https://www.inditex.com",
+    "description": "Um dos maiores grupos de moda do mundo, proprietário de marcas como Zara, Pull&Bear e Massimo Dutti.",
+    "history": [0.45, 0.48, 0.50, 0.52, 0.55],
+    "index": "IBEX"
+  },
+  {
+    "name": "Indra Sistemas",
+    "sector": "Tecnologia",
+    "website": "https://www.indracompany.com",
+    "description": "Empresa líder em consultoria e tecnologia na Espanha e América Latina.",
+    "history": [0.25, 0.28, 0.30, 0.32, 0.35],
+    "index": "IBEX"
+  },
+  {
+    "name": "International Airlines Group (IAG)",
+    "sector": "Transporte Aéreo",
+    "website": "https://www.iairgroup.com",
+    "description": "Holding que inclui companhias aéreas como Iberia, British Airways e Vueling.",
+    "history": [0.30, 0.32, 0.34, 0.36, 0.38],
+    "index": "IBEX"
+  },
+  {
+    "name": "Laboratorios Rovi",
+    "sector": "Saúde",
+    "website": "https://www.rovi.es",
+    "description": "Empresa farmacêutica espanhola especializada em produtos de heparina de baixo peso molecular.",
+    "history": [0.35, 0.38, 0.40, 0.42, 0.45],
+    "index": "IBEX"
+  },
+  {
+    "name": "Logista",
+    "sector": "Logística",
+    "website": "https://www.logista.com",
+    "description": "Distribuidor líder de produtos e serviços a redes de proximidade no sul da Europa.",
+    "history": [0.28, 0.30, 0.32, 0.34, 0.36],
+    "index": "IBEX"
+  },
+  {
+    "name": "Mapfre",
+    "sector": "Seguros",
+    "website": "https://www.mapfre.com",
+    "description": "Maior grupo segurador espanhol e referência no mercado latino-americano.",
+    "history": [0.25, 0.27, 0.29, 0.31, 0.33],
+    "index": "IBEX"
+  },
+  {
+    "name": "Meliá Hotels International",
+    "sector": "Hotelaria",
+    "website": "https://www.meliahotelsinternational.com",
+    "description": "Uma das maiores cadeias hoteleiras do mundo, com forte presença internacional.",
+    "history": [0.22, 0.24, 0.26, 0.28, 0.30],
+    "index": "IBEX"
+  },
+  {
+    "name": "Merlin Properties",
+    "sector": "Imobiliário",
+    "website": "https://www.merlinproperties.com",
+    "description": "Maior REIT (SOCIMI) da península ibérica, focada em ativos comerciais premium.",
+    "history": [0.30, 0.32, 0.34, 0.36, 0.38],
+    "index": "IBEX"
+  },
+  {
+    "name": "Naturgy",
+    "sector": "Energia",
+    "website": "https://www.naturgy.com",
+    "description": "Multinacional do setor energético especializada em gás natural e eletricidade.",
+    "history": [0.32, 0.34, 0.36, 0.38, 0.40],
+    "index": "IBEX"
+  },
+  {
+    "name": "Redeia Corporación",
+    "sector": "Energia",
+    "website": "https://www.redeia.com",
+    "description": "Operadora e transportadora da rede elétrica espanhola.",
+    "history": [0.28, 0.30, 0.32, 0.34, 0.36],
+    "index": "IBEX"
+  },
+  {
+    "name": "Sacyr",
+    "sector": "Construção e Infraestruturas",
+    "website": "https://www.sacyr.com",
+    "description": "Grupo multinacional de infraestruturas e serviços.",
+    "history": [0.25, 0.27, 0.29, 0.31, 0.33],
+    "index": "IBEX"
+  },
+  {
+    "name": "Siemens Gamesa Renewable Energy",
+    "sector": "Energia Renovável",
+    "website": "https://www.siemensgamesa.com",
+    "description": "Líder global em energias renováveis, especializada em soluções eólicas.",
+    "history": [0.38, 0.40, 0.42, 0.44, 0.46],
+    "index": "IBEX"
+  },
+  {
+    "name": "Solaria",
+    "sector": "Energia Renovável",
+    "website": "https://www.solariaenergia.com",
+    "description": "Empresa especializada em geração de energia fotovoltaica.",
+    "history": [0.35, 0.38, 0.40, 0.42, 0.45],
+    "index": "IBEX"
+  },
+  {
+    "name": "Unicaja Banco",
+    "sector": "Bancos",
+    "website": "https://www.unicajabanco.com",
+    "description": "Banco espanhol resultante da fusão de diversas caixas de poupança.",
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26],
+    "index": "IBEX"
+  },
+    {
+      "name": "Adidas",
+      "sector": "Consumer Goods",
+      "website": "https://www.adidas.com",
+      "description": "Fabricante global de calçados, roupas e equipamentos esportivos.",
+      "history": [3.30, 0.70, 0.70, 1.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Allianz",
+      "sector": "Seguros",
+      "website": "https://www.allianz.com",
+      "description": "Empresa multinacional de serviços financeiros focada em seguros.",
+      "history": [10.80, 11.40, 13.80, 14.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "BASF",
+      "sector": "Químico",
+      "website": "https://www.basf.com",
+      "description": "Maior empresa química do mundo, produzindo diversos produtos químicos.",
+      "history": [3.40, 3.40, 3.40, 3.40],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Bayer",
+      "sector": "Farmacêutico",
+      "website": "https://www.bayer.com",
+      "description": "Empresa farmacêutica e de ciências da vida com foco em saúde e agricultura.",
+      "history": [2.00, 0.11, 0.11, 0.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "BMW",
+      "sector": "Automobilístico",
+      "website": "https://www.bmw.com",
+      "description": "Fabricante de automóveis e motocicletas de luxo.",
+      "history": [8.50, 8.50, 6.00, 5.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Brenntag",
+      "sector": "Químico",
+      "website": "https://www.brenntag.com",
+      "description": "Líder global em distribuição de produtos químicos.",
+      "history": [2.00, 2.00, 2.10, 2.20],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Commerzbank",
+      "sector": "Financeiro",
+      "website": "https://www.commerzbank.com",
+      "description": "Um dos principais bancos comerciais da Alemanha.",
+      "history": [0.20, 0.35, 0.55, 0.75],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Continental",
+      "sector": "Automobilístico",
+      "website": "https://www.continental.com",
+      "description": "Fabricante de pneus, sistemas de freio e outras peças automotivas.",
+      "history": [2.20, 2.20, 2.20, 2.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Covestro",
+      "sector": "Químico",
+      "website": "https://www.covestro.com",
+      "description": "Fabricante de materiais poliméricos de alta tecnologia.",
+      "history": [0.00, 0.00, 0.00, 0.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Deutsche Bank",
+      "sector": "Financeiro",
+      "website": "https://www.db.com",
+      "description": "Maior banco alemão oferecendo serviços financeiros globais.",
+      "history": [0.30, 0.45, 0.60, 0.75],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Deutsche Börse",
+      "sector": "Financeiro",
+      "website": "https://www.deutsche-boerse.com",
+      "description": "Operadora da bolsa de valores de Frankfurt e outros mercados financeiros.",
+      "history": [3.60, 3.80, 3.80, 4.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Deutsche Telekom",
+      "sector": "Telecomunicações",
+      "website": "https://www.telekom.com",
+      "description": "Maior empresa de telecomunicações da Europa.",
+      "history": [0.70, 0.77, 0.90, 1.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "E.ON",
+      "sector": "Energia",
+      "website": "https://www.eon.com",
+      "description": "Uma das maiores empresas de serviços públicos de energia da Europa.",
+      "history": [0.51, 0.53, 0.55, 0.57],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Fresenius",
+      "sector": "Saúde",
+      "website": "https://www.fresenius.com",
+      "description": "Empresa global de saúde especializada em produtos e serviços médicos.",
+      "history": [0.92, 0.00, 0.37, 0.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Fresenius Medical Care",
+      "sector": "Saúde",
+      "website": "https://www.freseniusmedicalcare.com",
+      "description": "Líder mundial em produtos e serviços para diálise renal.",
+      "history": [1.12, 1.12, 1.19, 1.25],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Hannover Re",
+      "sector": "Seguros",
+      "website": "https://www.hannover-re.com",
+      "description": "Uma das maiores empresas de resseguros do mundo.",
+      "history": [6.00, 7.00, 7.20, 7.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Heidelberg Materials",
+      "sector": "Construção",
+      "website": "https://www.heidelbergmaterials.com",
+      "description": "Um dos maiores produtores mundiais de cimento e materiais de construção.",
+      "history": [2.60, 3.00, 3.30, 3.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Henkel",
+      "sector": "Bens de Consumo",
+      "website": "https://www.henkel.com",
+      "description": "Empresa química e de bens de consumo, conhecida por marcas como Persil e Loctite.",
+      "history": [1.85, 1.85, 1.85, 1.90],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Infineon Technologies",
+      "sector": "Tecnologia",
+      "website": "https://www.infineon.com",
+      "description": "Fabricante de semicondutores e soluções de sistemas para aplicações eletrônicas.",
+      "history": [0.32, 0.35, 0.35, 0.40],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Mercedes-Benz Group",
+      "sector": "Automobilístico",
+      "website": "https://www.mercedes-benz.com",
+      "description": "Fabricante de veículos de luxo, caminhões e ônibus.",
+      "history": [5.20, 5.30, 4.30, 4.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Merck",
+      "sector": "Farmacêutico",
+      "website": "https://www.merckgroup.com",
+      "description": "Empresa farmacêutica, química e de ciências da vida.",
+      "history": [2.20, 2.20, 2.20, 2.30],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "MTU Aero Engines",
+      "sector": "Aeroespacial",
+      "website": "https://www.mtu.de",
+      "description": "Principal fabricante alemão de motores aeronáuticos.",
+      "history": [2.30, 2.30, 2.70, 3.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Münchener Rück (Munich Re)",
+      "sector": "Seguros",
+      "website": "https://www.munichre.com",
+      "description": "Uma das maiores empresas de resseguros do mundo.",
+      "history": [11.60, 15.00, 16.00, 17.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Porsche AG",
+      "sector": "Automobilístico",
+      "website": "https://www.porsche.com",
+      "description": "Fabricante de carros esportivos e de luxo.",
+      "history": [1.01, 2.31, 2.31, 2.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Porsche Automobil Holding",
+      "sector": "Holding",
+      "website": "https://www.porsche-se.com",
+      "description": "Holding com participação significativa na Volkswagen.",
+      "history": [2.56, 2.56, 2.56, 2.60],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Puma",
+      "sector": "Bens de Consumo",
+      "website": "https://www.puma.com",
+      "description": "Fabricante de calçados, roupas e acessórios esportivos.",
+      "history": [0.82, 0.82, 0.82, 0.85],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Qiagen",
+      "sector": "Biotecnologia",
+      "website": "https://www.qiagen.com",
+      "description": "Fornecedor de tecnologias de amostra e ensaio para diagnósticos moleculares.",
+      "history": [0.00, 0.00, 0.00, 0.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "RWE",
+      "sector": "Energia",
+      "website": "https://www.rwe.com",
+      "description": "Uma das principais empresas de geração de energia da Europa.",
+      "history": [1.00, 1.00, 1.00, 1.10],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "SAP",
+      "sector": "Tecnologia",
+      "website": "https://www.sap.com",
+      "description": "Maior empresa europeia de software, especializada em software empresarial.",
+      "history": [2.05, 2.05, 2.20, 2.35],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Sartorius",
+      "sector": "Saúde",
+      "website": "https://www.sartorius.com",
+      "description": "Fornecedor de equipamentos para laboratórios e indústria farmacêutica.",
+      "history": [1.44, 0.74, 0.74, 1.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Siemens",
+      "sector": "Industrial",
+      "website": "https://www.siemens.com",
+      "description": "Conglomerado industrial com foco em automação, eletrificação e digitalização.",
+      "history": [4.25, 4.70, 5.00, 5.20],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Siemens Energy",
+      "sector": "Energia",
+      "website": "https://www.siemens-energy.com",
+      "description": "Empresa de tecnologia energética focada em transmissão e geração.",
+      "history": [0.10, 0.00, 0.00, 0.30],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Symrise",
+      "sector": "Químico",
+      "website": "https://www.symrise.com",
+      "description": "Produtor de fragrâncias, aromas, cosméticos e ingredientes nutricionais.",
+      "history": [1.05, 1.10, 1.10, 1.15],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Volkswagen",
+      "sector": "Automobilístico",
+      "website": "https://www.volkswagenag.com",
+      "description": "Um dos maiores fabricantes de automóveis do mundo.",
+      "history": [8.76, 9.06, 9.06, 8.50],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Vonovia",
+      "sector": "Imobiliário",
+      "website": "https://www.vonovia.de",
+      "description": "Maior empresa imobiliária residencial da Alemanha.",
+      "history": [0.85, 0.90, 0.90, 1.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Wacker Chemie",
+      "sector": "Químico",
+      "website": "https://www.wacker.com",
+      "description": "Fabricante de produtos químicos especializados com foco em silicones.",
+      "history": [12.00, 3.00, 3.00, 4.00],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    {
+      "name": "Zalando",
+      "sector": "Varejo",
+      "website": "https://www.zalando.com",
+      "description": "Plataforma de e-commerce especializada em moda e estilo de vida.",
+      "history": [0.00, 0.00, 0.10, 0.20],
+      "years": [2022, 2023, 2024, 2025],
+      "index": "DAX"
+    },
+    
+  {
+    "name": "Accor",
+    "sector": "Hotelaria",
+    "website": "https://www.accor.com",
+    "description": "Descrição genérica sobre a empresa Accor.",
+    "history": [
+      1.0,
+      1.1,
+      1.2,
+      1.3
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Air Liquide",
+    "sector": "Química industrial",
+    "website": "https://www.airliquide.com",
+    "description": "Descrição genérica sobre a empresa Air Liquide.",
+    "history": [
+      1.1,
+      1.2,
+      1.3,
+      1.4
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
     "name": "Airbus",
-    "sector": "Aeroespacial e Defesa",
-    "website": "https://www.airbus.com/en",
-    "description": "Líder global em aeronáutica, espaço e serviços relacionados.",
-    "history": [2.00, 2.15, 2.30, 2.45, 2.60]
+    "sector": "Aeroespacial",
+    "website": "https://www.airbus.com",
+    "description": "Descrição genérica sobre a empresa Airbus.",
+    "history": [
+      1.2,
+      1.3,
+      1.4,
+      1.5
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Alstom",
+    "sector": "Transportes",
+    "website": "https://www.alstom.com",
+    "description": "Descrição genérica sobre a empresa Alstom.",
+    "history": [
+      1.3,
+      1.4,
+      1.5,
+      1.6
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "ArcelorMittal",
+    "sector": "Siderurgia",
+    "website": "https://www.arcelormittal.com",
+    "description": "Descrição genérica sobre a empresa ArcelorMittal.",
+    "history": [
+      1.4,
+      1.5,
+      1.6,
+      1.7
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "AXA",
+    "sector": "Seguros",
+    "website": "https://www.axa.com",
+    "description": "Descrição genérica sobre a empresa AXA.",
+    "history": [
+      1.5,
+      1.6,
+      1.7,
+      1.8
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
     "name": "BNP Paribas",
-    "sector": "Bancos",
-    "website": "https://group.bnpparibas",
-    "description": "Um dos maiores bancos da Europa, com uma vasta rede internacional.",
-    "history": [0.60, 0.65, 0.70, 0.75, 0.80]
+    "sector": "Banca",
+    "website": "https://www.bnpparibas.com",
+    "description": "Descrição genérica sobre a empresa BNP Paribas.",
+    "history": [
+      1.6,
+      1.7,
+      1.8,
+      1.9
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Bouygues",
+    "sector": "Construção",
+    "website": "https://www.bouygues.com",
+    "description": "Descrição genérica sobre a empresa Bouygues.",
+    "history": [
+      1.7,
+      1.8,
+      1.9,
+      2.0
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Capgemini",
+    "sector": "Tecnologia",
+    "website": "https://www.capgemini.com",
+    "description": "Descrição genérica sobre a empresa Capgemini.",
+    "history": [
+      1.8,
+      1.9,
+      2.0,
+      2.1
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Carrefour",
+    "sector": "Retalho",
+    "website": "https://www.carrefour.com",
+    "description": "Descrição genérica sobre a empresa Carrefour.",
+    "history": [
+      1.9,
+      2.0,
+      2.1,
+      2.2
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Crédit Agricole",
+    "sector": "Banca",
+    "website": "https://www.creditagricole.com",
+    "description": "Descrição genérica sobre a empresa Crédit Agricole.",
+    "history": [
+      2.0,
+      2.1,
+      2.2,
+      2.3
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Danone",
+    "sector": "Alimentação",
+    "website": "https://www.danone.com",
+    "description": "Descrição genérica sobre a empresa Danone.",
+    "history": [
+      2.1,
+      2.2,
+      2.3,
+      2.4
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Dassault Systèmes",
+    "sector": "Software",
+    "website": "https://www.dassaultsystèmes.com",
+    "description": "Descrição genérica sobre a empresa Dassault Systèmes.",
+    "history": [
+      2.2,
+      2.3,
+      2.4,
+      2.5
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Edenred",
+    "sector": "Serviços",
+    "website": "https://www.edenred.com",
+    "description": "Descrição genérica sobre a empresa Edenred.",
+    "history": [
+      2.3,
+      2.4,
+      2.5,
+      2.6
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Engie",
+    "sector": "Energia",
+    "website": "https://www.engie.com",
+    "description": "Descrição genérica sobre a empresa Engie.",
+    "history": [
+      2.4,
+      2.5,
+      2.6,
+      2.7
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "EssilorLuxottica",
+    "sector": "Cuidados de visão",
+    "website": "https://www.essilorluxottica.com",
+    "description": "Descrição genérica sobre a empresa EssilorLuxottica.",
+    "history": [
+      2.5,
+      2.6,
+      2.7,
+      2.8
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Eurofins Scientific",
+    "sector": "Laboratórios",
+    "website": "https://www.eurofinsscientific.com",
+    "description": "Descrição genérica sobre a empresa Eurofins Scientific.",
+    "history": [
+      2.6,
+      2.7,
+      2.8,
+      2.9
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Hermès International",
+    "sector": "Moda",
+    "website": "https://www.hermèsinternational.com",
+    "description": "Descrição genérica sobre a empresa Hermès International.",
+    "history": [
+      2.7,
+      2.8,
+      2.9,
+      3.0
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Kering",
+    "sector": "Moda",
+    "website": "https://www.kering.com",
+    "description": "Descrição genérica sobre a empresa Kering.",
+    "history": [
+      2.8,
+      2.9,
+      3.0,
+      3.1
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "L'Oréal",
+    "sector": "Cosmética",
+    "website": "https://www.loreal.com",
+    "description": "Descrição genérica sobre a empresa L'Oréal.",
+    "history": [
+      2.9,
+      3.0,
+      3.1,
+      3.2
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Legrand",
+    "sector": "Equipamentos elétricos",
+    "website": "https://www.legrand.com",
+    "description": "Descrição genérica sobre a empresa Legrand.",
+    "history": [
+      3.0,
+      3.1,
+      3.2,
+      3.3
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "LVMH Moët Hennessy Louis Vuitton",
+    "sector": "Luxo",
+    "website": "https://www.lvmhmoëthennessylouisvuitton.com",
+    "description": "Descrição genérica sobre a empresa LVMH Moët Hennessy Louis Vuitton.",
+    "history": [
+      3.1,
+      3.2,
+      3.3,
+      3.4
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Michelin",
+    "sector": "Automóvel",
+    "website": "https://www.michelin.com",
+    "description": "Descrição genérica sobre a empresa Michelin.",
+    "history": [
+      3.2,
+      3.3,
+      3.4,
+      3.5
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Orange",
+    "sector": "Telecomunicações",
+    "website": "https://www.orange.com",
+    "description": "Descrição genérica sobre a empresa Orange.",
+    "history": [
+      3.3,
+      3.4,
+      3.5,
+      3.6
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Pernod Ricard",
+    "sector": "Bebidas",
+    "website": "https://www.pernodricard.com",
+    "description": "Descrição genérica sobre a empresa Pernod Ricard.",
+    "history": [
+      3.4,
+      3.5,
+      3.6,
+      3.7
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Publicis Groupe",
+    "sector": "Publicidade",
+    "website": "https://www.publicisgroupe.com",
+    "description": "Descrição genérica sobre a empresa Publicis Groupe.",
+    "history": [
+      3.5,
+      3.6,
+      3.7,
+      3.8
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Renault",
+    "sector": "Automóvel",
+    "website": "https://www.renault.com",
+    "description": "Descrição genérica sobre a empresa Renault.",
+    "history": [
+      3.6,
+      3.7,
+      3.8,
+      3.9
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Safran",
+    "sector": "Aeroespacial",
+    "website": "https://www.safran.com",
+    "description": "Descrição genérica sobre a empresa Safran.",
+    "history": [
+      3.7,
+      3.8,
+      3.9,
+      4.0
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Saint-Gobain",
+    "sector": "Materiais de construção",
+    "website": "https://www.saint-gobain.com",
+    "description": "Descrição genérica sobre a empresa Saint-Gobain.",
+    "history": [
+      3.8,
+      3.9,
+      4.0,
+      4.1
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Sanofi",
+    "sector": "Farmacêutica",
+    "website": "https://www.sanofi.com",
+    "description": "Descrição genérica sobre a empresa Sanofi.",
+    "history": [
+      3.9,
+      4.0,
+      4.1,
+      4.2
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Schneider Electric",
+    "sector": "Engenharia elétrica",
+    "website": "https://www.schneiderelectric.com",
+    "description": "Descrição genérica sobre a empresa Schneider Electric.",
+    "history": [
+      4.0,
+      4.1,
+      4.2,
+      4.3
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Société Générale",
+    "sector": "Banca",
+    "website": "https://www.societegenerale.com",
+    "description": "Descrição genérica sobre a empresa Société Générale.",
+    "history": [
+      4.1,
+      4.2,
+      4.3,
+      4.4
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Stellantis",
+    "sector": "Automóvel",
+    "website": "https://www.stellantis.com",
+    "description": "Descrição genérica sobre a empresa Stellantis.",
+    "history": [
+      4.2,
+      4.3,
+      4.4,
+      4.5
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "STMicroelectronics",
+    "sector": "Semicondutores",
+    "website": "https://www.stmicroelectronics.com",
+    "description": "Descrição genérica sobre a empresa STMicroelectronics.",
+    "history": [
+      4.3,
+      4.4,
+      4.5,
+      4.6
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Teleperformance",
+    "sector": "Serviços",
+    "website": "https://www.teleperformance.com",
+    "description": "Descrição genérica sobre a empresa Teleperformance.",
+    "history": [
+      4.4,
+      4.5,
+      4.6,
+      4.7
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
+  },
+  {
+    "name": "Thales",
+    "sector": "Defesa",
+    "website": "https://www.thales.com",
+    "description": "Descrição genérica sobre a empresa Thales.",
+    "history": [
+      4.5,
+      4.6,
+      4.7,
+      4.8
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
     "name": "TotalEnergies",
     "sector": "Energia",
-    "website": "https://totalenergies.com",
-    "description": "Empresa global de energia que produz e comercializa petróleo e gás natural, e está a investir em energias renováveis.",
-    "history": [0.48, 0.52, 0.56, 0.60, 0.64]
+    "website": "https://www.totalenergies.com",
+    "description": "Descrição genérica sobre a empresa TotalEnergies.",
+    "history": [
+      4.6,
+      4.7,
+      4.8,
+      4.9
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
-    "name": "L'Oréal",
-    "sector": "Bens de Consumo",
-    "website": "https://www.loreal.com",
-    "description": "A maior empresa de cosméticos do mundo.",
-    "history": [3.10, 3.30, 3.50, 3.70, 3.90]
+    "name": "Unibail-Rodamco-Westfield",
+    "sector": "Imobiliário",
+    "website": "https://www.unibail-rodamco-westfield.com",
+    "description": "Descrição genérica sobre a empresa Unibail-Rodamco-Westfield.",
+    "history": [
+      4.7,
+      4.8,
+      4.9,
+      5.0
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
-    "name": "Apple",
-    "sector": "Tecnologia",
-    "website": "https://apple.com",
-    "description": "Fabricante do iPhone, Mac e serviços como iCloud e Apple TV+.",
-    "history": [0.75, 0.82, 0.85, 0.88, 0.92]
+    "name": "Veolia Environnement",
+    "sector": "Gestão ambiental",
+    "website": "https://www.veoliaenvironnement.com",
+    "description": "Descrição genérica sobre a empresa Veolia Environnement.",
+    "history": [
+      4.8,
+      4.9,
+      5.0,
+      5.1
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
-    "name": "Microsoft",
-    "sector": "Tecnologia",
-    "website": "https://www.microsoft.com",
-    "description": "Empresa líder em software, serviços de nuvem, jogos e dispositivos.",
-    "history": [1.10, 1.20, 1.35, 1.50, 1.65]
+    "name": "Vinci",
+    "sector": "Engenharia",
+    "website": "https://www.vinci.com",
+    "description": "Descrição genérica sobre a empresa Vinci.",
+    "history": [
+      4.9,
+      5.0,
+      5.1,
+      5.2
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
-    "name": "Amazon",
-    "sector": "Comércio Eletrónico e Serviços de Nuvem",
-    "website": "https://www.amazon.com",
-    "description": "A maior empresa de comércio eletrónico do mundo e líder em serviços de computação em nuvem através da AWS.",
-    "history": [3.20, 3.50, 3.80, 4.10, 4.40]
+    "name": "Vivendi",
+    "sector": "Media",
+    "website": "https://www.vivendi.com",
+    "description": "Descrição genérica sobre a empresa Vivendi.",
+    "history": [
+      5.0,
+      5.1,
+      5.2,
+      5.3
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   },
   {
-    "name": "Nvidia",
-    "sector": "Tecnologia",
-    "website": "https://www.nvidia.com",
-    "description": "Líder em design de unidades de processamento gráfico (GPUs) para jogos, visualização profissional, data centers e automóveis.",
-    "history": [0.90, 1.10, 1.35, 1.60, 1.90]
+    "name": "Worldline",
+    "sector": "Pagamentos",
+    "website": "https://www.worldline.com",
+    "description": "Descrição genérica sobre a empresa Worldline.",
+    "history": [
+      5.1,
+      5.2,
+      5.3,
+      5.4
+    ],
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "index": "CAC 40"
   }
+  
 ]
