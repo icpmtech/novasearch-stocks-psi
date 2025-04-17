@@ -5,50 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dividendos Bolsas 2025 | Nova Search</title>
 
-  <!-- Font / Icons / FullCalendar -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet">
+  <!-- Fontes / Ícones / FullCalendar / Chart.js -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 
+  <!-- Tema neon/cyberpunk -->
   <style>
-    :root{--neon-pink:#FF00FF;--cyber-teal:#00F0FF;--dark-bg:#0F0F0F;--card-bg:#1A1A1A;}
-    body{font-family:'Inter',sans-serif;background:var(--dark-bg);margin:0;padding:20px;color:white;}
-    header{text-align:center;margin-bottom:20px;padding:20px;background:linear-gradient(135deg,var(--neon-pink),var(--cyber-teal));border-radius:16px;box-shadow:0 4px 30px rgba(255,0,255,.2);}
-    h1{margin:0;font-size:2.3rem;}
-    .update-date{font-size:1rem;opacity:.85;margin-top:6px}
-    .language-selector,.filters{display:flex;justify-content:space-between;flex-wrap:wrap;margin:18px 0}
-    .flag{width:30px;height:20px;margin-left:8px;cursor:pointer;border:1px solid white;border-radius:3px}
-    select,input,button{background:var(--card-bg);color:white;border:1px solid var(--cyber-teal);border-radius:6px;padding:6px 10px;margin:4px}
-    .table-container{overflow-x:auto;border-radius:16px;background:var(--card-bg);box-shadow:0 8px 32px rgba(0,0,0,.3);margin:18px 0}
-    table{width:100%;min-width:880px;border-collapse:collapse}
-    th{background:linear-gradient(135deg,var(--neon-pink),var(--cyber-teal));padding:14px;text-transform:uppercase;font-weight:700}
-    td{padding:12px;border-bottom:1px solid rgba(255,255,255,.1)}
-    tr:hover td{background:rgba(255,255,255,.05);cursor:pointer}
-    .dy-high{color:var(--cyber-teal);font-weight:700;text-shadow:0 0 8px rgba(0,240,255,.3)}
-    .dy-medium{color:#00FF00}.dy-low{color:#FF4444}
-    .note{margin:18px 0;padding:14px;background:var(--card-bg);border-left:4px solid var(--neon-pink);border-radius:12px;display:flex;align-items:center;gap:12px}
-    .footer{margin-top:28px;text-align:center;opacity:.7;font-size:.9rem}
-    .footer a{color:var(--cyber-teal);text-decoration:none;margin:0 6px}
+    :root {
+      --neon-pink: #ff00ff;
+      --cyber-teal: #00f0ff;
+      --dark-bg:   #0f0f0f;
+      --card-bg:   #1a1a1a;
+    }
+    * { box-sizing: border-box }
+    body { font-family: "Inter", sans-serif; background: var(--dark-bg); margin: 0; padding: 20px; color: white }
+    header { text-align: center; margin-bottom: 20px; padding: 20px;
+             background: linear-gradient(135deg, var(--neon-pink), var(--cyber-teal));
+             border-radius: 16px; box-shadow: 0 4px 30px rgba(255, 0, 255, .2) }
+    h1 { margin: 0; font-size: 2.3rem }
+    .update-date { font-size: 1rem; opacity: .85; margin-top: 6px }
+    .language-selector, .filters {
+      display: flex; justify-content: space-between; flex-wrap: wrap; margin: 18px 0
+    }
+    .flag { width: 30px; height: 20px; margin-left: 8px; cursor: pointer;
+            border: 1px solid white; border-radius: 3px }
+    select, input, button {
+      background: var(--card-bg); color: white; border: 1px solid var(--cyber-teal);
+      border-radius: 6px; padding: 6px 10px; margin: 4px
+    }
+    .table-container {
+      overflow-x: auto; border-radius: 16px; background: var(--card-bg);
+      box-shadow: 0 8px 32px rgba(0,0,0,.3); margin: 18px 0
+    }
+    table { width: 100%; min-width: 880px; border-collapse: collapse }
+    th {
+      background: linear-gradient(135deg, var(--neon-pink), var(--cyber-teal));
+      padding: 14px; text-transform: uppercase; font-weight: 700
+    }
+    td { padding: 12px; border-bottom: 1px solid rgba(255,255,255,.1) }
+    tr:hover td { background: rgba(255,255,255,.05); cursor: pointer }
+    .dy-high   { color: var(--cyber-teal); font-weight: 700; text-shadow: 0 0 8px rgba(0,240,255,.3) }
+    .dy-medium { color: #00ff00 }
+    .dy-low    { color: #ff4444 }
 
-    /* Calendar */
-    #calendar{display:none;max-width:100%;margin:20px auto 0}
-    .fc-theme-standard .fc-scrollgrid{border:1px solid var(--cyber-teal)}
-    .fc-toolbar-title{color:var(--cyber-teal)}
-    .fc-button-primary{background:var(--card-bg);border:1px solid var(--cyber-teal)}
-    .fc-button-primary:hover{background:var(--neon-pink)}
+    .note   { margin: 18px 0; padding: 14px; background: var(--card-bg);
+              border-left: 4px solid var(--neon-pink); border-radius: 12px;
+              display: flex; align-items: center; gap: 12px }
+    .footer { margin-top: 28px; text-align: center; opacity: .7; font-size: .9rem }
+    .footer a { color: var(--cyber-teal); text-decoration: none; margin: 0 6px }
+
+    /* Calendário */
+    #calendar { display: none; max-width: 100%; margin: 20px auto 0 }
+    .fc-theme-standard .fc-scrollgrid { border: 1px solid var(--cyber-teal) }
+    .fc-toolbar-title { color: var(--cyber-teal) }
+    .fc-button-primary {
+      background: var(--card-bg); border: 1px solid var(--cyber-teal)
+    }
+    .fc-button-primary:hover { background: var(--neon-pink) }
 
     /* Drawer + Mask */
-    #mask{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(2px);z-index:990}
-    #drawer{display:none;position:fixed;top:0;right:0;height:100%;max-width:350px;width:90%;background:var(--card-bg);border-left:2px solid var(--cyber-teal);padding:24px;box-shadow:-6px 0 24px rgba(0,0,0,.6);z-index:1000;animation:slideIn .35s forwards}
-    #drawer h3{margin-top:0;color:var(--cyber-teal)}
-    #drawer .close{position:absolute;top:10px;right:14px;cursor:pointer;color:var(--neon-pink)}
-    @keyframes slideIn{from{transform:translateX(100%);}to{transform:translateX(0);}}
-    @media(max-width:600px){#drawer{right:50%;transform:translateX(50%);width:95%}}
+    #mask {
+      display: none; position: fixed; inset: 0; background: rgba(0,0,0,.55);
+      backdrop-filter: blur(2px); z-index: 990
+    }
+    #drawer {
+      display: none; position: fixed; top: 0; right: 0; height: 100%;
+      max-width: 380px; width: 90%; background: var(--card-bg);
+      border-left: 2px solid var(--cyber-teal); padding: 24px;
+      box-shadow: -6px 0 24px rgba(0,0,0,.6); z-index: 1000; animation: slideIn .35s forwards
+    }
+    #drawer h3 { margin: 0 0 8px 0; color: var(--cyber-teal) }
+    #drawer .close { position: absolute; top: 10px; right: 14px; cursor: pointer; color: var(--neon-pink) }
+    #drawer p { margin: 0 0 14px 0; line-height: 1.35 }
+    canvas { max-width: 100%; height: 220px !important }
+    @keyframes slideIn { from { transform: translateX(100%) } to { transform: translateX(0) } }
+    @media (max-width: 600px) { #drawer { right: 50%; transform: translateX(50%); width: 95% } }
   </style>
 </head>
 <body>
-  <!-- Idioma & Bolsa -->
+
+  <!-- Idiomas & Bolsa -->
   <div class="language-selector">
     <div>
       <img src="https://flagcdn.com/w40/pt.png" class="flag" alt="PT" onclick="setLang('pt')">
@@ -67,14 +106,16 @@
   <!-- Cabeçalho -->
   <header>
     <h1 id="title">📈 Dividendos Bolsas 2025</h1>
-    <span class="update-date" id="upd">🔄 15/04/2025</span>
+    <span class="update-date">🔄 15/04/2025</span>
   </header>
 
   <!-- Filtros -->
   <div class="filters">
     <input id="search" placeholder="🔍 Pesquisar…" oninput="renderTable()">
     <select id="dySel" onchange="renderTable()">
-      <option value="all">Todos DY</option><option value="5">&gt;5%</option><option value="7">&gt;7%</option>
+      <option value="all">Todos DY</option>
+      <option value="5">&gt; 5%</option>
+      <option value="7">&gt; 7%</option>
     </select>
     <button onclick="exportCSV()">⬇️ CSV</button>
     <button onclick="toggleCal()"><i class="fas fa-calendar"></i> Calendário</button>
@@ -83,7 +124,12 @@
   <!-- Tabela -->
   <div class="table-container" id="tableWrap">
     <table>
-      <thead><tr><th id="thName">Empresa</th><th>Preço €</th><th>DPA €</th><th id="thEx">Ex‑Div</th><th>DY %</th><th id="thAg">AG</th></tr></thead>
+      <thead>
+        <tr>
+          <th id="thName">Empresa</th><th>Preço €</th><th>DPA €</th>
+          <th id="thEx">Ex‑Div</th><th>DY %</th><th id="thAg">AG</th>
+        </tr>
+      </thead>
       <tbody id="tbody"></tbody>
     </table>
   </div>
@@ -91,76 +137,125 @@
   <!-- Calendário -->
   <div id="calendar"></div>
 
-  <!-- Drawer & Mask -->
+  <!-- Drawer + Mask -->
   <div id="mask" onclick="closeDrawer()"></div>
   <aside id="drawer">
     <i class="fas fa-times close" onclick="closeDrawer()"></i>
     <h3 id="dTitle">Empresa</h3>
-    <p id="dBody">Detalhes…</p>
+    <p id="dDesc">Descrição…</p>
+    <canvas id="divChart"></canvas>
   </aside>
 
   <div class="note"><i class="fas fa-info-circle"></i><div id="note">DY baseado em cotações de 15/04/2025</div></div>
   <div class="footer" id="footTxt">🏦 Fonte: Millennium bcp</div>
 
+  <!-- ========================  JS  ======================== -->
   <script>
-    /* texto multilíngue */
-    const T={pt:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Div',ag:'AG',note:'DY baseado em cotações de 15/04/2025',foot:'🏦 Fonte: Millennium bcp',ph:'🔍 Pesquisar…'},
-             en:{t:'📈 Global Dividends 2025',ex:'Ex‑Dividend',ag:'Meeting',note:'DY based on prices as of 15/04/2025',foot:'🏦 Source: Millennium bcp',ph:'🔍 Search…'},
-             es:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Dividendo',ag:'Junta',note:'DY con precios al 15/04/2025',foot:'🏦 Fuente: Millennium bcp',ph:'🔍 Buscar…'}};
-    let lang=localStorage.getItem('lang')||'pt';
-    function setLang(l){lang=l;localStorage.setItem('lang',l);applyLang();renderTable();}
+    /* ==== 1. textos multilíngue ==== */
+    const T = {
+      pt:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Div',ag:'AG',note:'DY baseado em cotações de 15/04/2025',foot:'🏦 Fonte: Millennium bcp',ph:'🔍 Pesquisar…'},
+      en:{t:'📈 Global Dividends 2025',ex:'Ex‑Dividend',ag:'Meeting',note:'DY based on prices as of 15/04/2025',foot:'🏦 Source: Millennium bcp',ph:'🔍 Search…'},
+      es:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Dividendo',ag:'Junta',note:'DY con precios al 15/04/2025',foot:'🏦 Fuente: Millennium bcp',ph:'🔍 Buscar…'}
+    };
+    let lang = localStorage.getItem('lang') || 'pt';
+    function setLang(l){ lang=l; localStorage.setItem('lang',l); applyLang(); renderTable(); }
 
-    /* dados placeholder */
-    const lists={psi:['Altri','BCP','Corticeira Amorim','CTT','EDP','Galp'],
-                 ibex:['Iberdrola','Santander','Inditex','Repsol','Telefónica'],
-                 dax:['Siemens','SAP','Allianz','BMW','Volkswagen'],
-                 cac:['Airbus','BNP Paribas','TotalEnergies','LVMH','L\'Oréal'],
-                 nasdaq:['Apple','Microsoft','Amazon','Nvidia','Tesla']};
-    const data=Object.fromEntries(Object.entries(lists).map(([k,v])=>[k,v.map(n=>[n,0,0,'—',null,'—'])]));
+    /* ==== 2. listas de empresas (placeholder) ==== */
+    const lists = {
+      psi:['Altri','BCP','EDP','Galp'],
+      ibex:['Iberdrola','Santander','Repsol','Telefónica'],
+      dax:['Siemens','SAP','Allianz','BMW'],
+      cac:['Airbus','BNP Paribas','TotalEnergies','L\'Oréal'],
+      nasdaq:['Apple','Microsoft','Amazon','Nvidia']
+    };
+    const dados = Object.fromEntries(Object.entries(lists).map(([k,v])=>[k,v.map(n=>[n,0,0,'—',null,'—'])]));
 
-    /* detalhes simples */
-    const det={Altri:{set:'Pasta & Papel',site:'https://altri.pt'},EDP:{set:'Energia',site:'https://edp.com'},Apple:{set:'Tech',site:'https://apple.com'}};
+    /* ==== 3. detalhes carregados via JSON ==== */
+    let detailsMap = {};            // { 'Apple': {sector, website, description, history[]} }
+    fetch('details.json')
+      .then(r=>r.json())
+      .then(arr=>{ arr.forEach(o=>detailsMap[o.name]=o); renderTable(); })
+      .catch(e=>console.error('Falha JSON',e));
 
-    /* estado */
-    let idx='psi',calendar,calVisible=false;
-    const mask=document.getElementById('mask'),drawer=document.getElementById('drawer'),dTitle=document.getElementById('dTitle'),dBody=document.getElementById('dBody');
+    /* ==== 4. estado/aplicação ==== */
+    let index = 'psi', calVisible=false, calendar, chart;
+    const ctx = document.getElementById('divChart').getContext('2d');
+    const drawer = document.getElementById('drawer');
+    const mask   = document.getElementById('mask');
+    const dTitle = document.getElementById('dTitle');
+    const dDesc  = document.getElementById('dDesc');
 
-    function applyLang(){const L=T[lang];title.textContent=L.t;thEx.textContent=L.ex;thAg.textContent=L.ag;note.textContent=L.note;footTxt.textContent=L.foot;search.placeholder=L.ph;}
+    /* ===== funções ===== */
+    function applyLang(){
+      const L=T[lang];  title.textContent=L.t;  thEx.textContent=L.ex;  thAg.textContent=L.ag;
+      note.textContent=L.note;                 footTxt.textContent=L.foot;
+      search.placeholder=L.ph;
+    }
     applyLang();
 
-    function changeIndex(){idx=indexSel.value;renderTable();if(calVisible)loadEvents();}
+    function changeIndex(){ index=indexSel.value; renderTable(); if(calVisible) loadEvents(); }
 
-    /* render tabela */
     function renderTable(){
-      const q=search.value.toLowerCase(),f=dySel.value,tb=tbody;tb.innerHTML='';
-      data[idx].forEach(r=>{const[n,p,d,xd,dy,ag]=r;if(q&& !n.toLowerCase().includes(q))return;if(f!=='all'&&dy!==null&&dy<=+f)return;
-        const cls=dy>=7?'dy-high':dy>=5?'dy-medium':'dy-low';
-        const tr=document.createElement('tr');tr.innerHTML=`<td>${n}</td><td>${p.toFixed(2)}</td><td>${d?d.toFixed(2):'—'}</td><td>${xd}</td><td class="${dy?cls:''}">${dy?dy.toFixed(2)+'%':'—'}</td><td>${ag}</td>`;
-        tr.onclick=()=>openDrawer(n);tb.appendChild(tr);
+      if(!Object.keys(detailsMap).length) return;  // aguarda JSON
+      const q=search.value.toLowerCase(), f=dySel.value, tb=tbody; tb.innerHTML='';
+      dados[index].forEach(r=>{
+        const [n,p,d,xd,dy,ag]=r;
+        if(q && !n.toLowerCase().includes(q)) return;
+        if(f!=='all' && dy!==null && dy<=+f)   return;
+        const cls = dy>=7?'dy-high':dy>=5?'dy-medium':'dy-low';
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${n}</td><td>${p.toFixed(2)}</td><td>${d?d.toFixed(2):'—'}</td><td>${xd}</td><td class="${dy?cls:''}">${dy?dy.toFixed(2)+'%':'—'}</td><td>${ag}</td>`;
+        tr.onclick = ()=> openDrawer(n);
+        tb.appendChild(tr);
       });
     }
-    renderTable();
 
-    /* Drawer */
     function openDrawer(nome){
-      const d=det[nome]||{set:'—',site:'#'};dTitle.textContent=nome;
-      dBody.innerHTML=`<strong>Setor:</strong> ${d.set}<br><strong>Site:</strong> <a href="${d.site}" target="_blank" style="color:var(--cyber-teal)">link</a>`;
-      mask.style.display='block';drawer.style.display='block';
+      const d = detailsMap[nome] || {sector:'—',website:'#',description:'—',history:[0,0,0,0,0]};
+      dTitle.textContent = nome;
+      dDesc.innerHTML    = `<strong>Setor:</strong> ${d.sector}<br>
+                             <strong>Site:</strong> <a href="${d.website}" target="_blank" style="color:var(--cyber-teal)">link</a><br><br>
+                             ${d.description}`;
+      mask.style.display='block'; drawer.style.display='block';
+      if(chart) chart.destroy();
+      chart = new Chart(ctx,{
+        type:'bar',
+        data:{ labels:['2021','2022','2023','2024','2025'],
+               datasets:[{ data:d.history, backgroundColor:'rgba(0,240,255,.6)', borderWidth:1 }]},
+        options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}
+      });
     }
-    function closeDrawer(){drawer.style.display='none';mask.style.display='none';}
+    function closeDrawer(){ drawer.style.display='none'; mask.style.display='none'; }
 
-    /* calendario */
+    /* calendário */
     const calDiv=document.getElementById('calendar');
-    function parse(dm){if(dm==='—')return null;const[day,mon]=dm.split('/');return`2025-${mon.padStart(2,'0')}-${day.padStart(2,'0')}`;}
+    function parseDM(dm){ if(dm==='—') return null; const[a,b]=dm.split('/'); return `2025-${b.padStart(2,'0')}-${a.padStart(2,'0')}`; }
     function toggleCal(){
-      calVisible=!calVisible;calDiv.style.display=calVisible?'block':'none';tableWrap.style.display=calVisible?'none':'block';
-      if(calVisible&&!calDiv._init){calendar=new FullCalendar.Calendar(calDiv,{initialView:'dayGridMonth',height:'auto',themeSystem:'standard'});calendar.render();calDiv._init=true;}
-      if(calVisible)loadEvents();
+      calVisible=!calVisible;
+      calDiv.style.display = calVisible?'block':'none';
+      tableWrap.style.display = calVisible?'none':'block';
+      if(calVisible && !calDiv._init){
+        calendar = new FullCalendar.Calendar(calDiv,{initialView:'dayGridMonth',height:'auto',themeSystem:'standard'});
+        calendar.render(); calDiv._init=true;
+      }
+      if(calVisible) loadEvents();
     }
-    function loadEvents(){calendar.removeAllEvents();data[idx].forEach(([n,, ,xd,,ag])=>{const ex=parse(xd);if(ex)calendar.addEvent({title:`${n} Ex‑Div`,start:ex,color:'var(--neon-pink)'});const g=parse(ag);if(g)calendar.addEvent({title:`${n} AG`,start:g,color:'var(--cyber-teal)'});});}
+    function loadEvents(){
+      calendar.removeAllEvents();
+      dados[index].forEach(([n,, ,xd,,ag])=>{
+        const ex=parseDM(xd); if(ex) calendar.addEvent({title:`${n} Ex‑Div`, start:ex, color:'var(--neon-pink)'});
+        const ga=parseDM(ag); if(ga) calendar.addEvent({title:`${n} AG`, start:ga, color:'var(--cyber-teal)'});
+      });
+    }
 
     /* CSV */
-    function exportCSV(){let csv='Empresa,Preço,DPA,ExDiv,DY,AG\\n';data[idx].forEach(r=>csv+=r.join(',')+'\\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download=`dividendos_${idx}.csv`;a.click();}
+    function exportCSV(){
+      let csv='Empresa,Preço,DPA,ExDiv,DY,AG\n';
+      dados[index].forEach(r=>csv+=r.join(',')+'\n');
+      const a=document.createElement('a');
+      a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
+      a.download=`dividendos_${index}.csv`; a.click();
+    }
   </script>
 </body>
 </html>
