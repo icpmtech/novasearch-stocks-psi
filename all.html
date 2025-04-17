@@ -4,7 +4,40 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dividendos Bolsas 2025 | Nova Search</title>
+  <meta name="author" content="MAHub & CantinhoDe.net">
+  <meta name="google-site-verification" content="KfITpjIQFiA2VeKbSCO1PZ7k2ZW6rc0xn2DHKYV4oPE">
+  <meta property="og:title" content="Dividendos Bolsas - Nova Search">
+  <meta property="og:description" content="Consulta os dividendos das bolsas com filtros e exportação. Multilingue.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nova-search-dividends.netlify.app/">
+  <meta property="og:image" content="https://nova-search-dividends.netlify.app/assets/og-image.png">
+  <link rel="canonical" href="https://nova-search-dividends.netlify.app/">
+  <link rel="icon" href="https://nova-search-dividends.netlify.app/favicon.ico" type="image/x-icon">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Nova Search Dividends",
+    "url": "https://nova-search-dividends.netlify.app/",
+    "description": "Consulta os dividendos das empresas do PSI em 2025 com filtros, pesquisa e exportação.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CantinhoDe.net",
+      "url": "https://cantinhode.net"
+    }
+  }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3B8GK0SHL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-P3B8GK0SHL');
+</script>
   <!-- Fontes / Ícones / FullCalendar / Chart.js -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
@@ -147,15 +180,15 @@
   </aside>
 
   <div class="note"><i class="fas fa-info-circle"></i><div id="note">DY baseado em cotações de 15/04/2025</div></div>
-  <div class="footer" id="footTxt">🏦 Fonte: Millennium bcp</div>
+  <div class="footer" id="footTxt">🏦 Fonte: Market Analytics Hub</div>
 
   <!-- ========================  JS  ======================== -->
   <script>
     /* ==== 1. textos multilíngue ==== */
     const T = {
-      pt:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Div',ag:'AG',note:'DY baseado em cotações de 15/04/2025',foot:'🏦 Fonte: Millennium bcp',ph:'🔍 Pesquisar…'},
-      en:{t:'📈 Global Dividends 2025',ex:'Ex‑Dividend',ag:'Meeting',note:'DY based on prices as of 15/04/2025',foot:'🏦 Source: Millennium bcp',ph:'🔍 Search…'},
-      es:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Dividendo',ag:'Junta',note:'DY con precios al 15/04/2025',foot:'🏦 Fuente: Millennium bcp',ph:'🔍 Buscar…'}
+      pt:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Div',ag:'AG',note:'DY baseado em cotações de 15/04/2025',foot:'🏦 Fonte: Market Analytics Hub',ph:'🔍 Pesquisar…'},
+      en:{t:'📈 Global Dividends 2025',ex:'Ex‑Dividend',ag:'Meeting',note:'DY based on prices as of 15/04/2025',foot:'🏦 Source: Market Analytics Hub',ph:'🔍 Search…'},
+      es:{t:'📈 Dividendos Bolsas 2025',ex:'Ex‑Dividendo',ag:'Junta',note:'DY con precios al 15/04/2025',foot:'🏦 Fuente: Market Analytics Hub',ph:'🔍 Buscar…'}
     };
     let lang = localStorage.getItem('lang') || 'pt';
     function setLang(l){ lang=l; localStorage.setItem('lang',l); applyLang(); renderTable(); }
