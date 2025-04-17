@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nova-search-dividends.netlify.app/sitemap.xml
