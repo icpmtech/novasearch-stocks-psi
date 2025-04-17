@@ -8,28 +8,135 @@
   },
   {
     "name": "BCP",
-    "sector": "",
-    "website": "",
-    "description": "",
-    "history": [0, 0, 0, 0, 0]
+    "sector": "Bancos",
+    "website": "https://www.bcp.pt",
+    "description": "Um dos maiores bancos portugueses, oferecendo uma vasta gama de serviços financeiros a particulares e empresas.",
+    "history": [-0.02, -0.05, 0.01, 0.03, 0.07]
   },
-  
-
-  { "name": "Iberdrola", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
-  { "name": "Santander", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
-
-  { "name": "Siemens", "sector": "Engenharia e Indústria", "website": "https://siemens.com", "description": "Conglomerado industrial alemão que actua em energia, saúde e mobilidade.", "history": [3.50, 3.50, 4.00, 4.25, 4.70] },
-  { "name": "SAP", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
-
-  { "name": "Airbus", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
-  { "name": "BNP Paribas", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
+  {
+    "name": "EDP",
+    "sector": "Energia",
+    "website": "https://www.edp.pt",
+    "description": "Principal grupo energético em Portugal, com atividades em geração, distribuição e comercialização de eletricidade e gás.",
+    "history": [0.15, 0.17, 0.19, 0.21, 0.23]
+  },
+  {
+    "name": "Galp",
+    "sector": "Energia",
+    "website": "https://www.galp.com",
+    "description": "Empresa de energia integrada, atuando em toda a cadeia de valor de petróleo e gás natural, bem como em energias renováveis.",
+    "history": [0.30, 0.32, 0.35, 0.38, 0.40]
+  },
+  {
+    "name": "Iberdrola",
+    "sector": "Energia",
+    "website": "https://www.iberdrola.com",
+    "description": "Uma das maiores empresas de energia do mundo, com foco em energias renováveis e redes inteligentes.",
+    "history": [0.45, 0.48, 0.52, 0.55, 0.58]
+  },
+  {
+    "name": "Santander",
+    "sector": "Bancos",
+    "website": "https://www.santander.com",
+    "description": "Um dos maiores grupos bancários do mundo, com forte presença na Europa e América Latina.",
+    "history": [0.22, 0.25, 0.28, 0.30, 0.33]
+  },
+  {
+    "name": "Repsol",
+    "sector": "Energia",
+    "website": "https://www.repsol.com",
+    "description": "Empresa global de energia e petroquímica com sede em Espanha.",
+    "history": [0.55, 0.58, 0.62, 0.65, 0.68]
+  },
+  {
+    "name": "Telefónica",
+    "sector": "Telecomunicações",
+    "website": "https://www.telefonica.com",
+    "description": "Uma das maiores empresas de telecomunicações do mundo, oferecendo serviços de telefonia fixa e móvel, internet e televisão.",
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26]
+  },
+  {
+    "name": "Siemens",
+    "sector": "Engenharia e Indústria",
+    "website": "https://siemens.com",
+    "description": "Conglomerado industrial alemão que actua em energia, saúde e mobilidade.",
+    "history": [3.50, 3.50, 4.00, 4.25, 4.70]
+  },
+  {
+    "name": "SAP",
+    "sector": "Software",
+    "website": "https://www.sap.com",
+    "description": "Líder mundial em software de aplicações empresariais, auxiliando empresas de todos os tamanhos e setores a operar melhor.",
+    "history": [1.80, 1.95, 2.10, 2.25, 2.40]
+  },
+  {
+    "name": "Allianz",
+    "sector": "Seguros",
+    "website": "https://www.allianz.com",
+    "description": "Uma das maiores seguradoras e gestoras de ativos do mundo.",
+    "history": [4.10, 4.30, 4.50, 4.70, 4.90]
+  },
+  {
+    "name": "BMW",
+    "sector": "Automóveis",
+    "website": "https://www.bmwgroup.com",
+    "description": "Fabricante alemã de automóveis e motociclos de luxo.",
+    "history": [2.80, 3.00, 3.20, 3.40, 3.60]
+  },
+  {
+    "name": "Airbus",
+    "sector": "Aeroespacial e Defesa",
+    "website": "https://www.airbus.com/en",
+    "description": "Líder global em aeronáutica, espaço e serviços relacionados.",
+    "history": [2.00, 2.15, 2.30, 2.45, 2.60]
+  },
+  {
+    "name": "BNP Paribas",
+    "sector": "Bancos",
+    "website": "https://group.bnpparibas",
+    "description": "Um dos maiores bancos da Europa, com uma vasta rede internacional.",
+    "history": [0.60, 0.65, 0.70, 0.75, 0.80]
+  },
+  {
+    "name": "TotalEnergies",
+    "sector": "Energia",
+    "website": "https://totalenergies.com",
+    "description": "Empresa global de energia que produz e comercializa petróleo e gás natural, e está a investir em energias renováveis.",
+    "history": [0.48, 0.52, 0.56, 0.60, 0.64]
+  },
+  {
+    "name": "L'Oréal",
+    "sector": "Bens de Consumo",
+    "website": "https://www.loreal.com",
+    "description": "A maior empresa de cosméticos do mundo.",
+    "history": [3.10, 3.30, 3.50, 3.70, 3.90]
+  },
   {
     "name": "Apple",
     "sector": "Tecnologia",
     "website": "https://apple.com",
-    "description": "Fabricante do iPhone, Mac e serviços como iCloud e Apple TV+.",
+    "description": "Fabricante do iPhone, Mac e serviços como iCloud e Apple TV+.",
     "history": [0.75, 0.82, 0.85, 0.88, 0.92]
   },
-  { "name": "Microsoft", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
-  { "name": "Amazon", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] }
+  {
+    "name": "Microsoft",
+    "sector": "Tecnologia",
+    "website": "https://www.microsoft.com",
+    "description": "Empresa líder em software, serviços de nuvem, jogos e dispositivos.",
+    "history": [1.10, 1.20, 1.35, 1.50, 1.65]
+  },
+  {
+    "name": "Amazon",
+    "sector": "Comércio Eletrónico e Serviços de Nuvem",
+    "website": "https://www.amazon.com",
+    "description": "A maior empresa de comércio eletrónico do mundo e líder em serviços de computação em nuvem através da AWS.",
+    "history": [3.20, 3.50, 3.80, 4.10, 4.40]
+  },
+  {
+    "name": "Nvidia",
+    "sector": "Tecnologia",
+    "website": "https://www.nvidia.com",
+    "description": "Líder em design de unidades de processamento gráfico (GPUs) para jogos, visualização profissional, data centers e automóveis.",
+    "history": [0.90, 1.10, 1.35, 1.60, 1.90]
+  }
 ]
