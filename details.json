@@ -1,0 +1,45 @@
+[
+  /* ——— PSI ——— */
+  {
+    "name": "Altri",
+    "sector": "Pasta & Papel",
+    "website": "https://altri.pt",
+    "description": "Produtora portuguesa de pasta de papel e biomassa florestal.",
+    "history": [0.18, 0.20, 0.25, 0.28, 0.30]
+  },
+  {
+    "name": "BCP",
+    "sector": "",
+    "website": "",
+    "description": "",
+    "history": [0, 0, 0, 0, 0]
+  },
+  /* … (repete cada empresa PSI) … */
+
+  /* ——— IBEX 35 ——— */
+  { "name": "Iberdrola", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
+  { "name": "Santander", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
+  /* … restantes IBEX … */
+
+  /* ——— DAX 40 ——— */
+  { "name": "Siemens", "sector": "Engenharia e Indústria", "website": "https://siemens.com", "description": "Conglomerado industrial alemão que actua em energia, saúde e mobilidade.", "history": [3.50, 3.50, 4.00, 4.25, 4.70] },
+  { "name": "SAP", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
+  /* … restantes DAX … */
+
+  /* ——— CAC 40 ——— */
+  { "name": "Airbus", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
+  { "name": "BNP Paribas", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
+  /* … restantes CAC … */
+
+  /* ——— NASDAQ 100 ——— */
+  {
+    "name": "Apple",
+    "sector": "Tecnologia",
+    "website": "https://apple.com",
+    "description": "Fabricante do iPhone, Mac e serviços como iCloud e Apple TV+.",
+    "history": [0.75, 0.82, 0.85, 0.88, 0.92]
+  },
+  { "name": "Microsoft", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] },
+  { "name": "Amazon", "sector": "", "website": "", "description": "", "history": [0,0,0,0,0] }
+  /* … continua até cobrir as 100 empresas … */
+]
