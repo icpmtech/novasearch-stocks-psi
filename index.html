@@ -1,9 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dividendos PSI 2025</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dividendos PSI 2025 - Consulta Interativa | Nova Search</title>
+  <meta name="description" content="Descobre os dividendos das empresas do PSI em 2025 com tabela interativa, pesquisa, filtro e exportação CSV. Multilingue.">
+  <meta name="keywords" content="dividendos, PSI, ações, Portugal, bolsa, DY, investimentos, 2025, ex-dividendo">
+  <meta name="author" content="CantinhoDe.net">
+  <meta name="google-site-verification" content="KfITpjIQFiA2VeKbSCO1PZ7k2ZW6rc0xn2DHKYV4oPE">
+  <meta property="og:title" content="Dividendos PSI 2025 - Nova Search">
+  <meta property="og:description" content="Consulta os dividendos do PSI com filtros e exportação. Multilingue.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nova-search-dividends.netlify.app/">
+  <meta property="og:image" content="https://nova-search-dividends.netlify.app/assets/og-image.png">
+  <link rel="canonical" href="https://nova-search-dividends.netlify.app/">
+  <link rel="icon" href="https://nova-search-dividends.netlify.app/favicon.ico" type="image/x-icon">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Nova Search Dividends",
+    "url": "https://nova-search-dividends.netlify.app/",
+    "description": "Consulta os dividendos das empresas do PSI em 2025 com filtros, pesquisa e exportação.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CantinhoDe.net",
+      "url": "https://cantinhode.net"
+    }
+  }
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
  <!-- Google tag (gtag.js) -->
@@ -22,7 +47,6 @@
       --dark-bg: #0F0F0F;
       --card-bg: #1A1A1A;
     }
-
     body {
       font-family: 'Inter', sans-serif;
       background-color: var(--dark-bg);
@@ -30,86 +54,74 @@
       padding: 20px;
       color: white;
     }
-
     header {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
       padding: 20px;
       background: linear-gradient(135deg, var(--neon-pink), var(--cyber-teal));
       border-radius: 16px;
       box-shadow: 0 4px 30px rgba(255, 0, 255, 0.2);
     }
-
     h1 {
       color: white;
       font-size: 2.5rem;
-      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
       margin: 0;
     }
-
     .update-date {
       font-size: 1.1rem;
       opacity: 0.9;
       margin-top: 8px;
-      display: block;
     }
-
+    .language-selector, .filters {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    .flag {
+      width: 30px;
+      height: 20px;
+      margin-left: 8px;
+      cursor: pointer;
+      border: 1px solid white;
+      border-radius: 3px;
+    }
+    .filters input, .filters select, .filters button {
+      background-color: var(--card-bg);
+      color: white;
+      border: 1px solid var(--cyber-teal);
+      padding: 6px 10px;
+      border-radius: 6px;
+      margin: 5px;
+    }
     .table-container {
       overflow-x: auto;
       border-radius: 16px;
       background: var(--card-bg);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
       margin: 20px 0;
-      position: relative;
     }
-
     table {
       width: 100%;
       border-collapse: collapse;
-      background: var(--card-bg);
       min-width: 800px;
     }
-
     th {
       background: linear-gradient(135deg, var(--neon-pink), var(--cyber-teal));
-      position: sticky;
-      top: 0;
-      backdrop-filter: blur(10px);
       padding: 16px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
-
     td {
       padding: 14px;
       border-bottom: 1px solid rgba(255,255,255,0.1);
-      transition: all 0.2s ease;
     }
-
-    tr:last-child td {
-      border-bottom: none;
-    }
-
     tr:hover td {
       background: rgba(255,255,255,0.05);
-      transform: scale(1.02);
     }
-
-    .dy-high {
-      color: var(--cyber-teal);
-      font-weight: 700;
-      text-shadow: 0 0 8px rgba(0, 240, 255, 0.3);
-    }
-
-    .dy-medium {
-      color: #00FF00;
-    }
-
-    .dy-low {
-      color: #FF4444;
-    }
-
+    .dy-high { color: var(--cyber-teal); font-weight: 700; text-shadow: 0 0 8px rgba(0, 240, 255, 0.3); }
+    .dy-medium { color: #00FF00; }
+    .dy-low { color: #FF4444; }
     .note {
       margin: 20px 0;
       padding: 16px;
@@ -120,98 +132,185 @@
       align-items: center;
       gap: 12px;
     }
-
-    .note i {
-      color: var(--neon-pink);
-      font-size: 1.2rem;
-    }
-
     .footer {
       margin-top: 30px;
       text-align: center;
       opacity: 0.7;
       font-size: 0.9rem;
     }
-
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 2rem;
-      }
-      
-      .table-container {
-        border-radius: 12px;
-      }
-      
-      th, td {
-        padding: 12px;
-      }
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .table-container, header, .note {
-      animation: fadeIn 0.6s ease-out;
-    }
-
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-      background: var(--neon-pink);
-      border-radius: 4px;
+    .footer a {
+      color: #00F0FF;
+      text-decoration: none;
+      margin: 0 6px;
     }
   </style>
 </head>
 <body>
+    <div class="language-selector">
+    <div>
+      <img src="https://flagcdn.com/w40/pt.png" alt="PT" class="flag" onclick="setLanguage('pt')">
+      <img src="https://flagcdn.com/w40/gb.png" alt="EN" class="flag" onclick="setLanguage('en')">
+      <img src="https://flagcdn.com/w40/es.png" alt="ES" class="flag" onclick="setLanguage('es')">
+    </div>
+    <div class="filters">
+      <input type="text" id="search" placeholder="🔍 Pesquisar..." oninput="filterTable()">
+      <select id="dyFilter" onchange="filterTable()">
+        <option value="all">Todos DY</option>
+        <option value="5">> 5%</option>
+        <option value="7">> 7%</option>
+      </select>
+      <button onclick="exportCSV()">⬇️ Exportar CSV</button>
+    </div>
+  </div>
+
   <header>
-    <h1>📈 Dividendos PSI 2025</h1>
-    <span class="update-date">🔄 Atualizado em 15/04/2025</span>
+    <h1 id="title">📈 Dividendos PSI 2025</h1>
+    <span class="update-date" id="updated">🔄 Atualizado em 15/04/2025</span>
   </header>
 
   <div class="table-container">
-    <table>
+    <table id="divTable">
       <thead>
         <tr>
-          <th>Empresa</th>
+          <th id="th-company">Empresa</th>
           <th>Preço (€)</th>
-          <th>DPA Bruto (€)</th>
-          <th>📅 Ex-Div</th>
+          <th>DPA (€)</th>
+          <th id="th-exdiv">Ex-Div</th>
           <th>DY (%)</th>
-          <th>🗓️ Assembleia</th>
+          <th id="th-ag">Assembleia</th>
         </tr>
       </thead>
-      <tbody>
-        <tr><td>Altri</td><td>6,1390</td><td>0,3000</td><td>28/04</td><td class="dy-medium">4,89%</td><td>-</td></tr>
-        <tr><td>CTT</td><td>7,1200</td><td>0,1700</td><td>13/05</td><td class="dy-low">2,39%</td><td>30/04</td></tr>
-        <tr><td>EDP</td><td>3,1760</td><td>0,2000</td><td>02/05</td><td class="dy-high">6,30%</td><td>10/04</td></tr>
-        <tr><td>EDP Renováveis</td><td>7,5550</td><td>-</td><td>16/04</td><td>-</td><td>03/04</td></tr>
-        <tr><td>REN</td><td>2,7900</td><td>0,1570</td><td>-</td><td class="dy-medium">5,63%</td><td>15/04</td></tr>
-        <tr><td>Jerónimo Martins</td><td>20,4600</td><td>0,6550</td><td>13/05</td><td class="dy-medium">3,20%</td><td>24/04</td></tr>
-        <tr><td>Sonae</td><td>1,0200</td><td>0,05921</td><td>-</td><td class="dy-high">5,80%</td><td>30/04</td></tr>
-        <tr><td>NOS</td><td>4,1000</td><td>0,4000</td><td>22/04</td><td class="dy-high">9,76%</td><td>11/04</td></tr>
-        <tr><td>Galp Energia</td><td>13,2300</td><td>0,3800</td><td>-</td><td class="dy-low">2,87%</td><td>09/05</td></tr>
-        <tr><td>Navigator Company</td><td>3,2440</td><td>0,10545</td><td>-</td><td class="dy-medium">3,25%</td><td>-</td></tr>
-        <tr><td>Semapa</td><td>15,5680</td><td>0,6260</td><td>-</td><td class="dy-medium">5,02%</td><td>-</td></tr>
-        <tr><td>Mota-Engil</td><td>3,5140</td><td>0,1497</td><td>-</td><td class="dy-medium">4,26%</td><td>15/05</td></tr>
-        <tr><td>Corticeira Amorim</td><td>7,4100</td><td>0,3200</td><td>-</td><td class="dy-medium">4,32%</td><td>06/05</td></tr>
-        <tr><td>Millennium bcp</td><td>0,5692</td><td>-</td><td>-</td><td>-</td><td>22/05</td></tr>
-        <tr><td>Ibersol</td><td>8,6200</td><td>-</td><td>11/06</td><td>-</td><td>29/05</td></tr>
-      </tbody>
+      <tbody id="table-body"></tbody>
     </table>
   </div>
 
   <div class="note">
     <i class="fas fa-info-circle"></i>
-    <div>O Dividend Yield (DY) foi calculado com base nas cotações de 15 de abril de 2025</div>
+    <div id="note-text">O Dividend Yield (DY) foi calculado com base nas cotações de 15 de abril de 2025</div>
   </div>
 
-  <div class="footer">
-    🏦 Fonte: Millennium bcp • 📱 Gerado para fins informativos
+  <div class="footer" id="footer">
+    🏦 Fonte: Millennium bcp • 📱 Gerado para fins informativos<br>
+    <a href="https://cantinhode.net/contacto">✉️ Contacto</a> |
+    <a href="https://facebook.com/cantinhode" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> |
+    <a href="https://twitter.com/cantinhode" target="_blank"><i class="fab fa-twitter"></i> Twitter</a> |
+    <a href="https://instagram.com/cantinhode" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
   </div>
+
+  <script>
+    const translations = {
+      pt: {
+        title: "📈 Dividendos PSI 2025",
+        updated: "🔄 Atualizado em 15/04/2025",
+        th_company: "Empresa",
+        th_exdiv: "Ex-Div",
+        th_ag: "Assembleia",
+        note: "O Dividend Yield (DY) foi calculado com base nas cotações de 15 de abril de 2025",
+        footer: "🏦 Fonte: Millennium bcp • 📱 Gerado para fins informativos",
+        placeholder: "🔍 Pesquisar...",
+        export: "⬇️ Exportar CSV"
+      },
+      en: {
+        title: "📈 PSI Dividends 2025",
+        updated: "🔄 Updated on 15/04/2025",
+        th_company: "Company",
+        th_exdiv: "Ex-Dividend",
+        th_ag: "Meeting",
+        note: "The Dividend Yield (DY) was calculated based on prices as of April 15, 2025",
+        footer: "🏦 Source: Millennium bcp • 📱 Generated for informational purposes",
+        placeholder: "🔍 Search...",
+        export: "⬇️ Export CSV"
+      },
+      es: {
+        title: "📈 Dividendos PSI 2025",
+        updated: "🔄 Actualizado el 15/04/2025",
+        th_company: "Empresa",
+        th_exdiv: "Ex-Dividendo",
+        th_ag: "Junta",
+        note: "El rendimiento por dividendo (DY) se calculó con base en los precios al 15 de abril de 2025",
+        footer: "🏦 Fuente: Millennium bcp • 📱 Generado con fines informativos",
+        placeholder: "🔍 Buscar...",
+        export: "⬇️ Exportar CSV"
+      }
+    };
+
+    const data = [
+      ["Altri", 6.1390, 0.3000, "28/04", 4.89, "-"],
+      ["CTT", 7.1200, 0.1700, "13/05", 2.39, "30/04"],
+      ["EDP", 3.1760, 0.2000, "02/05", 6.30, "10/04"],
+      ["EDP Renováveis", 7.5550, null, "16/04", null, "03/04"],
+      ["REN", 2.7900, 0.1570, "-", 5.63, "15/04"],
+      ["Jerónimo Martins", 20.4600, 0.6550, "13/05", 3.20, "24/04"],
+      ["Sonae", 1.0200, 0.05921, "-", 5.80, "30/04"],
+      ["NOS", 4.1000, 0.4000, "22/04", 9.76, "11/04"],
+      ["Galp Energia", 13.2300, 0.3800, "-", 2.87, "09/05"],
+      ["Navigator Company", 3.2440, 0.10545, "-", 3.25, "-"],
+      ["Semapa", 15.5680, 0.6260, "-", 5.02, "-"],
+      ["Mota-Engil", 3.5140, 0.1497, "-", 4.26, "15/05"],
+      ["Corticeira Amorim", 7.4100, 0.3200, "-", 4.32, "06/05"],
+      ["Millennium bcp", 0.5692, null, "-", null, "22/05"],
+      ["Ibersol", 8.6200, null, "11/06", null, "-"]
+    ];
+
+    function populateTable() {
+      const tbody = document.getElementById("table-body");
+      tbody.innerHTML = "";
+      const search = document.getElementById("search").value.toLowerCase();
+      const dyFilter = parseFloat(document.getElementById("dyFilter").value);
+
+      data.forEach(row => {
+        const name = row[0].toLowerCase();
+        const dy = row[4];
+        if (search && !name.includes(search)) return;
+        if (!isNaN(dyFilter) && (dy == null || dy <= dyFilter)) return;
+
+        const dyClass = dy >= 7 ? "dy-high" : dy >= 5 ? "dy-medium" : "dy-low";
+        tbody.innerHTML += `
+          <tr>
+            <td>${row[0]}</td>
+            <td>${row[1].toFixed(4)}</td>
+            <td>${row[2] != null ? row[2].toFixed(4) : "—"}</td>
+            <td>${row[3]}</td>
+            <td class="${dy != null ? dyClass : ""}">${dy != null ? dy.toFixed(2) + "%" : "—"}</td>
+            <td>${row[5]}</td>
+          </tr>
+        `;
+      });
+    }
+
+    function filterTable() {
+      populateTable();
+    }
+
+    function exportCSV() {
+      let csv = "Empresa,Preco,DPA,Ex-Div,DY,AG\\n";
+      data.forEach(r => {
+        csv += `${r.map(v => v != null ? v : "").join(",")}\\n`;
+      });
+      const blob = new Blob([csv], { type: "text/csv" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "dividendos_psi_2025.csv";
+      link.click();
+    }
+
+    function setLanguage(lang) {
+      localStorage.setItem("lang", lang);
+      const t = translations[lang];
+      document.getElementById("title").textContent = t.title;
+      document.getElementById("updated").textContent = t.updated;
+      document.getElementById("th-company").textContent = t.th_company;
+      document.getElementById("th-exdiv").textContent = t.th_exdiv;
+      document.getElementById("th-ag").textContent = t.th_ag;
+      document.getElementById("note-text").textContent = t.note;
+      document.getElementById("footer").childNodes[0].textContent = t.footer;
+      document.getElementById("search").placeholder = t.placeholder;
+      document.querySelector("button").textContent = t.export;
+    }
+
+    const savedLang = localStorage.getItem("lang") || "pt";
+    setLanguage(savedLang);
+    populateTable();
+  </script>
 </body>
 </html>
