@@ -1530,6 +1530,1737 @@
       2025
     ],
     "index": "CAC 40"
-  }
+  },
+  
+    {
+      "name": "Adobe",
+      "sector": "Diversificado",
+      "website": "https://www.adobe.com",
+      "description": "Descrição genérica sobre a empresa Adobe.",
+      "history": [
+        1.5,
+        1.6,
+        1.7,
+        1.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Advanced Micro Devices (AMD)",
+      "sector": "Diversificado",
+      "website": "https://www.advancedmicrodevices(amd).com",
+      "description": "Descrição genérica sobre a empresa Advanced Micro Devices (AMD).",
+      "history": [
+        1.6,
+        1.7,
+        1.8,
+        1.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Airbnb",
+      "sector": "Diversificado",
+      "website": "https://www.airbnb.com",
+      "description": "Descrição genérica sobre a empresa Airbnb.",
+      "history": [
+        1.7,
+        1.8,
+        1.9,
+        2.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Alphabet (Google - GOOGL & GOOG)",
+      "sector": "Diversificado",
+      "website": "https://www.alphabet(google-googl&goog).com",
+      "description": "Descrição genérica sobre a empresa Alphabet (Google - GOOGL & GOOG).",
+      "history": [
+        1.8,
+        1.9,
+        2.0,
+        2.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Amazon",
+      "sector": "Diversificado",
+      "website": "https://www.amazon.com",
+      "description": "Descrição genérica sobre a empresa Amazon.",
+      "history": [
+        1.9,
+        2.0,
+        2.1,
+        2.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Amgen",
+      "sector": "Diversificado",
+      "website": "https://www.amgen.com",
+      "description": "Descrição genérica sobre a empresa Amgen.",
+      "history": [
+        2.0,
+        2.1,
+        2.2,
+        2.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Analog Devices",
+      "sector": "Diversificado",
+      "website": "https://www.analogdevices.com",
+      "description": "Descrição genérica sobre a empresa Analog Devices.",
+      "history": [
+        2.1,
+        2.2,
+        2.3,
+        2.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "ANSYS",
+      "sector": "Diversificado",
+      "website": "https://www.ansys.com",
+      "description": "Descrição genérica sobre a empresa ANSYS.",
+      "history": [
+        2.2,
+        2.3,
+        2.4,
+        2.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Apple",
+      "sector": "Diversificado",
+      "website": "https://www.apple.com",
+      "description": "Descrição genérica sobre a empresa Apple.",
+      "history": [
+        2.3,
+        2.4,
+        2.5,
+        2.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Applied Materials",
+      "sector": "Diversificado",
+      "website": "https://www.appliedmaterials.com",
+      "description": "Descrição genérica sobre a empresa Applied Materials.",
+      "history": [
+        2.4,
+        2.5,
+        2.6,
+        2.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "AppLovin",
+      "sector": "Diversificado",
+      "website": "https://www.applovin.com",
+      "description": "Descrição genérica sobre a empresa AppLovin.",
+      "history": [
+        2.5,
+        2.6,
+        2.7,
+        2.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Arm Holdings",
+      "sector": "Diversificado",
+      "website": "https://www.armholdings.com",
+      "description": "Descrição genérica sobre a empresa Arm Holdings.",
+      "history": [
+        2.6,
+        2.7,
+        2.8,
+        2.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "ASML Holding",
+      "sector": "Diversificado",
+      "website": "https://www.asmlholding.com",
+      "description": "Descrição genérica sobre a empresa ASML Holding.",
+      "history": [
+        2.7,
+        2.8,
+        2.9,
+        3.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "AstraZeneca",
+      "sector": "Diversificado",
+      "website": "https://www.astrazeneca.com",
+      "description": "Descrição genérica sobre a empresa AstraZeneca.",
+      "history": [
+        2.8,
+        2.9,
+        3.0,
+        3.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Atlassian",
+      "sector": "Diversificado",
+      "website": "https://www.atlassian.com",
+      "description": "Descrição genérica sobre a empresa Atlassian.",
+      "history": [
+        2.9,
+        3.0,
+        3.1,
+        3.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Autodesk",
+      "sector": "Diversificado",
+      "website": "https://www.autodesk.com",
+      "description": "Descrição genérica sobre a empresa Autodesk.",
+      "history": [
+        3.0,
+        3.1,
+        3.2,
+        3.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Automatic Data Processing (ADP)",
+      "sector": "Diversificado",
+      "website": "https://www.automaticdataprocessing(adp).com",
+      "description": "Descrição genérica sobre a empresa Automatic Data Processing (ADP).",
+      "history": [
+        3.1,
+        3.2,
+        3.3,
+        3.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Axon Enterprise",
+      "sector": "Diversificado",
+      "website": "https://www.axonenterprise.com",
+      "description": "Descrição genérica sobre a empresa Axon Enterprise.",
+      "history": [
+        3.2,
+        3.3,
+        3.4,
+        3.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Baker Hughes",
+      "sector": "Diversificado",
+      "website": "https://www.bakerhughes.com",
+      "description": "Descrição genérica sobre a empresa Baker Hughes.",
+      "history": [
+        3.3,
+        3.4,
+        3.5,
+        3.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Biogen",
+      "sector": "Diversificado",
+      "website": "https://www.biogen.com",
+      "description": "Descrição genérica sobre a empresa Biogen.",
+      "history": [
+        3.4,
+        3.5,
+        3.6,
+        3.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Booking Holdings",
+      "sector": "Diversificado",
+      "website": "https://www.bookingholdings.com",
+      "description": "Descrição genérica sobre a empresa Booking Holdings.",
+      "history": [
+        3.5,
+        3.6,
+        3.7,
+        3.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Broadcom",
+      "sector": "Diversificado",
+      "website": "https://www.broadcom.com",
+      "description": "Descrição genérica sobre a empresa Broadcom.",
+      "history": [
+        3.6,
+        3.7,
+        3.8,
+        3.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Cadence Design Systems",
+      "sector": "Tecnologia",
+      "website": "https://www.cadencedesignsystems.com",
+      "description": "Descrição genérica sobre a empresa Cadence Design Systems.",
+      "history": [
+        3.7,
+        3.8,
+        3.9,
+        4.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Charter Communications",
+      "sector": "Diversificado",
+      "website": "https://www.chartercommunications.com",
+      "description": "Descrição genérica sobre a empresa Charter Communications.",
+      "history": [
+        3.8,
+        3.9,
+        4.0,
+        4.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Cintas",
+      "sector": "Diversificado",
+      "website": "https://www.cintas.com",
+      "description": "Descrição genérica sobre a empresa Cintas.",
+      "history": [
+        3.9,
+        4.0,
+        4.1,
+        4.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Cisco Systems",
+      "sector": "Tecnologia",
+      "website": "https://www.ciscosystems.com",
+      "description": "Descrição genérica sobre a empresa Cisco Systems.",
+      "history": [
+        4.0,
+        4.1,
+        4.2,
+        4.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Cognizant Technology Solutions",
+      "sector": "Tecnologia",
+      "website": "https://www.cognizanttechnologysolutions.com",
+      "description": "Descrição genérica sobre a empresa Cognizant Technology Solutions.",
+      "history": [
+        4.1,
+        4.2,
+        4.3,
+        4.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Comcast",
+      "sector": "Diversificado",
+      "website": "https://www.comcast.com",
+      "description": "Descrição genérica sobre a empresa Comcast.",
+      "history": [
+        4.2,
+        4.3,
+        4.4,
+        4.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Copart",
+      "sector": "Diversificado",
+      "website": "https://www.copart.com",
+      "description": "Descrição genérica sobre a empresa Copart.",
+      "history": [
+        4.3,
+        4.4,
+        4.5,
+        4.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Costco Wholesale",
+      "sector": "Diversificado",
+      "website": "https://www.costcowholesale.com",
+      "description": "Descrição genérica sobre a empresa Costco Wholesale.",
+      "history": [
+        4.4,
+        4.5,
+        4.6,
+        4.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Crowdstrike Holdings",
+      "sector": "Diversificado",
+      "website": "https://www.crowdstrikeholdings.com",
+      "description": "Descrição genérica sobre a empresa Crowdstrike Holdings.",
+      "history": [
+        4.5,
+        4.6,
+        4.7,
+        4.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Datadog",
+      "sector": "Diversificado",
+      "website": "https://www.datadog.com",
+      "description": "Descrição genérica sobre a empresa Datadog.",
+      "history": [
+        4.6,
+        4.7,
+        4.8,
+        4.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "eBay",
+      "sector": "Diversificado",
+      "website": "https://www.ebay.com",
+      "description": "Descrição genérica sobre a empresa eBay.",
+      "history": [
+        4.7,
+        4.8,
+        4.9,
+        5.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Electronic Arts",
+      "sector": "Diversificado",
+      "website": "https://www.electronicarts.com",
+      "description": "Descrição genérica sobre a empresa Electronic Arts.",
+      "history": [
+        4.8,
+        4.9,
+        5.0,
+        5.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Enphase Energy",
+      "sector": "Diversificado",
+      "website": "https://www.enphaseenergy.com",
+      "description": "Descrição genérica sobre a empresa Enphase Energy.",
+      "history": [
+        4.9,
+        5.0,
+        5.1,
+        5.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Equinix",
+      "sector": "Diversificado",
+      "website": "https://www.equinix.com",
+      "description": "Descrição genérica sobre a empresa Equinix.",
+      "history": [
+        5.0,
+        5.1,
+        5.2,
+        5.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Fastenal",
+      "sector": "Diversificado",
+      "website": "https://www.fastenal.com",
+      "description": "Descrição genérica sobre a empresa Fastenal.",
+      "history": [
+        5.1,
+        5.2,
+        5.3,
+        5.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Fortinet",
+      "sector": "Diversificado",
+      "website": "https://www.fortinet.com",
+      "description": "Descrição genérica sobre a empresa Fortinet.",
+      "history": [
+        5.2,
+        5.3,
+        5.4,
+        5.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Gilead Sciences",
+      "sector": "Diversificado",
+      "website": "https://www.gileadsciences.com",
+      "description": "Descrição genérica sobre a empresa Gilead Sciences.",
+      "history": [
+        5.3,
+        5.4,
+        5.5,
+        5.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "GlobalFoundries",
+      "sector": "Diversificado",
+      "website": "https://www.globalfoundries.com",
+      "description": "Descrição genérica sobre a empresa GlobalFoundries.",
+      "history": [
+        5.4,
+        5.5,
+        5.6,
+        5.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "IDEXX Laboratories",
+      "sector": "Diversificado",
+      "website": "https://www.idexxlaboratories.com",
+      "description": "Descrição genérica sobre a empresa IDEXX Laboratories.",
+      "history": [
+        5.5,
+        5.6,
+        5.7,
+        5.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Illumina",
+      "sector": "Diversificado",
+      "website": "https://www.illumina.com",
+      "description": "Descrição genérica sobre a empresa Illumina.",
+      "history": [
+        5.6,
+        5.7,
+        5.8,
+        5.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Intel",
+      "sector": "Diversificado",
+      "website": "https://www.intel.com",
+      "description": "Descrição genérica sobre a empresa Intel.",
+      "history": [
+        5.7,
+        5.8,
+        5.9,
+        6.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Intuit",
+      "sector": "Diversificado",
+      "website": "https://www.intuit.com",
+      "description": "Descrição genérica sobre a empresa Intuit.",
+      "history": [
+        5.8,
+        5.9,
+        6.0,
+        6.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Intuitive Surgical",
+      "sector": "Diversificado",
+      "website": "https://www.intuitivesurgical.com",
+      "description": "Descrição genérica sobre a empresa Intuitive Surgical.",
+      "history": [
+        5.9,
+        6.0,
+        6.1,
+        6.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Invesco",
+      "sector": "Diversificado",
+      "website": "https://www.invesco.com",
+      "description": "Descrição genérica sobre a empresa Invesco.",
+      "history": [
+        6.0,
+        6.1,
+        6.2,
+        6.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "JD.com",
+      "sector": "Diversificado",
+      "website": "https://www.jd.com.com",
+      "description": "Descrição genérica sobre a empresa JD.com.",
+      "history": [
+        6.1,
+        6.2,
+        6.3,
+        6.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Keurig Dr Pepper",
+      "sector": "Diversificado",
+      "website": "https://www.keurigdrpepper.com",
+      "description": "Descrição genérica sobre a empresa Keurig Dr Pepper.",
+      "history": [
+        6.2,
+        6.3,
+        6.4,
+        6.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "KLA Corporation",
+      "sector": "Diversificado",
+      "website": "https://www.klacorporation.com",
+      "description": "Descrição genérica sobre a empresa KLA Corporation.",
+      "history": [
+        6.3,
+        6.4,
+        6.5,
+        6.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Lam Research",
+      "sector": "Diversificado",
+      "website": "https://www.lamresearch.com",
+      "description": "Descrição genérica sobre a empresa Lam Research.",
+      "history": [
+        6.4,
+        6.5,
+        6.6,
+        6.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Linde",
+      "sector": "Diversificado",
+      "website": "https://www.linde.com",
+      "description": "Descrição genérica sobre a empresa Linde.",
+      "history": [
+        6.5,
+        6.6,
+        6.7,
+        6.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Lucid Group",
+      "sector": "Diversificado",
+      "website": "https://www.lucidgroup.com",
+      "description": "Descrição genérica sobre a empresa Lucid Group.",
+      "history": [
+        6.6,
+        6.7,
+        6.8,
+        6.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Marvell Technology",
+      "sector": "Tecnologia",
+      "website": "https://www.marvelltechnology.com",
+      "description": "Descrição genérica sobre a empresa Marvell Technology.",
+      "history": [
+        6.7,
+        6.8,
+        6.9,
+        7.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Match Group",
+      "sector": "Diversificado",
+      "website": "https://www.matchgroup.com",
+      "description": "Descrição genérica sobre a empresa Match Group.",
+      "history": [
+        6.8,
+        6.9,
+        7.0,
+        7.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Meta Platforms (Facebook)",
+      "sector": "Diversificado",
+      "website": "https://www.metaplatforms(facebook).com",
+      "description": "Descrição genérica sobre a empresa Meta Platforms (Facebook).",
+      "history": [
+        6.9,
+        7.0,
+        7.1,
+        7.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Micron Technology",
+      "sector": "Tecnologia",
+      "website": "https://www.microntechnology.com",
+      "description": "Descrição genérica sobre a empresa Micron Technology.",
+      "history": [
+        7.0,
+        7.1,
+        7.2,
+        7.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Microsoft",
+      "sector": "Diversificado",
+      "website": "https://www.microsoft.com",
+      "description": "Descrição genérica sobre a empresa Microsoft.",
+      "history": [
+        7.1,
+        7.2,
+        7.3,
+        7.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Moderna",
+      "sector": "Diversificado",
+      "website": "https://www.moderna.com",
+      "description": "Descrição genérica sobre a empresa Moderna.",
+      "history": [
+        7.2,
+        7.3,
+        7.4,
+        7.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Mondelez International",
+      "sector": "Diversificado",
+      "website": "https://www.mondelezinternational.com",
+      "description": "Descrição genérica sobre a empresa Mondelez International.",
+      "history": [
+        7.3,
+        7.4,
+        7.5,
+        7.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Monster Beverage",
+      "sector": "Diversificado",
+      "website": "https://www.monsterbeverage.com",
+      "description": "Descrição genérica sobre a empresa Monster Beverage.",
+      "history": [
+        7.4,
+        7.5,
+        7.6,
+        7.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Motorola Solutions",
+      "sector": "Diversificado",
+      "website": "https://www.motorolasolutions.com",
+      "description": "Descrição genérica sobre a empresa Motorola Solutions.",
+      "history": [
+        7.5,
+        7.6,
+        7.7,
+        7.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Nvidia",
+      "sector": "Diversificado",
+      "website": "https://www.nvidia.com",
+      "description": "Descrição genérica sobre a empresa Nvidia.",
+      "history": [
+        7.6,
+        7.7,
+        7.8,
+        7.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "NXP Semiconductors",
+      "sector": "Diversificado",
+      "website": "https://www.nxpsemiconductors.com",
+      "description": "Descrição genérica sobre a empresa NXP Semiconductors.",
+      "history": [
+        7.7,
+        7.8,
+        7.9,
+        8.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "O'Reilly Automotive",
+      "sector": "Diversificado",
+      "website": "https://www.oreillyautomotive.com",
+      "description": "Descrição genérica sobre a empresa O'Reilly Automotive.",
+      "history": [
+        7.8,
+        7.9,
+        8.0,
+        8.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Old Dominion Freight Line",
+      "sector": "Diversificado",
+      "website": "https://www.olddominionfreightline.com",
+      "description": "Descrição genérica sobre a empresa Old Dominion Freight Line.",
+      "history": [
+        7.9,
+        8.0,
+        8.1,
+        8.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "PACCAR",
+      "sector": "Diversificado",
+      "website": "https://www.paccar.com",
+      "description": "Descrição genérica sobre a empresa PACCAR.",
+      "history": [
+        8.0,
+        8.1,
+        8.2,
+        8.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "sector": "Diversificado",
+      "website": "https://www.paloaltonetworks.com",
+      "description": "Descrição genérica sobre a empresa Palo Alto Networks.",
+      "history": [
+        8.1,
+        8.2,
+        8.3,
+        8.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Paychex",
+      "sector": "Diversificado",
+      "website": "https://www.paychex.com",
+      "description": "Descrição genérica sobre a empresa Paychex.",
+      "history": [
+        8.2,
+        8.3,
+        8.4,
+        8.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "PayPal",
+      "sector": "Diversificado",
+      "website": "https://www.paypal.com",
+      "description": "Descrição genérica sobre a empresa PayPal.",
+      "history": [
+        8.3,
+        8.4,
+        8.5,
+        8.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "PepsiCo",
+      "sector": "Diversificado",
+      "website": "https://www.pepsico.com",
+      "description": "Descrição genérica sobre a empresa PepsiCo.",
+      "history": [
+        8.4,
+        8.5,
+        8.6,
+        8.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Qualcomm",
+      "sector": "Diversificado",
+      "website": "https://www.qualcomm.com",
+      "description": "Descrição genérica sobre a empresa Qualcomm.",
+      "history": [
+        8.5,
+        8.6,
+        8.7,
+        8.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Regeneron Pharmaceuticals",
+      "sector": "Diversificado",
+      "website": "https://www.regeneronpharmaceuticals.com",
+      "description": "Descrição genérica sobre a empresa Regeneron Pharmaceuticals.",
+      "history": [
+        8.6,
+        8.7,
+        8.8,
+        8.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Ross Stores",
+      "sector": "Diversificado",
+      "website": "https://www.rossstores.com",
+      "description": "Descrição genérica sobre a empresa Ross Stores.",
+      "history": [
+        8.7,
+        8.8,
+        8.9,
+        9.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Seagen",
+      "sector": "Diversificado",
+      "website": "https://www.seagen.com",
+      "description": "Descrição genérica sobre a empresa Seagen.",
+      "history": [
+        8.8,
+        8.9,
+        9.0,
+        9.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Sirius XM Holdings",
+      "sector": "Diversificado",
+      "website": "https://www.siriusxmholdings.com",
+      "description": "Descrição genérica sobre a empresa Sirius XM Holdings.",
+      "history": [
+        8.9,
+        9.0,
+        9.1,
+        9.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Skyworks Solutions",
+      "sector": "Diversificado",
+      "website": "https://www.skyworkssolutions.com",
+      "description": "Descrição genérica sobre a empresa Skyworks Solutions.",
+      "history": [
+        9.0,
+        9.1,
+        9.2,
+        9.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Snap Inc.",
+      "sector": "Tecnologia",
+      "website": "https://www.snapinc..com",
+      "description": "Descrição genérica sobre a empresa Snap Inc..",
+      "history": [
+        9.1,
+        9.2,
+        9.3,
+        9.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Starbucks",
+      "sector": "Diversificado",
+      "website": "https://www.starbucks.com",
+      "description": "Descrição genérica sobre a empresa Starbucks.",
+      "history": [
+        9.2,
+        9.3,
+        9.4,
+        9.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Synopsys",
+      "sector": "Diversificado",
+      "website": "https://www.synopsys.com",
+      "description": "Descrição genérica sobre a empresa Synopsys.",
+      "history": [
+        9.3,
+        9.4,
+        9.5,
+        9.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Tesla",
+      "sector": "Diversificado",
+      "website": "https://www.tesla.com",
+      "description": "Descrição genérica sobre a empresa Tesla.",
+      "history": [
+        9.4,
+        9.5,
+        9.6,
+        9.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Texas Instruments",
+      "sector": "Diversificado",
+      "website": "https://www.texasinstruments.com",
+      "description": "Descrição genérica sobre a empresa Texas Instruments.",
+      "history": [
+        9.5,
+        9.6,
+        9.7,
+        9.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "T-Mobile US",
+      "sector": "Diversificado",
+      "website": "https://www.t-mobileus.com",
+      "description": "Descrição genérica sobre a empresa T-Mobile US.",
+      "history": [
+        9.6,
+        9.7,
+        9.8,
+        9.9
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Vertex Pharmaceuticals",
+      "sector": "Diversificado",
+      "website": "https://www.vertexpharmaceuticals.com",
+      "description": "Descrição genérica sobre a empresa Vertex Pharmaceuticals.",
+      "history": [
+        9.7,
+        9.8,
+        9.9,
+        10.0
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Veru Inc.",
+      "sector": "Tecnologia",
+      "website": "https://www.veruinc..com",
+      "description": "Descrição genérica sobre a empresa Veru Inc..",
+      "history": [
+        9.8,
+        9.9,
+        10.0,
+        10.1
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Walgreens Boots Alliance",
+      "sector": "Diversificado",
+      "website": "https://www.walgreensbootsalliance.com",
+      "description": "Descrição genérica sobre a empresa Walgreens Boots Alliance.",
+      "history": [
+        9.9,
+        10.0,
+        10.1,
+        10.2
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Warner Bros. Discovery",
+      "sector": "Diversificado",
+      "website": "https://www.warnerbros.discovery.com",
+      "description": "Descrição genérica sobre a empresa Warner Bros. Discovery.",
+      "history": [
+        10.0,
+        10.1,
+        10.2,
+        10.3
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Wayfair",
+      "sector": "Diversificado",
+      "website": "https://www.wayfair.com",
+      "description": "Descrição genérica sobre a empresa Wayfair.",
+      "history": [
+        10.1,
+        10.2,
+        10.3,
+        10.4
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Workday",
+      "sector": "Diversificado",
+      "website": "https://www.workday.com",
+      "description": "Descrição genérica sobre a empresa Workday.",
+      "history": [
+        10.2,
+        10.3,
+        10.4,
+        10.5
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Xcel Energy",
+      "sector": "Diversificado",
+      "website": "https://www.xcelenergy.com",
+      "description": "Descrição genérica sobre a empresa Xcel Energy.",
+      "history": [
+        10.3,
+        10.4,
+        10.5,
+        10.6
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Zoom Video Communications",
+      "sector": "Diversificado",
+      "website": "https://www.zoomvideocommunications.com",
+      "description": "Descrição genérica sobre a empresa Zoom Video Communications.",
+      "history": [
+        10.4,
+        10.5,
+        10.6,
+        10.7
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    },
+    {
+      "name": "Zscaler",
+      "sector": "Diversificado",
+      "website": "https://www.zscaler.com",
+      "description": "Descrição genérica sobre a empresa Zscaler.",
+      "history": [
+        10.5,
+        10.6,
+        10.7,
+        10.8
+      ],
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "index": "NASDAQ"
+    }
+  
   
 ]
