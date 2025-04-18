@@ -430,7 +430,8 @@
 
     /* ==== 3. detalhes carregados via JSON ==== */
     let detailsMap = {};       // { 'Apple': {sector, website, description, history[]} }
-    fetch('details.json')
+    fetch('details-translated.json')
+      .then(r=>{ if(!r.ok) throw new Error('Falha ao carregar detalhes'); return r; })
       .then(r=>r.json())
       .then(arr=>{ arr.forEach(o=>detailsMap[o.name]=o); renderTable(); })
       .catch(e=>console.error('Falha JSON',e));

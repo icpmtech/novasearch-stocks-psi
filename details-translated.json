@@ -1,0 +1,4322 @@
+[
+  {
+    "name": "Altri",
+    "website": "https://altri.pt",
+    "history": [0.18, 0.20, 0.25, 0.28, 0.30],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Pasta & Papel",
+        "description": "Produtora portuguesa de pasta de papel e biomassa florestal."
+      },
+      "es": {
+        "sector": "Pulpa y Papel",
+        "description": "Productora portuguesa de pulpa de papel y biomasa forestal."
+      },
+      "en": {
+        "sector": "Pulp & Paper",
+        "description": "Portuguese producer of paper pulp and forest biomass."
+      }
+    }
+  },
+  {
+    "name": "BCP",
+    "website": "https://www.bcp.pt",
+    "history": [-0.02, -0.05, 0.01, 0.03, 0.07],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Bancos",
+        "description": "Um dos maiores bancos portugueses, oferecendo uma vasta gama de serviços financeiros a particulares e empresas."
+      },
+      "es": {
+        "sector": "Bancos",
+        "description": "Uno de los mayores bancos portugueses, que ofrece una amplia gama de servicios financieros a particulares y empresas."
+      },
+      "en": {
+        "sector": "Banks",
+        "description": "One of the largest Portuguese banks, offering a wide range of financial services to individuals and companies."
+      }
+    }
+  },
+  {
+    "name": "Corticeira Amorim",
+    "website": "https://www.amorim.com",
+    "history": [0.10, 0.15, 0.18, 0.20, 0.22],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Materiais",
+        "description": "Líder mundial na produção e distribuição de produtos de cortiça."
+      },
+      "es": {
+        "sector": "Materiales",
+        "description": "Líder mundial en la producción y distribución de productos de corcho."
+      },
+      "en": {
+        "sector": "Materials",
+        "description": "World leader in the production and distribution of cork products."
+      }
+    }
+  },
+  {
+    "name": "CTT Correios de Portugal",
+    "website": "https://www.ctt.pt",
+    "history": [0.08, 0.10, 0.12, 0.15, 0.17],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Serviços Postais",
+        "description": "Empresa portuguesa de serviços postais e soluções empresariais."
+      },
+      "es": {
+        "sector": "Servicios Postales",
+        "description": "Empresa portuguesa de servicios postales y soluciones empresariales."
+      },
+      "en": {
+        "sector": "Postal Services",
+        "description": "Portuguese company for postal services and business solutions."
+      }
+    }
+  },
+  {
+    "name": "EDP - Energias de Portugal",
+    "website": "https://www.edp.pt",
+    "history": [0.15, 0.17, 0.19, 0.21, 0.23],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Principal grupo energético em Portugal, com atividades em geração, distribuição e comercialização de eletricidade e gás."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Principal grupo energético en Portugal, con actividades en generación, distribución y comercialización de electricidad y gas."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Main energy group in Portugal, with activities in generation, distribution and commercialization of electricity and gas."
+      }
+    }
+  },
+  {
+    "name": "EDP Renováveis",
+    "website": "https://www.edpr.com",
+    "history": [0.22, 0.25, 0.28, 0.30, 0.32],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Energia Renovável",
+        "description": "Empresa global de energias renováveis, subsidiária da EDP."
+      },
+      "es": {
+        "sector": "Energía Renovable",
+        "description": "Empresa global de energías renovables, subsidiaria de EDP."
+      },
+      "en": {
+        "sector": "Renewable Energy",
+        "description": "Global renewable energy company, a subsidiary of EDP."
+      }
+    }
+  },
+  {
+    "name": "Galp Energia",
+    "website": "https://www.galp.com",
+    "history": [0.30, 0.32, 0.35, 0.38, 0.40],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Empresa de energia integrada, atuando em toda a cadeia de valor de petróleo e gás natural, bem como em energias renováveis."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Empresa de energía integrada, que actúa en toda la cadena de valor del petróleo y el gas natural, así como en energías renovables."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Integrated energy company, operating across the entire value chain of oil and natural gas, as well as in renewable energies."
+      }
+    }
+  },
+  {
+    "name": "Ibersol",
+    "website": "https://www.ibersol.pt",
+    "history": [0.12, 0.14, 0.16, 0.18, 0.20],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Restauração",
+        "description": "Grupo português de restauração, operando diversas marcas de restaurantes."
+      },
+      "es": {
+        "sector": "Restauración",
+        "description": "Grupo portugués de restauración, que opera varias marcas de restaurantes."
+      },
+      "en": {
+        "sector": "Restaurants",
+        "description": "Portuguese restaurant group, operating several restaurant brands."
+      }
+    }
+  },
+  {
+    "name": "Jerónimo Martins",
+    "website": "https://www.jeronimomartins.com",
+    "history": [0.25, 0.28, 0.30, 0.32, 0.35],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Retalho Alimentar",
+        "description": "Grupo internacional de distribuição alimentar e retalho especializado."
+      },
+      "es": {
+        "sector": "Distribución Alimentaria",
+        "description": "Grupo internacional de distribución alimentaria y comercio minorista especializado."
+      },
+      "en": {
+        "sector": "Food Retail",
+        "description": "International group of food distribution and specialized retail."
+      }
+    }
+  },
+  {
+    "name": "Mota-Engil",
+    "website": "https://www.mota-engil.com",
+    "history": [0.15, 0.18, 0.20, 0.22, 0.25],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Construção",
+        "description": "Multinacional portuguesa de construção civil e obras públicas."
+      },
+      "es": {
+        "sector": "Construcción",
+        "description": "Multinacional portuguesa de construcción civil y obras públicas."
+      },
+      "en": {
+        "sector": "Construction",
+        "description": "Portuguese multinational in civil construction and public works."
+      }
+    }
+  },
+  {
+    "name": "NOS",
+    "website": "https://www.nos.pt",
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Telecomunicações",
+        "description": "Operadora de telecomunicações e entretenimento em Portugal."
+      },
+      "es": {
+        "sector": "Telecomunicaciones",
+        "description": "Operador de telecomunicaciones y entretenimiento en Portugal."
+      },
+      "en": {
+        "sector": "Telecommunications",
+        "description": "Telecommunications and entertainment operator in Portugal."
+      }
+    }
+  },
+  {
+    "name": "REN - Redes Energéticas Nacionais",
+    "website": "https://www.ren.pt",
+    "history": [0.16, 0.18, 0.20, 0.22, 0.24],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Empresa responsável pela gestão das redes de transporte de eletricidade e gás natural em Portugal."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Empresa responsable de la gestión de las redes de transporte de electricidad y gas natural en Portugal."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Company responsible for managing the electricity and natural gas transportation networks in Portugal."
+      }
+    }
+  },
+  {
+    "name": "Sonae",
+    "website": "https://www.sonae.pt",
+    "history": [0.22, 0.24, 0.26, 0.28, 0.30],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Retalho",
+        "description": "Multinacional portuguesa com negócios em várias áreas, incluindo retalho, serviços financeiros e tecnologia."
+      },
+      "es": {
+        "sector": "Comercio Minorista",
+        "description": "Multinacional portuguesa con negocios en varias áreas, incluyendo comercio minorista, servicios financieros y tecnología."
+      },
+      "en": {
+        "sector": "Retail",
+        "description": "Portuguese multinational with businesses in various areas, including retail, financial services and technology."
+      }
+    }
+  },
+  {
+    "name": "The Navigator Company",
+    "website": "https://www.thenavigatorcompany.com",
+    "history": [0.20, 0.22, 0.24, 0.26, 0.28],
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Pasta & Papel",
+        "description": "Produtor português de pasta e papel, líder europeu na produção de papel de escritório."
+      },
+      "es": {
+        "sector": "Pulpa y Papel",
+        "description": "Productor portugués de pulpa y papel, líder europeo en la producción de papel de oficina."
+      },
+      "en": {
+        "sector": "Pulp & Paper",
+        "description": "Portuguese pulp and paper producer, European leader in the production of office paper."
+      }
+    }
+  },
+  {
+    "name": "Iberdrola",
+    "website": "https://www.iberdrola.com",
+    "history": [0.45, 0.48, 0.52, 0.55, 0.58],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Uma das maiores empresas de energia do mundo, com foco em energias renováveis e redes inteligentes."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Una de las mayores empresas de energía del mundo, con foco en energías renovables y redes inteligentes."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "One of the world's largest energy companies, focusing on renewable energy and smart grids."
+      }
+    }
+  },
+  {
+    "name": "Santander",
+    "website": "https://www.santander.com",
+    "history": [0.22, 0.25, 0.28, 0.30, 0.33],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Bancos",
+        "description": "Um dos maiores grupos bancários do mundo, com forte presença na Europa e América Latina."
+      },
+      "es": {
+        "sector": "Bancos",
+        "description": "Uno de los mayores grupos bancarios del mundo, con fuerte presencia en Europa y América Latina."
+      },
+      "en": {
+        "sector": "Banks",
+        "description": "One of the largest banking groups in the world, with a strong presence in Europe and Latin America."
+      }
+    }
+  },
+  {
+    "name": "Repsol",
+    "website": "https://www.repsol.com",
+    "history": [0.55, 0.58, 0.62, 0.65, 0.68],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Empresa global de energia e petroquímica com sede em Espanha."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Empresa global de energía y petroquímica con sede en España."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Global energy and petrochemical company headquartered in Spain."
+      }
+    }
+  },
+  {
+    "name": "Telefónica",
+    "website": "https://www.telefonica.com",
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Telecomunicações",
+        "description": "Uma das maiores empresas de telecomunicações do mundo, oferecendo serviços de telefonia fixa e móvel, internet e televisão."
+      },
+      "es": {
+        "sector": "Telecomunicaciones",
+        "description": "Una de las mayores empresas de telecomunicaciones del mundo, que ofrece servicios de telefonía fija y móvil, internet y televisión."
+      },
+      "en": {
+        "sector": "Telecommunications",
+        "description": "One of the largest telecommunications companies in the world, offering fixed and mobile telephony, internet and television services."
+      }
+    }
+  },
+  {
+    "name": "Acciona",
+    "website": "https://www.acciona.com",
+    "history": [0.35, 0.38, 0.40, 0.42, 0.45],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Construção e Infraestruturas",
+        "description": "Empresa espanhola especializada em desenvolvimento e gestão de infraestruturas e energias renováveis."
+      },
+      "es": {
+        "sector": "Construcción e Infraestructuras",
+        "description": "Empresa española especializada en desarrollo y gestión de infraestructuras y energías renovables."
+      },
+      "en": {
+        "sector": "Construction and Infrastructure",
+        "description": "Spanish company specialized in the development and management of infrastructure and renewable energy."
+      }
+    }
+  },
+  {
+    "name": "Acerinox",
+    "website": "https://www.acerinox.com",
+    "history": [0.28, 0.30, 0.32, 0.34, 0.36],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Materiais",
+        "description": "Um dos maiores fabricantes de aço inoxidável do mundo."
+      },
+      "es": {
+        "sector": "Materiales",
+        "description": "Uno de los mayores fabricantes de acero inoxidable del mundo."
+      },
+      "en": {
+        "sector": "Materials",
+        "description": "One of the largest manufacturers of stainless steel in the world."
+}
+}
+},
+{
+"name": "ACS",
+"website": "https://www.grupoacs.com",
+"history": [0.32, 0.34, 0.36, 0.38, 0.40],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Construção",
+"description": "Uma das maiores empresas de construção e serviços do mundo."
+},
+"es": {
+"sector": "Construcción",
+"description": "Una de las mayores empresas de construcción y servicios del mundo."
+},
+"en": {
+"sector": "Construction",
+"description": "One of the largest construction and services companies in the world."
+}
+}
+},
+{
+"name": "Aena",
+"website": "https://www.aena.es",
+"history": [0.40, 0.42, 0.44, 0.46, 0.48],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Transportes",
+"description": "Operador aeroportuário líder mundial em número de passageiros."
+},
+"es": {
+"sector": "Transportes",
+"description": "Operador aeroportuario líder mundial en número de pasajeros."
+},
+"en": {
+"sector": "Transport",
+"description": "World leading airport operator in terms of passenger numbers."
+}
+}
+},
+{
+"name": "Amadeus IT Group",
+"website": "https://www.amadeus.com",
+"history": [0.42, 0.45, 0.48, 0.50, 0.52],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Tecnologia",
+"description": "Fornecedor líder de soluções tecnológicas para a indústria global de viagens."
+},
+"es": {
+"sector": "Tecnología",
+"description": "Proveedor líder de soluciones tecnológicas para la industria global de viajes."
+},
+"en": {
+"sector": "Technology",
+"description": "Leading provider of technology solutions for the global travel industry."
+}
+}
+},
+{
+"name": "ArcelorMittal",
+"website": "https://corporate.arcelormittal.com",
+"history": [0.30, 0.32, 0.34, 0.36, 0.38],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Materiais",
+"description": "Maior produtora de aço do mundo."
+},
+"es": {
+"sector": "Materiales",
+"description": "Mayor productora de acero del mundo."
+},
+"en": {
+"sector": "Materials",
+"description": "World's largest steel producer."
+}
+}
+},
+{
+"name": "Banco de Sabadell",
+"website": "https://www.grupbancsabadell.com",
+"history": [0.15, 0.17, 0.19, 0.21, 0.23],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Bancos",
+"description": "Quarto maior grupo bancário privado espanhol."
+},
+"es": {
+"sector": "Bancos",
+"description": "Cuarto mayor grupo bancario privado español."
+},
+"en": {
+"sector": "Banks",
+"description": "Fourth-largest Spanish private banking group."
+}
+}
+},
+{
+"name": "Bankinter",
+"website": "https://www.bankinter.com",
+"history": [0.18, 0.20, 0.22, 0.24, 0.26],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Bancos",
+"description": "Banco espanhol especializado em serviços para particulares e empresas."
+},
+"es": {
+"sector": "Bancos",
+"description": "Banco español especializado en servicios para particulares y empresas."
+},
+"en": {
+"sector": "Banks",
+"description": "Spanish bank specializing in services for individuals and companies."
+}
+}
+},
+{
+"name": "BBVA",
+"website": "https://www.bbva.com",
+"history": [0.25, 0.27, 0.29, 0.31, 0.33],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Bancos",
+"description": "Segundo maior banco da Espanha e uma das maiores instituições financeiras do mundo."
+},
+"es": {
+"sector": "Bancos",
+"description": "Segundo mayor banco de España y una de las mayores instituciones financieras del mundo."
+},
+"en": {
+"sector": "Banks",
+"description": "Second largest bank in Spain and one of the largest financial institutions in the world."
+}
+}
+},
+{
+"name": "CaixaBank",
+"website": "https://www.caixabank.com",
+"history": [0.20, 0.22, 0.24, 0.26, 0.28],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Bancos",
+"description": "Maior banco espanhol por ativos domésticos."
+},
+"es": {
+"sector": "Bancos",
+"description": "Mayor banco español por activos domésticos."
+},
+"en": {
+"sector": "Banks",
+"description": "Largest Spanish bank by domestic assets."
+}
+}
+},
+{
+"name": "Cellnex Telecom",
+"website": "https://www.cellnextelecom.com",
+"history": [0.35, 0.38, 0.40, 0.42, 0.45],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Telecomunicações",
+"description": "Maior operador europeu de infraestruturas de telecomunicações wireless."
+},
+"es": {
+"sector": "Telecomunicaciones",
+"description": "Mayor operador europeo de infraestructuras de telecomunicaciones inalámbricas."
+},
+"en": {
+"sector": "Telecommunications",
+"description": "Largest European operator of wireless telecommunications infrastructure."
+}
+}
+},
+{
+"name": "CIE Automotive",
+"website": "https://www.cieautomotive.com",
+"history": [0.30, 0.32, 0.34, 0.36, 0.38],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Automóveis",
+"description": "Fornecedor global de componentes e subconjuntos para o setor automóvel."
+},
+"es": {
+"sector": "Automóviles",
+"description": "Proveedor global de componentes y subconjuntos para el sector automotriz."
+},
+"en": {
+"sector": "Automobiles",
+"description": "Global supplier of components and subassemblies for the automotive sector."
+}
+}
+},
+{
+"name": "Corporación Acciona Energías Renovables",
+"website": "https://www.acciona-energia.com",
+"history": [0.38, 0.40, 0.42, 0.44, 0.46],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Energia Renovável",
+"description": "Subsidiária de energia renovável do Grupo Acciona."
+},
+"es": {
+"sector": "Energía Renovable",
+"description": "Filial de energía renovable del Grupo Acciona."
+},
+"en": {
+"sector": "Renewable Energy",
+"description": "Renewable energy subsidiary of the Acciona Group."
+}
+}
+},
+{
+"name": "Enagás",
+"website": "https://www.enagas.es",
+"history": [0.25, 0.27, 0.29, 0.31, 0.33],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Energia",
+"description": "Operador técnico do sistema gasista espanhol e principal transportador de gás natural em Espanha."
+},
+"es": {
+"sector": "Energía",
+"description": "Operador técnico del sistema gasista español y principal transportista de gas natural en España."
+},
+"en": {
+"sector": "Energy",
+"description": "Technical operator of the Spanish gas system and main transporter of natural gas in Spain."
+}
+}
+},
+{
+"name": "Endesa",
+"website": "https://www.endesa.com",
+"history": [0.30, 0.32, 0.34, 0.36, 0.38],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Energia",
+"description": "Maior empresa de energia elétrica da Espanha."
+},
+"es": {
+"sector": "Energía",
+"description": "Mayor empresa de energía eléctrica de España."
+},
+"en": {
+"sector": "Energy",
+"description": "Largest electric power company in Spain."
+}
+}
+},
+{
+"name": "Ferrovial",
+"website": "https://www.ferrovial.com",
+"history": [0.35, 0.38, 0.40, 0.42, 0.45],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Construção e Infraestruturas",
+"description": "Multinacional espanhola que opera no setor de infraestruturas e serviços urbanos."
+},
+"es": {
+"sector": "Construcción e Infraestructuras",
+"description": "Multinacional española que opera en el sector de infraestructuras y servicios urbanos."
+},
+"en": {
+"sector": "Construction and Infrastructure",
+"description": "Spanish multinational operating in the infrastructure and urban services sector."
+}
+}
+},
+{
+"name": "Fluidra",
+"website": "https://www.fluidra.com",
+"history": [0.28, 0.30, 0.32, 0.34, 0.36],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Bens de Consumo",
+"description": "Líder mundial em equipamentos e soluções para piscinas e wellness."
+},
+"es": {
+"sector": "Bienes de Consumo",
+"description": "Líder mundial en equipos y soluciones para piscinas y wellness."
+},
+"en": {
+"sector": "Consumer Goods",
+"description": "World leader in equipment and solutions for pools and wellness."
+}
+}
+},
+{
+"name": "Grifols",
+"website": "https://www.grifols.com",
+"history": [0.40, 0.42, 0.44, 0.46, 0.48],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Saúde",
+"description": "Empresa global de saúde especializada em medicamentos derivados do plasma."
+},
+"es": {
+"sector": "Salud",
+"description": "Empresa global de salud especializada en medicamentos derivados del plasma."
+},
+"en": {
+"sector": "Health",
+"description": "Global healthcare company specializing in plasma-derived medicines."
+}
+}
+},
+{
+"name": "Inditex",
+"website": "https://www.inditex.com",
+"history": [0.45, 0.48, 0.50, 0.52, 0.55],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Retalho",
+"description": "Um dos maiores grupos de moda do mundo, proprietário de marcas como Zara, Pull&Bear e Massimo Dutti."
+},
+"es": {
+"sector": "Comercio Minorista",
+"description": "Uno de los mayores grupos de moda del mundo, propietario de marcas como Zara, Pull&Bear y Massimo Dutti."
+},
+"en": {
+"sector": "Retail",
+"description": "One of the world's largest fashion groups, owner of brands such as Zara, Pull&Bear and Massimo Dutti."
+}
+}
+},
+{
+"name": "Indra Sistemas",
+"website": "https://www.indracompany.com",
+"history": [0.25, 0.28, 0.30, 0.32, 0.35],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Tecnologia",
+"description": "Empresa líder em consultoria e tecnologia na Espanha e América Latina."
+},
+"es": {
+"sector": "Tecnología",
+"description": "Empresa líder en consultoría y tecnología en España y América Latina."
+},
+"en": {
+"sector": "Technology",
+"description": "Leading consulting and technology company in Spain and Latin America."
+}
+}
+},
+{
+"name": "International Airlines Group (IAG)",
+"website": "https://www.iairgroup.com",
+"history": [0.30, 0.32, 0.34, 0.36, 0.38],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Transporte Aéreo",
+"description": "Holding que inclui companhias aéreas como Iberia, British Airways e Vueling."
+},
+"es": {
+"sector": "Transporte Aéreo",
+"description": "Holding que incluye aerolíneas como Iberia, British Airways y Vueling."
+},
+"en": {
+"sector": "Airline",
+"description": "Holding company that includes airlines such as Iberia, British Airways and Vueling."
+}
+}
+},
+{
+"name": "Laboratorios Rovi",
+"website": "https://www.rovi.es",
+"history": [0.35, 0.38, 0.40, 0.42, 0.45],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Saúde",
+"description": "Empresa farmacêutica espanhola especializada em produtos de heparina de baixo peso molecular."
+},
+"es": {
+"sector": "Salud",
+"description": "Empresa farmacéutica española especializada en productos de heparina de bajo peso molecular."
+},
+"en": {
+"sector": "Health",
+"description": "Spanish pharmaceutical company specializing in low molecular weight heparin products."
+}
+}
+},
+{
+"name": "Logista",
+"website": "https://www.logista.com",
+"history": [0.28, 0.30, 0.32, 0.34, 0.36],
+"index": "IBEX",
+"translations": {
+"pt": {
+"sector": "Logística",
+"description": "Distribuidor líder de produtos e serviços a redes de proximidade no sul da Europa."
+},
+"es": {
+"sector": "Logística",
+"description": "Distribuidor líder de productos y servicios a redes de proximidad en el sur de Europa."
+      },
+      "en": {
+        "sector": "Logistics",
+        "description": "Leading distributor of products and services to convenience networks in Southern Europe."
+      }
+    }
+  },
+  {
+    "name": "Mapfre",
+    "website": "[https://www.mapfre.com](https://www.mapfre.com)",
+    "history": [0.25, 0.27, 0.29, 0.31, 0.33],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Seguros",
+        "description": "Maior grupo segurador espanhol e referência no mercado latino-americano."
+      },
+      "es": {
+        "sector": "Seguros",
+        "description": "Mayor grupo asegurador español y referencia en el mercado latinoamericano."
+      },
+      "en": {
+        "sector": "Insurance",
+        "description": "Largest Spanish insurance group and a benchmark in the Latin American market."
+      }
+    }
+  },
+  {
+    "name": "Meliá Hotels International",
+    "website": "[https://www.meliahotelsinternational.com](https://www.meliahotelsinternational.com)",
+    "history": [0.22, 0.24, 0.26, 0.28, 0.30],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Hotelaria",
+        "description": "Uma das maiores cadeias hoteleiras do mundo, com forte presença internacional."
+      },
+      "es": {
+        "sector": "Hostelería",
+        "description": "Una de las mayores cadenas hoteleras del mundo, con fuerte presencia internacional."
+      },
+      "en": {
+        "sector": "Hospitality",
+        "description": "One of the largest hotel chains in the world, with a strong international presence."
+      }
+    }
+  },
+  {
+    "name": "Merlin Properties",
+    "website": "[https://www.merlinproperties.com](https://www.merlinproperties.com)",
+    "history": [0.30, 0.32, 0.34, 0.36, 0.38],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Imobiliário",
+        "description": "Maior REIT (SOCIMI) da península ibérica, focada em ativos comerciais premium."
+      },
+      "es": {
+        "sector": "Inmobiliario",
+        "description": "Mayor REIT (SOCIMI) de la península ibérica, centrada en activos comerciales premium."
+      },
+      "en": {
+        "sector": "Real Estate",
+        "description": "Largest REIT (SOCIMI) in the Iberian Peninsula, focused on premium commercial assets."
+      }
+    }
+  },
+  {
+    "name": "Naturgy",
+    "website": "[https://www.naturgy.com](https://www.naturgy.com)",
+    "history": [0.32, 0.34, 0.36, 0.38, 0.40],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Multinacional do setor energético especializada em gás natural e eletricidade."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Multinacional del sector energético especializada en gas natural y electricidad."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Multinational energy sector company specializing in natural gas and electricity."
+      }
+    }
+  },
+  {
+    "name": "Redeia Corporación",
+    "website": "[https://www.redeia.com](https://www.redeia.com)",
+    "history": [0.28, 0.30, 0.32, 0.34, 0.36],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Operadora e transportadora da rede elétrica espanhola."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Operadora y transportista de la red eléctrica española."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Operator and transporter of the Spanish electricity grid."
+      }
+    }
+  },
+  {
+    "name": "Sacyr",
+    "website": "[https://www.sacyr.com](https://www.sacyr.com)",
+    "history": [0.25, 0.27, 0.29, 0.31, 0.33],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Construção e Infraestruturas",
+        "description": "Grupo multinacional de infraestruturas e serviços."
+      },
+      "es": {
+        "sector": "Construcción e Infraestructuras",
+        "description": "Grupo multinacional de infraestructuras y servicios."
+      },
+      "en": {
+        "sector": "Construction and Infrastructure",
+        "description": "Multinational infrastructure and services group."
+      }
+    }
+  },
+  {
+    "name": "Siemens Gamesa Renewable Energy",
+    "website": "[https://www.siemensgamesa.com](https://www.siemensgamesa.com)",
+    "history": [0.38, 0.40, 0.42, 0.44, 0.46],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Energia Renovável",
+        "description": "Líder global em energias renováveis, especializada em soluções eólicas."
+      },
+      "es": {
+        "sector": "Energía Renovable",
+        "description": "Líder global en energías renovables, especializada en soluciones eólicas."
+      },
+      "en": {
+        "sector": "Renewable Energy",
+        "description": "Global leader in renewable energies, specializing in wind power solutions."
+      }
+    }
+  },
+  {
+    "name": "Solaria",
+    "website": "[https://www.solariaenergia.com](https://www.solariaenergia.com)",
+    "history": [0.35, 0.38, 0.40, 0.42, 0.45],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Energia Renovável",
+        "description": "Empresa especializada em geração de energia fotovoltaica."
+      },
+      "es": {
+        "sector": "Energía Renovable",
+        "description": "Empresa especializada en generación de energía fotovoltaica."
+      },
+      "en": {
+        "sector": "Renewable Energy",
+        "description": "Company specialized in photovoltaic energy generation."
+      }
+    }
+  },
+  {
+    "name": "Unicaja Banco",
+    "website": "[https://www.unicajabanco.com](https://www.unicajabanco.com)",
+    "history": [0.18, 0.20, 0.22, 0.24, 0.26],
+    "index": "IBEX",
+    "translations": {
+      "pt": {
+        "sector": "Bancos",
+        "description": "Banco espanhol resultante da fusão de diversas caixas de poupança."
+      },
+      "es": {
+        "sector": "Bancos",
+        "description": "Banco español resultante de la fusión de varias cajas de ahorros."
+      },
+      "en": {
+        "sector": "Banks",
+        "description": "Spanish bank resulting from the merger of several savings banks."
+      }
+    }
+  },
+  {
+    "name": "Adidas",
+    "website": "https://www.adidas.com",
+    "history": [3.30, 0.70, 0.70, 1.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Bens de Consumo",
+        "description": "Fabricante global de calçados, roupas e equipamentos esportivos."
+      },
+      "es": {
+        "sector": "Bienes de Consumo",
+        "description": "Fabricante global de calzado, ropa y equipos deportivos."
+      },
+      "en": {
+        "sector": "Consumer Goods",
+        "description": "Global manufacturer of footwear, apparel, and sporting equipment."
+      }
+    }
+  },
+  {
+    "name": "Allianz",
+    "website": "https://www.allianz.com",
+    "history": [10.80, 11.40, 13.80, 14.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Seguros",
+        "description": "Empresa multinacional de serviços financeiros focada em seguros."
+      },
+      "es": {
+        "sector": "Seguros",
+        "description": "Empresa multinacional de servicios financieros centrada en seguros."
+      },
+      "en": {
+        "sector": "Insurance",
+        "description": "Multinational financial services company focused on insurance."
+      }
+    }
+  },
+  {
+    "name": "BASF",
+    "website": "https://www.basf.com",
+    "history": [3.40, 3.40, 3.40, 3.40],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Químico",
+        "description": "Maior empresa química do mundo, produzindo diversos produtos químicos."
+      },
+      "es": {
+        "sector": "Químico",
+        "description": "Mayor empresa química del mundo, que produce diversos productos químicos."
+      },
+      "en": {
+        "sector": "Chemicals",
+        "description": "World's largest chemical company, producing a wide range of chemicals."
+      }
+    }
+  },
+  {
+    "name": "Bayer",
+    "website": "https://www.bayer.com",
+    "history": [2.00, 0.11, 0.11, 0.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Farmacêutico",
+        "description": "Empresa farmacêutica e de ciências da vida com foco em saúde e agricultura."
+      },
+      "es": {
+        "sector": "Farmacéutico",
+        "description": "Empresa farmacéutica y de ciencias de la vida centrada en la salud y la agricultura."
+      },
+      "en": {
+        "sector": "Pharmaceuticals",
+        "description": "Pharmaceutical and life sciences company focused on health and agriculture."
+      }
+    }
+  },
+  {
+    "name": "BMW",
+    "website": "https://www.bmw.com",
+    "history": [8.50, 8.50, 6.00, 5.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Automobilístico",
+        "description": "Fabricante de automóveis e motocicletas de luxo."
+      },
+      "es": {
+        "sector": "Automovilístico",
+        "description": "Fabricante de automóviles y motocicletas de lujo."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "Manufacturer of luxury automobiles and motorcycles."
+      }
+    }
+  },
+  {
+    "name": "Brenntag",
+    "website": "https://www.brenntag.com",
+    "history": [2.00, 2.00, 2.10, 2.20],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Químico",
+        "description": "Líder global em distribuição de produtos químicos."
+      },
+      "es": {
+        "sector": "Químico",
+        "description": "Líder mundial en distribución de productos químicos."
+      },
+      "en": {
+        "sector": "Chemicals",
+        "description": "Global leader in chemical distribution."
+      }
+    }
+  },
+  {
+    "name": "Commerzbank",
+    "website": "https://www.commerzbank.com",
+    "history": [0.20, 0.35, 0.55, 0.75],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Financeiro",
+        "description": "Um dos principais bancos comerciais da Alemanha."
+      },
+      "es": {
+        "sector": "Financiero",
+        "description": "Uno de los principales bancos comerciales de Alemania."
+      },
+      "en": {
+        "sector": "Financial",
+        "description": "One of the leading commercial banks in Germany."
+      }
+    }
+  },
+  {
+    "name": "Continental",
+    "website": "https://www.continental.com",
+    "history": [2.20, 2.20, 2.20, 2.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Automobilístico",
+        "description": "Fabricante de pneus, sistemas de freio e outras peças automotivas."
+      },
+      "es": {
+        "sector": "Automovilístico",
+        "description": "Fabricante de neumáticos, sistemas de freno y otras piezas automotrices."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "Manufacturer of tires, brake systems, and other automotive parts."
+      }
+    }
+  },
+  {
+    "name": "Covestro",
+    "website": "https://www.covestro.com",
+    "history": [0.00, 0.00, 0.00, 0.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Químico",
+        "description": "Fabricante de materiais poliméricos de alta tecnologia."
+      },
+      "es": {
+        "sector": "Químico",
+        "description": "Fabricante de materiales poliméricos de alta tecnología."
+      },
+      "en": {
+        "sector": "Chemicals",
+        "description": "Manufacturer of high-tech polymer materials."
+      }
+    }
+  },
+  {
+    "name": "Deutsche Bank",
+    "website": "https://www.db.com",
+    "history": [0.30, 0.45, 0.60, 0.75],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Financeiro",
+        "description": "Maior banco alemão oferecendo serviços financeiros globais."
+      },
+      "es": {
+        "sector": "Financiero",
+        "description": "Mayor banco alemán que ofrece servicios financieros globales."
+      },
+      "en": {
+        "sector": "Financial",
+        "description": "Largest German bank offering global financial services."
+      }
+    }
+  },
+  {
+    "name": "Deutsche Börse",
+    "sector": "Financeiro",
+    "website": "https://www.deutsche-boerse.com",
+    "description": "Operadora da bolsa de valores de Frankfurt e outros mercados financeiros.",
+    "history": [3.60, 3.80, 3.80, 4.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Financeiro",
+        "description": "Operadora da bolsa de valores de Frankfurt e outros mercados financeiros."
+      },
+      "es": {
+        "sector": "Financiero",
+        "description": "Operador de la bolsa de valores de Frankfurt y otros mercados financieros."
+      },
+      "en": {
+        "sector": "Financial",
+        "description": "Operator of the Frankfurt Stock Exchange and other financial markets."
+      }
+    }
+  },
+  {
+    "name": "Deutsche Telekom",
+    "sector": "Telecomunicações",
+    "website": "https://www.telekom.com",
+    "description": "Maior empresa de telecomunicações da Europa.",
+    "history": [0.70, 0.77, 0.90, 1.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Telecomunicações",
+        "description": "Maior empresa de telecomunicações da Europa."
+      },
+      "es": {
+        "sector": "Telecomunicaciones",
+        "description": "Mayor empresa de telecomunicaciones de Europa."
+      },
+      "en": {
+        "sector": "Telecommunications",
+        "description": "Largest telecommunications company in Europe."
+      }
+    }
+  },
+  {
+    "name": "E.ON",
+    "sector": "Energia",
+    "website": "https://www.eon.com",
+    "description": "Uma das maiores empresas de serviços públicos de energia da Europa.",
+    "history": [0.51, 0.53, 0.55, 0.57],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Uma das maiores empresas de serviços públicos de energia da Europa."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Una de las mayores empresas de servicios públicos de energía de Europa."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "One of the largest energy utility companies in Europe."
+      }
+    }
+  },
+  {
+    "name": "Fresenius",
+    "sector": "Saúde",
+    "website": "https://www.fresenius.com",
+    "description": "Empresa global de saúde especializada em produtos e serviços médicos.",
+    "history": [0.92, 0.00, 0.37, 0.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Saúde",
+        "description": "Empresa global de saúde especializada em produtos e serviços médicos."
+      },
+      "es": {
+        "sector": "Salud",
+        "description": "Empresa global de salud especializada en productos y servicios médicos."
+      },
+      "en": {
+        "sector": "Health",
+        "description": "Global healthcare company specializing in medical products and services."
+      }
+    }
+  },
+  {
+    "name": "Fresenius Medical Care",
+    "sector": "Saúde",
+    "website": "https://www.freseniusmedicalcare.com",
+    "description": "Líder mundial em produtos e serviços para diálise renal.",
+    "history": [1.12, 1.12, 1.19, 1.25],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Saúde",
+        "description": "Líder mundial em produtos e serviços para diálise renal."
+      },
+      "es": {
+        "sector": "Salud",
+        "description": "Líder mundial en productos y servicios para diálisis renal."
+      },
+      "en": {
+        "sector": "Health",
+        "description": "World leader in products and services for kidney dialysis."
+      }
+    }
+  },
+  {
+    "name": "Hannover Re",
+    "sector": "Seguros",
+    "website": "https://www.hannover-re.com",
+    "description": "Uma das maiores empresas de resseguros do mundo.",
+    "history": [6.00, 7.00, 7.20, 7.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Seguros",
+        "description": "Uma das maiores empresas de resseguros do mundo."
+      },
+      "es": {
+        "sector": "Seguros",
+        "description": "Una de las mayores empresas de reaseguros del mundo."
+      },
+      "en": {
+        "sector": "Insurance",
+        "description": "One of the largest reinsurance companies in the world."
+      }
+    }
+  },
+  {
+    "name": "Heidelberg Materials",
+    "sector": "Construção",
+    "website": "https://www.heidelbergmaterials.com",
+    "description": "Um dos maiores produtores mundiais de cimento e materiais de construção.",
+    "history": [2.60, 3.00, 3.30, 3.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Construção",
+        "description": "Um dos maiores produtores mundiais de cimento e materiais de construção."
+      },
+      "es": {
+        "sector": "Construcción",
+        "description": "Uno de los mayores productores mundiales de cemento y materiales de construcción."
+      },
+      "en": {
+        "sector": "Construction",
+        "description": "One of the world's largest producers of cement and building materials."
+      }
+    }
+  },
+  {
+    "name": "Henkel",
+    "sector": "Bens de Consumo",
+    "website": "https://www.henkel.com",
+    "description": "Empresa química e de bens de consumo, conhecida por marcas como Persil e Loctite.",
+    "history": [1.85, 1.85, 1.85, 1.90],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Bens de Consumo",
+        "description": "Empresa química e de bens de consumo, conhecida por marcas como Persil e Loctite."
+      },
+      "es": {
+        "sector": "Bienes de Consumo",
+        "description": "Empresa química y de bienes de consumo, conocida por marcas como Persil y Loctite."
+      },
+      "en": {
+        "sector": "Consumer Goods",
+        "description": "Chemical and consumer goods company, known for brands like Persil and Loctite."
+      }
+    }
+  },
+  {
+    "name": "Infineon Technologies",
+    "sector": "Tecnologia",
+    "website": "https://www.infineon.com",
+    "description": "Fabricante de semicondutores e soluções de sistemas para aplicações eletrônicas.",
+    "history": [0.32, 0.35, 0.35, 0.40],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Tecnologia",
+        "description": "Fabricante de semicondutores e soluções de sistemas para aplicações eletrônicas."
+      },
+      "es": {
+        "sector": "Tecnología",
+        "description": "Fabricante de semiconductores y soluciones de sistemas para aplicaciones electrónicas."
+      },
+      "en": {
+        "sector": "Technology",
+        "description": "Manufacturer of semiconductors and system solutions for electronic applications."
+      }
+    }
+  },
+  {
+    "name": "Mercedes-Benz Group",
+    "sector": "Automobilístico",
+    "website": "https://www.mercedes-benz.com",
+    "description": "Fabricante de veículos de luxo, caminhões e ônibus.",
+    "history": [5.20, 5.30, 4.30, 4.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Automobilístico",
+        "description": "Fabricante de veículos de luxo, caminhões e ônibus."
+      },
+      "es": {
+        "sector": "Automovilístico",
+        "description": "Fabricante de vehículos de lujo, camiones y autobuses."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "Manufacturer of luxury vehicles, trucks, and buses."
+      }
+    }
+  },
+  {
+    "name": "Merck",
+    "sector": "Farmacêutico",
+    "website": "https://www.merckgroup.com",
+    "description": "Empresa farmacêutica, química e de ciências da vida.",
+    "history": [2.20, 2.20, 2.20, 2.30],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Farmacêutico",
+        "description": "Empresa farmacêutica, química e de ciências da vida."
+      },
+      "es": {
+        "sector": "Farmacéutico",
+        "description": "Empresa farmacéutica, química y de ciencias de la vida."
+      },
+      "en": {
+        "sector": "Pharmaceuticals",
+        "description": "Pharmaceutical, chemical, and life sciences company."
+      }
+    }
+  },
+  {
+    "name": "MTU Aero Engines",
+    "sector": "Aeroespacial",
+    "website": "https://www.mtu.de",
+    "description": "Principal fabricante alemão de motores aeronáuticos.",
+    "history": [2.30, 2.30, 2.70, 3.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Aeroespacial",
+        "description": "Principal fabricante alemão de motores aeronáuticos."
+      },
+      "es": {
+        "sector": "Aeroespacial",
+        "description": "Principal fabricante alemán de motores aeronáuticos."
+      },
+      "en": {
+        "sector": "Aerospace",
+        "description": "Leading German manufacturer of aircraft engines."
+      }
+    }
+  },
+  {
+    "name": "Münchener Rück (Munich Re)",
+    "sector": "Seguros",
+    "website": "https://www.munichre.com",
+    "description": "Uma das maiores empresas de resseguros do mundo.",
+    "history": [11.60, 15.00, 16.00, 17.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Seguros",
+        "description": "Uma das maiores empresas de resseguros do mundo."
+      },
+      "es": {
+        "sector": "Seguros",
+        "description": "Una de las mayores empresas de reaseguros del mundo."
+      },
+      "en": {
+        "sector": "Insurance",
+        "description": "One of the largest reinsurance companies worldwide."
+      }
+    }
+  },
+  {
+    "name": "Porsche AG",
+    "sector": "Automobilístico",
+    "website": "https://www.porsche.com",
+    "description": "Fabricante de carros esportivos e de luxo.",
+    "history": [1.01, 2.31, 2.31, 2.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Automobilístico",
+        "description": "Fabricante de carros esportivos e de luxo."
+      },
+      "es": {
+        "sector": "Automovilístico",
+        "description": "Fabricante de coches deportivos y de lujo."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "Manufacturer of sports and luxury cars."
+      }
+    }
+  },
+  {
+    "name": "Porsche Automobil Holding",
+    "sector": "Holding",
+    "website": "https://www.porsche-se.com",
+    "description": "Holding com participação significativa na Volkswagen.",
+    "history": [2.56, 2.56, 2.56, 2.60],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Holding",
+        "description": "Holding com participação significativa na Volkswagen."
+      },
+      "es": {
+        "sector": "Holding",
+        "description": "Holding con una participación significativa en Volkswagen."
+      },
+      "en": {
+        "sector": "Holding",
+        "description": "Holding company with a significant stake in Volkswagen."
+      }
+    }
+  },
+  {
+    "name": "Puma",
+    "sector": "Bens de Consumo",
+    "website": "https://www.puma.com",
+    "description": "Fabricante de calçados, roupas e acessórios esportivos.",
+    "history": [0.82, 0.82, 0.82, 0.85],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Bens de Consumo",
+        "description": "Fabricante de calçados, roupas e acessórios esportivos."
+      },
+      "es": {
+        "sector": "Bienes de Consumo",
+        "description": "Fabricante de calzado, ropa y accesorios deportivos."
+      },
+      "en": {
+        "sector": "Consumer Goods",
+        "description": "Manufacturer of footwear, apparel, and sports accessories."
+      }
+    }
+  },
+  {
+    "name": "Qiagen",
+    "sector": "Biotecnologia",
+    "website": "https://www.qiagen.com",
+    "description": "Fornecedor de tecnologias de amostra e ensaio para diagnósticos moleculares.",
+    "history": [0.00, 0.00, 0.00, 0.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Biotecnologia",
+        "description": "Fornecedor de tecnologias de amostra e ensaio para diagnósticos moleculares."
+      },
+      "es": {
+        "sector": "Biotecnología",
+        "description": "Proveedor de tecnologías de muestra y ensayo para diagnósticos moleculares."
+      },
+      "en": {
+        "sector": "Biotechnology",
+        "description": "Provider of sample and assay technologies for molecular diagnostics."
+      }
+    }
+  },
+  {
+    "name": "RWE",
+    "sector": "Energia",
+    "website": "https://www.rwe.com",
+    "description": "Uma das principais empresas de geração de energia da Europa.",
+    "history": [1.00, 1.00, 1.00, 1.10],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Uma das principais empresas de geração de energia da Europa."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Una de las principales empresas de generación de energía de Europa."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "One of the leading power generation companies in Europe."
+      }
+    }
+  },
+  {
+    "name": "SAP",
+    "sector": "Tecnologia",
+    "website": "https://www.sap.com",
+    "description": "Maior empresa europeia de software, especializada em software empresarial.",
+    "history": [2.05, 2.05, 2.20, 2.35],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Tecnologia",
+        "description": "Maior empresa europeia de software, especializada em software empresarial."
+      },
+      "es": {
+        "sector": "Tecnología",
+        "description": "Mayor empresa europea de software, especializada en software empresarial."
+      },
+      "en": {
+        "sector": "Technology",
+        "description": "Largest European software company, specializing in enterprise software."
+      }
+    }
+  },
+  {
+    "name": "Sartorius",
+    "sector": "Saúde",
+    "website": "https://www.sartorius.com",
+    "description": "Fornecedor de equipamentos para laboratórios e indústria farmacêutica.",
+    "history": [1.44, 0.74, 0.74, 1.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Saúde",
+        "description": "Fornecedor de equipamentos para laboratórios e indústria farmacêutica."
+      },
+      "es": {
+        "sector": "Salud",
+        "description": "Proveedor de equipos para laboratorios e industria farmacéutica."
+      },
+      "en": {
+        "sector": "Health",
+        "description": "Supplier of equipment for laboratories and the pharmaceutical industry."
+      }
+    }
+  },
+  {
+    "name": "Siemens",
+    "sector": "Industrial",
+    "website": "https://www.siemens.com",
+    "description": "Conglomerado industrial com foco em automação, eletrificação e digitalização.",
+    "history": [4.25, 4.70, 5.00, 5.20],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Industrial",
+        "description": "Conglomerado industrial com foco em automação, eletrificação e digitalização."
+      },
+      "es": {
+        "sector": "Industrial",
+        "description": "Conglomerado industrial centrado en automatización, electrificación y digitalización."
+      },
+      "en": {
+        "sector": "Industrial",
+        "description": "Industrial conglomerate focusing on automation, electrification, and digitalization."
+      }
+    }
+  },
+  {
+    "name": "Siemens Energy",
+    "sector": "Energia",
+    "website": "https://www.siemens-energy.com",
+    "description": "Empresa de tecnologia energética focada em transmissão e geração.",
+    "history": [0.10, 0.00, 0.00, 0.30],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Empresa de tecnologia energética focada em transmissão e geração."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Empresa de tecnología energética centrada en transmisión y generación."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Energy technology company focused on transmission and generation."
+      }
+    }
+  },
+  {
+    "name": "Symrise",
+    "sector": "Químico",
+    "website": "https://www.symrise.com",
+    "description": "Produtor de fragrâncias, aromas, cosméticos e ingredientes nutricionais.",
+    "history": [1.05, 1.10, 1.10, 1.15],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Químico",
+        "description": "Produtor de fragrâncias, aromas, cosméticos e ingredientes nutricionais."
+      },
+      "es": {
+        "sector": "Químico",
+        "description": "Productor de fragancias, aromas, cosméticos e ingredientes nutricionales."
+      },
+      "en": {
+        "sector": "Chemicals",
+        "description": "Producer of fragrances, flavorings, cosmetics, and nutritional ingredients."
+      }
+    }
+  },
+  {
+    "name": "Volkswagen",
+    "sector": "Automobilístico",
+    "website": "https://www.volkswagenag.com",
+    "description": "Um dos maiores fabricantes de automóveis do mundo.",
+    "history": [8.76, 9.06, 9.06, 8.50],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Automobilístico",
+        "description": "Um dos maiores fabricantes de automóveis do mundo."
+      },
+      "es": {
+        "sector": "Automovilístico",
+        "description": "Uno de los mayores fabricantes de automóviles del mundo."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "One of the world's largest automobile manufacturers."
+      }
+    }
+  },
+  {
+    "name": "Vonovia",
+    "sector": "Imobiliário",
+    "website": "https://www.vonovia.de",
+    "description": "Maior empresa imobiliária residencial da Alemanha.",
+    "history": [0.85, 0.90, 0.90, 1.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Imobiliário",
+        "description": "Maior empresa imobiliária residencial da Alemanha."
+      },
+      "es": {
+        "sector": "Inmobiliario",
+        "description": "Mayor empresa inmobiliaria residencial de Alemania."
+      },
+      "en": {
+        "sector": "Real Estate",
+        "description": "Largest residential real estate company in Germany."
+      }
+    }
+  },
+  {
+    "name": "Wacker Chemie",
+    "sector": "Químico",
+    "website": "https://www.wacker.com",
+    "description": "Fabricante de produtos químicos especializados com foco em silicones.",
+    "history": [12.00, 3.00, 3.00, 4.00],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Químico",
+        "description": "Fabricante de produtos químicos especializados com foco em silicones."
+      },
+      "es": {
+        "sector": "Químico",
+        "description": "Fabricante de productos químicos especializados centrado en siliconas."
+      },
+      "en": {
+        "sector": "Chemicals",
+        "description": "Manufacturer of specialty chemicals with a focus on silicones."
+      }
+    }
+  },
+  {
+    "name": "Zalando",
+    "sector": "Varejo",
+    "website": "https://www.zalando.com",
+    "description": "Plataforma de e-commerce especializada em moda e estilo de vida.",
+    "history": [0.00, 0.00, 0.10, 0.20],
+    "years": [2022, 2023, 2024, 2025],
+    "index": "DAX",
+    "translations": {
+      "pt": {
+        "sector": "Varejo",
+        "description": "Plataforma de e-commerce especializada em moda e estilo de vida."
+      },
+      "es": {
+        "sector": "Venta Minorista",
+        "description": "Plataforma de comercio electrónico especializada en moda y estilo de vida."
+      },
+      "en": {
+        "sector": "Retail",
+        "description": "E-commerce platform specializing in fashion and lifestyle."
+      }
+    }
+  },
+  {
+    "name": "Accor",
+    "sector": "Hotelaria",
+    "website": "https://www.accor.com",
+    "description": "Grupo hoteleiro francês com uma vasta rede de hotéis em todo o mundo.",
+    "history": [1.0, 1.1, 1.2, 1.3],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Hotelaria",
+        "description": "Grupo hoteleiro francês com uma vasta rede de hotéis em todo o mundo."
+      },
+      "es": {
+        "sector": "Hostelería",
+        "description": "Grupo hotelero francés con una amplia red de hoteles en todo el mundo."
+      },
+      "en": {
+        "sector": "Hospitality",
+        "description": "French hotel group with a vast network of hotels worldwide."
+      }
+    }
+  },
+  {
+    "name": "Air Liquide",
+    "sector": "Química industrial",
+    "website": "https://www.airliquide.com",
+    "description": "Líder mundial na produção de gases industriais e medicinais.",
+    "history": [1.1, 1.2, 1.3, 1.4],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Química industrial",
+        "description": "Líder mundial na produção de gases industriais e medicinais."
+      },
+      "es": {
+        "sector": "Química industrial",
+        "description": "Líder mundial en la producción de gases industriales y medicinales."
+      },
+      "en": {
+        "sector": "Industrial Chemicals",
+        "description": "World leader in the production of industrial and medical gases."
+      }
+    }
+  },
+  {
+    "name": "Airbus",
+    "sector": "Aeroespacial",
+    "website": "https://www.airbus.com",
+    "description": "Maior fabricante de aeronaves do mundo e importante ator nos setores de defesa e espaço.",
+    "history": [1.2, 1.3, 1.4, 1.5],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Aeroespacial",
+        "description": "Maior fabricante de aeronaves do mundo e importante ator nos setores de defesa e espaço."
+      },
+      "es": {
+        "sector": "Aeroespacial",
+        "description": "Mayor fabricante de aviones del mundo e importante actor en los sectores de defensa y espacio."
+      },
+      "en": {
+        "sector": "Aerospace",
+        "description": "World's largest aircraft manufacturer and a major player in the defense and space sectors."
+      }
+    }
+  },
+  {
+    "name": "Alstom",
+    "sector": "Transportes",
+    "website": "https://www.alstom.com",
+    "description": "Líder global em mobilidade sustentável e soluções ferroviárias.",
+    "history": [1.3, 1.4, 1.5, 1.6],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Transportes",
+        "description": "Líder global em mobilidade sustentável e soluções ferroviárias."
+      },
+      "es": {
+        "sector": "Transportes",
+        "description": "Líder mundial en movilidad sostenible y soluciones ferroviarias."
+      },
+      "en": {
+        "sector": "Transport",
+        "description": "Global leader in sustainable mobility and rail solutions."
+      }
+    }
+  },
+  {
+    "name": "ArcelorMittal",
+    "sector": "Siderurgia",
+    "website": "https://www.arcelormittal.com",
+    "description": "Maior produtora de aço do mundo, com operações em diversos países.",
+    "history": [1.4, 1.5, 1.6, 1.7],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Siderurgia",
+        "description": "Maior produtora de aço do mundo, com operações em diversos países."
+      },
+      "es": {
+        "sector": "Siderurgia",
+        "description": "Mayor productora de acero del mundo, con operaciones en diversos países."
+      },
+      "en": {
+        "sector": "Steel",
+        "description": "World's largest steel producer, with operations in various countries."
+      }
+    }
+  },
+  {
+    "name": "AXA",
+    "sector": "Seguros",
+    "website": "https://www.axa.com",
+    "description": "Grupo multinacional de seguros e gestão de ativos.",
+    "history": [1.5, 1.6, 1.7, 1.8],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Seguros",
+        "description": "Grupo multinacional de seguros e gestão de ativos."
+      },
+      "es": {
+        "sector": "Seguros",
+        "description": "Grupo multinacional de seguros y gestión de activos."
+      },
+      "en": {
+        "sector": "Insurance",
+        "description": "Multinational insurance and asset management group."
+      }
+    }
+  },
+  {
+    "name": "BNP Paribas",
+    "sector": "Banca",
+    "website": "https://www.bnpparibas.com",
+    "description": "Um dos maiores bancos da Europa, com atuação global em diversos segmentos financeiros.",
+    "history": [1.6, 1.7, 1.8, 1.9],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Banca",
+        "description": "Um dos maiores bancos da Europa, com atuação global em diversos segmentos financeiros."
+      },
+      "es": {
+        "sector": "Banca",
+        "description": "Uno de los mayores bancos de Europa, con actuación global en diversos segmentos financieros."
+      },
+      "en": {
+        "sector": "Banking",
+        "description": "One of the largest banks in Europe, with a global presence in various financial segments."
+      }
+    }
+  },
+  {
+    "name": "Bouygues",
+    "sector": "Construção",
+    "website": "https://www.bouygues.com",
+    "description": "Grupo diversificado com atuação em construção, imobiliário, mídia e telecomunicações.",
+    "history": [1.7, 1.8, 1.9, 2.0],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Construção",
+        "description": "Grupo diversificado com atuação em construção, imobiliário, mídia e telecomunicações."
+      },
+      "es": {
+        "sector": "Construcción",
+        "description": "Grupo diversificado con actuación en construcción, inmobiliario, medios y telecomunicaciones."
+      },
+      "en": {
+        "sector": "Construction",
+        "description": "Diversified group with operations in construction, real estate, media, and telecommunications."
+      }
+    }
+  },
+  {
+    "name": "Capgemini",
+    "sector": "Tecnologia",
+    "website": "https://www.capgemini.com",
+    "description": "Empresa global de consultoria, tecnologia e serviços de terceirização.",
+    "history": [1.8, 1.9, 2.0, 2.1],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Tecnologia",
+        "description": "Empresa global de consultoria, tecnologia e serviços de terceirização."
+      },
+      "es": {
+        "sector": "Tecnología",
+        "description": "Empresa global de consultoría, tecnología y servicios de externalización."
+      },
+      "en": {
+        "sector": "Technology",
+        "description": "Global company for consulting, technology, and outsourcing services."
+      }
+    }
+  },
+  {
+    "name": "Carrefour",
+    "sector": "Retalho",
+    "website": "https://www.carrefour.com",
+    "description": "Um dos maiores grupos de varejo do mundo, com hipermercados, supermercados e outras lojas.",
+    "history": [1.9, 2.0, 2.1, 2.2],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Retalho",
+        "description": "Um dos maiores grupos de varejo do mundo, com hipermercados, supermercados e outras lojas."
+      },
+      "es": {
+        "sector": "Venta Minorista",
+        "description": "Uno de los mayores grupos de venta minorista del mundo, con hipermercados, supermercados y otras tiendas."
+      },
+      "en": {
+        "sector": "Retail",
+        "description": "One of the world's largest retail groups, with hypermarkets, supermarkets, and other stores."
+      }
+    }
+  },
+  {
+    "name": "Crédit Agricole",
+    "sector": "Banca",
+    "website": "https://www.creditagricole.com",
+    "description": "Grupo bancário cooperativo francês, com forte presença na Europa.",
+    "history": [2.0, 2.1, 2.2, 2.3],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Banca",
+        "description": "Grupo bancário cooperativo francês, com forte presença na Europa."
+      },
+      "es": {
+        "sector": "Banca",
+        "description": "Grupo bancario cooperativo francés, con fuerte presencia en Europa."
+      },
+      "en": {
+        "sector": "Banking",
+        "description": "French cooperative banking group, with a strong presence in Europe."
+      }
+    }
+  },
+  {
+    "name": "Danone",
+    "sector": "Alimentação",
+    "website": "https://www.danone.com",
+    "description": "Empresa global de alimentos e bebidas, com foco em laticínios, nutrição infantil e água.",
+    "history": [2.1, 2.2, 2.3, 2.4],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Alimentação",
+        "description": "Empresa global de alimentos e bebidas, com foco em laticínios, nutrição infantil e água."
+      },
+      "es": {
+        "sector": "Alimentación",
+        "description": "Empresa global de alimentos y bebidas, centrada en lácteos, nutrición infantil y agua."
+      },
+      "en": {
+        "sector": "Food",
+        "description": "Global food and beverage company, focusing on dairy, infant nutrition, and water."
+      }
+    }
+  },
+  {
+    "name": "Dassault Systèmes",
+    "sector": "Software",
+    "website": "https://www.3ds.com",
+    "description": "Empresa de software especializada em design 3D, engenharia digital e soluções de ciclo de vida do produto.",
+    "history": [2.2, 2.3, 2.4, 2.5],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software especializada em design 3D, engenharia digital e soluções de ciclo de vida do produto."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software especializada en diseño 3D, ingeniería digital y soluciones de ciclo de vida del producto."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Software company specializing in 3D design, digital engineering, and product lifecycle management solutions."
+      }
+    }
+  },
+  {
+    "name": "Edenred",
+    "sector": "Serviços",
+    "website": "https://www.edenred.com",
+    "description": "Líder mundial em soluções de pagamento para fins específicos, como vales-refeição e cartões pré-pagos.",
+    "history": [2.3, 2.4, 2.5, 2.6],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Serviços",
+        "description": "Líder mundial em soluções de pagamento para fins específicos, como vales-refeição e cartões pré-pagos."
+      },
+      "es": {
+        "sector": "Servicios",
+        "description": "Líder mundial en soluciones de pago para fines específicos, como vales de comida y tarjetas de prepago."
+      },
+      "en": {
+        "sector": "Services",
+        "description": "World leader in payment solutions for specific purposes, such as meal vouchers and prepaid cards."
+      }
+    }
+  },
+  {
+    "name": "Engie",
+    "sector": "Energia",
+    "website": "https://www.engie.com",
+    "description": "Empresa global de energia e serviços, atuando em eletricidade, gás natural e serviços de energia.",
+    "history": [2.4, 2.5, 2.6, 2.7],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Empresa global de energia e serviços, atuando em eletricidade, gás natural e serviços de energia."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Empresa global de energía y servicios, que opera en electricidad, gas natural y servicios energéticos."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Global energy and services company, operating in electricity, natural gas, and energy services."
+      }
+    }
+  },
+  {
+    "name": "EssilorLuxottica",
+    "sector": "Cuidados de visão",
+    "website": "https://www.essilorluxottica.com",
+    "description": "Líder mundial no design, fabricação e distribuição de lentes oftálmicas, óculos e óculos de sol.",
+    "history": [2.5, 2.6, 2.7, 2.8],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Cuidados de visão",
+        "description": "Líder mundial no design, fabricação e distribuição de lentes oftálmicas, óculos e óculos de sol."
+      },
+      "es": {
+        "sector": "Cuidado de la Vista",
+        "description": "Líder mundial en el diseño, fabricación y distribución de lentes oftálmicas, gafas y gafas de sol."
+      },
+      "en": {
+        "sector": "Vision Care",
+        "description": "World leader in the design, manufacture, and distribution of ophthalmic lenses, eyewear, and sunglasses."
+      }
+    }
+  },
+  {
+    "name": "Eurofins Scientific",
+    "sector": "Laboratórios",
+    "website": "https://www.eurofinsscientific.com",
+    "description": "Rede global de laboratórios que fornece uma ampla gama de serviços de testes analíticos.",
+    "history": [2.6, 2.7, 2.8, 2.9],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Laboratórios",
+        "description": "Rede global de laboratórios que fornece uma ampla gama de serviços de testes analíticos."
+      },
+      "es": {
+        "sector": "Laboratorios",
+        "description": "Red global de laboratorios que proporciona una amplia gama de servicios de pruebas analíticas."
+      },
+      "en": {
+        "sector": "Laboratories",
+        "description": "Global network of laboratories providing a wide range of analytical testing services."
+      }
+    }
+  },
+  {
+    "name": "Hermès International",
+    "sector": "Moda",
+    "website": "https://www.hermes.com",
+    "description": "Casa de luxo francesa especializada em artigos de couro, moda, acessórios para o lar e perfumes.",
+    "history": [2.7, 2.8, 2.9, 3.0],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Moda",
+        "description": "Casa de luxo francesa especializada em artigos de couro, moda , acessórios para o lar e perfumes."
+      },
+      "es": {
+        "sector": "Moda",
+        "description": "Casa de lujo francesa especializada en artículos de cuero, moda, accesorios para el hogar y perfumes."
+      },
+      "en": {
+        "sector": "Fashion",
+        "description": "French luxury house specializing in leather goods, fashion, home furnishings, and perfumes."
+      }
+    }
+  },
+  {
+    "name": "Kering",
+    "sector": "Moda",
+    "website": "https://www.kering.com",
+    "description": "Grupo de luxo global que detém marcas como Gucci, Saint Laurent e Bottega Veneta.",
+    "history": [2.8, 2.9, 3.0, 3.1],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Moda",
+        "description": "Grupo de luxo global que detém marcas como Gucci, Saint Laurent e Bottega Veneta."
+      },
+      "es": {
+        "sector": "Moda",
+        "description": "Grupo de lujo global que posee marcas como Gucci, Saint Laurent y Bottega Veneta."
+      },
+      "en": {
+        "sector": "Fashion",
+        "description": "Global luxury group that owns brands such as Gucci, Saint Laurent, and Bottega Veneta."
+      }
+    }
+  },
+  {
+    "name": "L'Oréal",
+    "sector": "Cosmética",
+    "website": "https://www.loreal.com",
+    "description": "Maior empresa de cosméticos do mundo, com uma vasta gama de marcas de beleza.",
+    "history": [2.9, 3.0, 3.1, 3.2],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Cosmética",
+        "description": "Maior empresa de cosméticos do mundo, com uma vasta gama de marcas de beleza."
+      },
+      "es": {
+        "sector": "Cosmética",
+        "description": "Mayor empresa de cosméticos del mundo, con una amplia gama de marcas de belleza."
+      },
+      "en": {
+        "sector": "Cosmetics",
+        "description": "World's largest cosmetics company, with a wide range of beauty brands."
+      }
+    }
+  },
+  {
+    "name": "Legrand",
+    "sector": "Equipamentos elétricos",
+    "website": "https://www.legrand.com",
+    "description": "Especialista global em infraestruturas elétricas e digitais para edifícios.",
+    "history": [3.0, 3.1, 3.2, 3.3],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Equipamentos elétricos",
+        "description": "Especialista global em infraestruturas elétricas e digitais para edifícios."
+      },
+      "es": {
+        "sector": "Equipos eléctricos",
+        "description": "Especialista global en infraestructuras eléctricas y digitales para edificios."
+      },
+      "en": {
+        "sector": "Electrical Equipment",
+        "description": "Global specialist in electrical and digital building infrastructures."
+      }
+    }
+  },
+  {
+    "name": "LVMH Moët Hennessy Louis Vuitton",
+    "sector": "Luxo",
+    "website": "https://www.lvmh.com",
+    "description": "Maior grupo de luxo do mundo, com um portfólio de marcas de prestígio em diversos setores.",
+    "history": [3.1, 3.2, 3.3, 3.4],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Luxo",
+        "description": "Maior grupo de luxo do mundo, com um portfólio de marcas de prestígio em diversos setores."
+      },
+      "es": {
+        "sector": "Lujo",
+        "description": "Mayor grupo de lujo del mundo, con una cartera de marcas de prestigio en diversos sectores."
+      },
+      "en": {
+        "sector": "Luxury Goods",
+        "description": "World's largest luxury goods conglomerate, with a portfolio of prestigious brands across various sectors."
+      }
+    }
+  },
+  {
+    "name": "Michelin",
+    "sector": "Automóvel",
+    "website": "https://www.michelin.com",
+    "description": "Um dos maiores fabricantes de pneus do mundo, conhecido também por seus guias de viagem e mapas.",
+    "history": [3.2, 3.3, 3.4, 3.5],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Automóvel",
+        "description": "Um dos maiores fabricantes de pneus do mundo, conhecido também por seus guias de viagem e mapas."
+      },
+      "es": {
+        "sector": "Automóvil",
+        "description": "Uno de los mayores fabricantes de neumáticos del mundo, también conocido por sus guías de viaje y mapas."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "One of the world's largest tire manufacturers, also known for its travel guides and maps."
+      }
+    }
+  },
+  {
+    "name": "Orange",
+    "sector": "Telecomunicações",
+    "website": "https://www.orange.com",
+    "description": "Principal operador de telecomunicações francês, com forte presença internacional.",
+    "history": [3.3, 3.4, 3.5, 3.6],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Telecomunicações",
+        "description": "Principal operador de telecomunicações francês, com forte presença internacional."
+      },
+      "es": {
+        "sector": "Telecomunicaciones",
+        "description": "Principal operador de telecomunicaciones francés, con una fuerte presencia internacional."
+      },
+      "en": {
+        "sector": "Telecommunications",
+        "description": "Leading French telecommunications operator, with a strong international presence."
+      }
+    }
+  },
+  {
+    "name": "Pernod Ricard",
+    "sector": "Bebidas",
+    "website": "https://www.pernod-ricard.com",
+    "description": "Segunda maior empresa de bebidas alcoólicas do mundo, com um portfólio de marcas premium.",
+    "history": [3.4, 3.5, 3.6, 3.7],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Bebidas",
+        "description": "Segunda maior empresa de bebidas alcoólicas do mundo, com um portfólio de marcas premium."
+      },
+      "es": {
+        "sector": "Bebidas",
+        "description": "Segunda mayor empresa de bebidas alcohólicas del mundo, con una cartera de marcas premium."
+      },
+      "en": {
+        "sector": "Beverages",
+        "description": "World's second-largest wine and spirits seller, with a portfolio of premium brands."
+      }
+    }
+  },
+  {
+    "name": "Publicis Groupe",
+    "sector": "Publicidade",
+    "website": "https://www.publicisgroupe.com",
+    "description": "Uma das maiores empresas de publicidade e comunicação do mundo.",
+    "history": [3.5, 3.6, 3.7, 3.8],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Publicidade",
+        "description": "Uma das maiores empresas de publicidade e comunicação do mundo."
+      },
+      "es": {
+        "sector": "Publicidad",
+        "description": "Una de las mayores empresas de publicidad y comunicación del mundo."
+      },
+      "en": {
+        "sector": "Advertising",
+        "description": "One of the world's largest advertising and communication companies."
+      }
+    }
+  },
+  {
+    "name": "Renault",
+    "sector": "Automóvel",
+    "website": "https://www.renault.com",
+    "description": "Fabricante francês de automóveis, incluindo a marca Dacia.",
+    "history": [3.6, 3.7, 3.8, 3.9],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Automóvel",
+        "description": "Fabricante francês de automóveis, incluindo a marca Dacia."
+      },
+      "es": {
+        "sector": "Automóvil",
+        "description": "Fabricante francés de automóviles, incluyendo la marca Dacia."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "French automobile manufacturer, including the Dacia brand."
+      }
+    }
+  },
+  {
+    "name": "Safran",
+    "sector": "Aeroespacial",
+    "website": "https://www.safran.com",
+    "description": "Grupo internacional de alta tecnologia nos setores de aeronáutica, espaço e defesa.",
+    "history": [3.7, 3.8, 3.9, 4.0],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Aeroespacial",
+        "description": "Grupo internacional de alta tecnologia nos setores de aeronáutica, espaço e defesa."
+      },
+      "es": {
+        "sector": "Aeroespacial",
+        "description": "Grupo internacional de alta tecnología en los sectores de aeronáutica, espacio y defensa."
+      },
+      "en": {
+        "sector": "Aerospace",
+        "description": "International high-technology group in the aerospace, space, and defense sectors."
+      }
+    }
+  },
+  {
+    "name": "Saint-Gobain",
+    "sector": "Materiais de construção",
+    "website": "https://www.saint-gobain.com",
+    "description": "Líder mundial em materiais de construção leves e sustentáveis.",
+    "history": [3.8, 3.9, 4.0, 4.1],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Materiais de construção",
+        "description": "Líder mundial em materiais de construção leves e sustentáveis."
+      },
+      "es": {
+        "sector": "Materiales de construcción",
+        "description": "Líder mundial en materiales de construcción ligeros y sostenibles."
+      },
+      "en": {
+        "sector": "Construction Materials",
+        "description": "World leader in light and sustainable construction materials."
+      }
+    }
+  },
+  {
+    "name": "Sanofi",
+    "sector": "Farmacêutica",
+    "website": "https://www.sanofi.com",
+    "description": "Empresa farmacêutica global envolvida na pesquisa, desenvolvimento e fabricação de medicamentos.",
+    "history": [3.9, 4.0, 4.1, 4.2],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Farmacêutica",
+        "description": "Empresa farmacêutica global envolvida na pesquisa, desenvolvimento e fabricação de medicamentos."
+      },
+      "es": {
+        "sector": "Farmacéutica",
+        "description": "Empresa farmacéutica global dedicada a la investigación, desarrollo y fabricación de medicamentos."
+      },
+      "en": {
+        "sector": "Pharmaceuticals",
+        "description": "Global pharmaceutical company involved in the research, development, and manufacturing of medicines."
+      }
+    }
+  },
+  {
+    "name": "Schneider Electric",
+    "sector": "Engenharia elétrica",
+    "website": "https://www.se.com",
+    "description": "Líder global em transformação digital de gestão de energia e automação.",
+    "history": [4.0, 4.1, 4.2, 4.3],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Engenharia elétrica",
+        "description": "Líder global em transformação digital de gestão de energia e automação."
+      },
+      "es": {
+        "sector": "Ingeniería eléctrica",
+        "description": "Líder mundial en la transformación digital de la gestión de la energía y la automatización."
+      },
+      "en": {
+        "sector": "Electrical Engineering",
+        "description": "Global leader in the digital transformation of energy management and automation."
+      }
+    }
+  },
+  {
+    "name": "Société Générale",
+    "sector": "Banca",
+    "website": "https://www.societegenerale.com",
+    "description": "Um dos principais grupos bancários franceses, com atividades em diversos setores financeiros.",
+    "history": [4.1, 4.2, 4.3, 4.4],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Banca",
+        "description": "Um dos principais grupos bancários franceses, com atividades em diversos setores financeiros."
+      },
+      "es": {
+        "sector": "Banca",
+        "description": "Uno de los principales grupos bancarios franceses, con actividades en diversos sectores financieros."
+      },
+      "en": {
+        "sector": "Banking",
+        "description": "One of the leading French banking groups, with activities in various financial sectors."
+      }
+    }
+  },
+  {
+    "name": "Stellantis",
+    "sector": "Automóvel",
+    "website": "https://www.stellantis.com",
+    "description": "Fabricante multinacional de automóveis resultante da fusão da FCA e PSA.",
+    "history": [4.2, 4.3, 4.4, 4.5],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Automóvel",
+        "description": "Fabricante multinacional de automóveis resultante da fusão da FCA e PSA."
+      },
+      "es": {
+        "sector": "Automóvil",
+        "description": "Fabricante multinacional de automóviles resultante de la fusión de FCA y PSA."
+      },
+      "en": {
+        "sector": "Automotive",
+        "description": "Multinational automotive manufacturer resulting from the merger of FCA and PSA."
+      }
+    }
+  },
+  {
+    "name": "STMicroelectronics",
+    "sector": "Semicondutores",
+    "website": "https://www.st.com",
+    "description": "Líder global no design, desenvolvimento, fabricação e comercialização de semicondutores.",
+    "history": [4.3, 4.4, 4.5, 4.6],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Líder global no design, desenvolvimento, fabricação e comercialização de semicondutores."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Líder mundial en el diseño, desarrollo, fabricación y comercialización de semiconductores."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Global leader in the design, development, manufacturing, and marketing of semiconductors."
+      }
+    }
+  },
+  {
+    "name": "Teleperformance",
+    "sector": "Serviços",
+    "website": "https://www.teleperformance.com",
+    "description": "Líder global em serviços de atendimento ao cliente multicanal.",
+    "history": [4.4, 4.5, 4.6, 4.7],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Serviços",
+        "description": "Líder global em serviços de atendimento ao cliente multicanal."
+      },
+      "es": {
+        "sector": "Servicios",
+        "description": "Líder mundial en servicios de atención al cliente multicanal."
+      },
+      "en": {
+        "sector": "Services",
+        "description": "Global leader in omnichannel customer experience management services."
+      }
+    }
+  },
+  {
+    "name": "Thales",
+    "sector": "Defesa",
+    "website": "https://www.thalesgroup.com",
+    "description": "Líder global em tecnologia para os mercados de defesa e segurança, aeroespacial e transporte.",
+    "history": [4.5, 4.6, 4.7, 4.8],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Defesa",
+        "description": "Líder global em tecnologia para os mercados de defesa e segurança, aeroespacial e transporte."
+      },
+      "es": {
+        "sector": "Defensa",
+        "description": "Líder mundial en tecnología para los mercados de defensa y seguridad, aeroespacial y transporte."
+      },
+      "en": {
+        "sector": "Defense",
+        "description": "Global leader in technology for the defense and security, aerospace, and transport markets."
+      }
+    }
+  },
+  {
+    "name": "TotalEnergies",
+    "sector": "Energia",
+    "website": "https://www.totalenergies.com",
+    "description": "Grande empresa de energia global, atuando em petróleo, gás natural e energias de baixo carbono.",
+    "history": [4.6, 4.7, 4.8, 4.9],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Grande empresa de energia global, atuando em petróleo, gás natural e energias de baixo carbono."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Gran empresa de energía global, que opera en petróleo, gas natural y energías de bajo carbono."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Major global energy company, operating in oil, natural gas, and low-carbon energies."
+      }
+    }
+  },
+  {
+    "name": "Unibail-Rodamco-Westfield",
+    "sector": "Imobiliário",
+    "website": "https://www.urw.com",
+    "description": "Principal proprietária, desenvolvedora e operadora global de destinos de varejo emblemáticos.",
+    "history": [4.7, 4.8, 4.9, 5.0],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Imobiliário",
+        "description": "Principal proprietária, desenvolvedora e operadora global de destinos de varejo emblemáticos."
+      },
+      "es": {
+        "sector": "Inmobiliario",
+        "description": "Principal propietaria, desarrolladora y operadora global de destinos de venta minorista emblemáticos."
+      },
+      "en": {
+        "sector": "Real Estate",
+        "description": "Leading global owner, developer, and operator of flagship retail destinations."
+      }
+    }
+  },
+  {
+    "name": "Veolia Environnement",
+    "sector": "Gestão ambiental",
+    "website": "https://www.veolia.com",
+    "description": "Líder mundial em soluções otimizadas de recursos, focada em água, resíduos e energia.",
+    "history": [4.8, 4.9, 5.0, 5.1],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Gestão ambiental",
+        "description": "Líder mundial em soluções otimizadas de recursos, focada em água, resíduos e energia."
+      },
+      "es": {
+        "sector": "Gestión ambiental",
+        "description": "Líder mundial en soluciones optimizadas de recursos, centrada en agua, residuos y energía."
+      },
+      "en": {
+        "sector": "Environmental Services",
+        "description": "World leader in optimized resource management, focusing on water, waste, and energy."
+      }
+    }
+  },
+  {
+    "name": "Vinci",
+    "sector": "Engenharia",
+    "website": "https://www.vinci.com",
+    "description": "Maior empresa de construção e concessões do mundo.",
+    "history": [4.9, 5.0, 5.1, 5.2],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Engenharia",
+        "description": "Maior empresa de construção e concessões do mundo."
+      },
+      "es": {
+        "sector": "Ingeniería",
+        "description": "Mayor empresa de construcción y concesiones del mundo."
+      },
+      "en": {
+        "sector": "Engineering",
+        "description": "World's largest construction and concessions company."
+      }
+    }
+  },
+  {
+    "name": "Vivendi",
+    "sector": "Media",
+    "website": "https://www.vivendi.com",
+    "description": "Grupo global de mídia, conteúdo e comunicação.",
+    "history": [5.0, 5.1, 5.2, 5.3],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Media",
+        "description": "Grupo global de mídia, conteúdo e comunicação."
+      },
+      "es": {
+        "sector": "Medios",
+        "description": "Grupo global de medios, contenido y comunicación."
+      },
+      "en": {
+        "sector": "Media",
+        "description": "Global media, content, and communication group."
+      }
+    }
+  },
+  {
+    "name": "Worldline",
+    "sector": "Pagamentos",
+    "website": "https://www.worldline.com",
+    "description": "Líder europeu em serviços de pagamento e transações.",
+    "history": [5.1, 5.2, 5.3, 5.4],
+    "index": "CAC 40",
+    "translations": {
+      "pt": {
+        "sector": "Pagamentos",
+        "description": "Líder europeu em serviços de pagamento e transações."
+      },
+      "es": {
+        "sector": "Pagos",
+        "description": "Líder europeo en servicios de pago y transacciones."
+      },
+      "en": {
+        "sector": "Payments",
+        "description": "European leader in payment and transactional services."
+      }
+    }
+  },
+
+  
+  {
+    "name": "Adobe",
+    "sector": "Software",
+    "website": "https://www.adobe.com",
+    "description": "Líder mundial em software criativo e de marketing digital.",
+    "history": [1.5, 1.6, 1.7, 1.8],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Líder mundial em software criativo e de marketing digital."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Líder mundial en software creativo y de marketing digital."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "World leader in creative and digital marketing software."
+      }
+    }
+  },
+  {
+    "name": "Advanced Micro Devices (AMD)",
+    "sector": "Semicondutores",
+    "website": "https://www.amd.com",
+    "description": "Empresa global de semicondutores que desenvolve processadores para computadores e placas gráficas.",
+    "history": [1.6, 1.7, 1.8, 1.9],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa global de semicondutores que desenvolve processadores para computadores e placas gráficas."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa global de semiconductores que desarrolla procesadores para computadoras y tarjetas gráficas."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Global semiconductor company that develops computer processors and graphics cards."
+      }
+    }
+  },
+  {
+    "name": "Airbnb",
+    "sector": "Viagem e Lazer",
+    "website": "https://www.airbnb.com",
+    "description": "Plataforma online de hospedagem e experiências de viagem.",
+    "history": [1.7, 1.8, 1.9, 2.0],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Viagem e Lazer",
+        "description": "Plataforma online de hospedagem e experiências de viagem."
+      },
+      "es": {
+        "sector": "Viajes y Ocio",
+        "description": "Plataforma en línea de alojamiento y experiencias de viaje."
+      },
+      "en": {
+        "sector": "Travel & Leisure",
+        "description": "Online marketplace for lodging and travel experiences."
+      }
+    }
+  },
+  {
+    "name": "Alphabet (Google - GOOGL & GOOG)",
+    "sector": "Tecnologia",
+    "website": "https://abc.xyz",
+    "description": "Conglomerado multinacional de tecnologia que engloba o Google e outras subsidiárias.",
+    "history": [1.8, 1.9, 2.0, 2.1],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Tecnologia",
+        "description": "Conglomerado multinacional de tecnologia que engloba o Google e outras subsidiárias."
+      },
+      "es": {
+        "sector": "Tecnología",
+        "description": "Conglomerado multinacional de tecnología que engloba Google y otras subsidiarias."
+      },
+      "en": {
+        "sector": "Technology",
+        "description": "Multinational technology conglomerate encompassing Google and other subsidiaries."
+      }
+    }
+  },
+  {
+    "name": "Amazon",
+    "sector": "Comércio Eletrônico e Serviços de Nuvem",
+    "website": "https://www.amazon.com",
+    "description": "Gigante global de comércio eletrônico, computação em nuvem, streaming digital e inteligência artificial.",
+    "history": [1.9, 2.0, 2.1, 2.2],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Comércio Eletrônico e Serviços de Nuvem",
+        "description": "Gigante global de comércio eletrônico, computação em nuvem, streaming digital e inteligência artificial."
+      },
+      "es": {
+        "sector": "Comercio Electrónico y Servicios en la Nube",
+        "description": "Gigante global de comercio electrónico, computación en la nube, streaming digital e inteligencia artificial."
+      },
+      "en": {
+        "sector": "E-commerce & Cloud Services",
+        "description": "Global e-commerce, cloud computing, digital streaming, and artificial intelligence giant."
+      }
+    }
+  },
+  {
+    "name": "Amgen",
+    "sector": "Biotecnologia",
+    "website": "https://www.amgen.com",
+    "description": "Empresa de biotecnologia líder no desenvolvimento de terapias humanas inovadoras.",
+    "history": [2.0, 2.1, 2.2, 2.3],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Biotecnologia",
+        "description": "Empresa de biotecnologia líder no desenvolvimento de terapias humanas inovadoras."
+      },
+      "es": {
+        "sector": "Biotecnología",
+        "description": "Empresa de biotecnología líder en el desarrollo de terapias humanas innovadoras."
+      },
+      "en": {
+        "sector": "Biotechnology",
+        "description": "Leading biotechnology company in developing innovative human therapeutics."
+      }
+    }
+  },
+  {
+    "name": "Analog Devices",
+    "sector": "Semicondutores",
+    "website": "https://www.analog.com",
+    "description": "Empresa de semicondutores especializada em processamento de sinais e tecnologia de conversão de dados.",
+    "history": [2.1, 2.2, 2.3, 2.4],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de semicondutores especializada em processamento de sinais e tecnologia de conversão de dados."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de semiconductores especializada en procesamiento de señales y tecnología de conversión de datos."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Semiconductor company specializing in signal processing and data conversion technology."
+      }
+    }
+  },
+  {
+    "name": "ANSYS",
+    "sector": "Software",
+    "website": "https://www.ansys.com",
+    "description": "Empresa de software de simulação de engenharia.",
+    "history": [2.2, 2.3, 2.4, 2.5],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software de simulação de engenharia."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software de simulación de ingeniería."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Engineering simulation software company."
+      }
+    }
+  },
+  {
+    "name": "Apple",
+    "sector": "Tecnologia",
+    "website": "https://www.apple.com",
+    "description": "Gigante da tecnologia conhecido por seus produtos eletrônicos de consumo, software e serviços online.",
+    "history": [2.3, 2.4, 2.5, 2.6],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Tecnologia",
+        "description": "Gigante da tecnologia conhecido por seus produtos eletrônicos de consumo, software e serviços online."
+      },
+      "es": {
+        "sector": "Tecnología",
+        "description": "Gigante tecnológico conocido por sus productos electrónicos de consumo, software y servicios en línea."
+      },
+      "en": {
+        "sector": "Technology",
+        "description": "Technology giant known for its consumer electronics, software, and online services."
+      }
+    }
+  },
+  {
+    "name": "Applied Materials",
+    "sector": "Equipamento de Semicondutores",
+    "website": "https://www.appliedmaterials.com",
+    "description": "Líder em equipamentos, serviços e software para a indústria de fabricação de semicondutores.",
+    "history": [2.4, 2.5, 2.6, 2.7],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Equipamento de Semicondutores",
+        "description": "Líder em equipamentos, serviços e software para a indústria de fabricação de semicondutores."
+      },
+      "es": {
+        "sector": "Equipamiento para Semiconductores",
+        "description": "Líder en equipos, servicios y software para la industria de fabricación de semiconductores."
+      },
+      "en": {
+        "sector": "Semiconductor Equipment",
+        "description": "Leader in equipment, services, and software for the semiconductor manufacturing industry."
+      }
+    }
+  },
+  {
+    "name": "AppLovin",
+    "sector": "Software",
+    "website": "https://www.applovin.com",
+    "description": "Empresa de tecnologia de marketing móvel.",
+    "history": [2.5, 2.6, 2.7, 2.8],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de tecnologia de marketing móvel."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de tecnología de marketing móvil."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Mobile marketing technology company."
+      }
+    }
+  },
+  {
+    "name": "Arm Holdings",
+    "sector": "Semicondutores",
+    "website": "https://www.arm.com",
+    "description": "Empresa de design de semicondutores e licenciamento de propriedade intelectual.",
+    "history": [2.6, 2.7, 2.8, 2.9],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de design de semicondutores e licenciamento de propriedade intelectual."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de diseño de semiconductores y licencia de propiedad intelectual."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Semiconductor design and intellectual property licensing company."
+      }
+    }
+  },
+    
+  {
+    "name": "ASML Holding",
+    "sector": "Equipamento de Semicondutores",
+    "website": "https://www.asml.com",
+    "description": "Principal fornecedor de sistemas de litografia para a indústria de semicondutores.",
+    "history": [2.7, 2.8, 2.9, 3.0],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Equipamento de Semicondutores",
+        "description": "Principal fornecedor de sistemas de litografia para a indústria de semicondutores."
+      },
+      "es": {
+        "sector": "Equipamiento para Semiconductores",
+        "description": "Proveedor líder de sistemas de litografía para la industria de semiconductores."
+      },
+      "en": {
+        "sector": "Semiconductor Equipment",
+        "description": "Leading supplier of lithography systems for the semiconductor industry."
+      }
+    }
+  },
+  {
+    "name": "Atlassian",
+    "sector": "Software",
+    "website": "https://www.atlassian.com",
+    "description": "Empresa de software empresarial que desenvolve produtos para equipes de desenvolvimento de software, gerenciamento de projetos e colaboração de conteúdo.",
+    "history": [2.8, 2.9, 3.0, 3.1],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software empresarial que desenvolve produtos para equipes de desenvolvimento de software, gerenciamento de projetos e colaboração de conteúdo."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software empresarial que desarrolla productos para equipos de desarrollo de software, gestión de proyectos y colaboración de contenido."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Enterprise software company that develops products for software development teams, project management, and content collaboration."
+      }
+    }
+  },
+  {
+    "name": "Autodesk",
+    "sector": "Software",
+    "website": "https://www.autodesk.com",
+    "description": "Empresa de software de design 2D e 3D.",
+    "history": [2.9, 3.0, 3.1, 3.2],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software de design 2D e 3D."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software de diseño 2D y 3D."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "2D and 3D design software company."
+      }
+    }
+  },
+  {
+    "name": "Broadcom",
+    "sector": "Semicondutores",
+    "website": "https://www.broadcom.com",
+    "description": "Empresa global de tecnologia que projeta, desenvolve e fornece uma ampla gama de soluções de software e infraestrutura de semicondutores.",
+    "history": [3.0, 3.1, 3.2, 3.3],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa global de tecnologia que projeta, desenvolve e fornece uma ampla gama de soluções de software e infraestrutura de semicondutores."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa global de tecnología que diseña, desarrolla y suministra una amplia gama de soluciones de software e infraestructura de semiconductores."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Global technology company that designs, develops, and supplies a broad range of semiconductor and infrastructure software solutions."
+      }
+    }
+  },
+  {
+    "name": "Cadence Design Systems",
+    "sector": "Software",
+    "website": "https://www.cadence.com",
+    "description": "Empresa de software eletrônico de automação de design.",
+    "history": [3.1, 3.2, 3.3, 3.4],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software eletrônico de automação de design."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software electrónico de automatización de diseño."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Electronic design automation software company."
+      }
+    }
+  },
+  {
+    "name": "Cognizant",
+    "sector": "Tecnologia da Informação",
+    "website": "https://www.cognizant.com",
+    "description": "Empresa multinacional de serviços de tecnologia da informação que fornece consultoria de negócios, tecnologia da informação e serviços de terceirização.",
+    "history": [3.2, 3.3, 3.4, 3.5],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Tecnologia da Informação",
+        "description": "Empresa multinacional de serviços de tecnologia da informação que fornece consultoria de negócios, tecnologia da informação e serviços de terceirização."
+      },
+      "es": {
+        "sector": "Tecnología de la Información",
+        "description": "Empresa multinacional de servicios de tecnología de la información que proporciona consultoría de negocios, tecnología de la información y servicios de externalización."
+      },
+      "en": {
+        "sector": "Information Technology",
+        "description": "Multinational information technology services company that provides business consulting, information technology, and outsourcing services."
+      }
+    }
+  },
+  {
+    "name": "Comcast",
+    "sector": "Media e Telecomunicações",
+    "website": "https://www.comcast.com",
+    "description": "Conglomerado global de mídia e tecnologia.",
+    "history": [3.3, 3.4, 3.5, 3.6],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Media e Telecomunicações",
+        "description": "Conglomerado global de mídia e tecnologia."
+      },
+      "es": {
+        "sector": "Medios y Telecomunicaciones",
+        "description": "Conglomerado global de medios y tecnología."
+      },
+      "en": {
+        "sector": "Media & Telecommunications",
+        "description": "Global media and technology conglomerate."
+      }
+    }
+  },
+  {
+    "name": "Costco Wholesale",
+    "sector": "Varejo",
+    "website": "https://www.costco.com",
+    "description": "Corporação multinacional de varejo de clube de armazém.",
+    "history": [3.4, 3.5, 3.6, 3.7],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Varejo",
+        "description": "Corporação multinacional de varejo de clube de armazém."
+      },
+      "es": {
+        "sector": "Venta Minorista",
+        "description": "Corporación multinacional de venta minorista de clubes de almacén."
+      },
+      "en": {
+        "sector": "Retail",
+        "description": "Multinational warehouse club retail corporation."
+      }
+    }
+  },
+  {
+    "name": "CrowdStrike",
+    "sector": "Segurança Cibernética",
+    "website": "https://www.crowdstrike.com",
+    "description": "Empresa de tecnologia de segurança cibernética.",
+    "history": [3.5, 3.6, 3.7, 3.8],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Segurança Cibernética",
+        "description": "Empresa de tecnologia de segurança cibernética."
+      },
+      "es": {
+        "sector": "Seguridad Cibernética",
+        "description": "Empresa de tecnología de seguridad cibernética."
+      },
+      "en": {
+        "sector": "Cybersecurity",
+        "description": "Cybersecurity technology company."
+      }
+    }
+  },
+  {
+    "name": "Datadog",
+    "sector": "Software",
+    "website": "https://www.datadoghq.com",
+    "description": "Plataforma de monitoramento e segurança para aplicativos em nuvem.",
+    "history": [3.6, 3.7, 3.8, 3.9],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Plataforma de monitoramento e segurança para aplicativos em nuvem."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Plataforma de monitoreo y seguridad para aplicaciones en la nube."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Monitoring and security platform for cloud applications."
+      }
+    }
+  },
+  {
+    "name": "eBay",
+    "sector": "Comércio Eletrônico",
+    "website": "https://www.ebay.com",
+    "description": "Mercado online global que conecta compradores e vendedores.",
+    "history": [3.7, 3.8, 3.9, 4.0],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Comércio Eletrônico",
+        "description": "Mercado online global que conecta compradores e vendedores."
+      },
+      "es": {
+        "sector": "Comercio Electrónico",
+        "description": "Mercado en línea global que conecta a compradores y vendedores."
+      },
+      "en": {
+        "sector": "E-commerce",
+        "description": "Global online marketplace that connects buyers and sellers."
+      }
+    }
+  },
+  {
+    "name": "Electronic Arts",
+    "sector": "Entretenimento",
+    "website": "https://www.ea.com",
+    "description": "Empresa global de entretenimento interativo que desenvolve e publica jogos eletrônicos.",
+    "history": [3.8, 3.9, 4.0, 4.1],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Entretenimento",
+        "description": "Empresa global de entretenimento interativo que desenvolve e publica jogos eletrônicos."
+      },
+      "es": {
+        "sector": "Entretenimiento",
+        "description": "Empresa global de entretenimiento interactivo que desarrolla y publica videojuegos."
+      },
+      "en": {
+        "sector": "Entertainment",
+        "description": "Global interactive entertainment company that develops and publishes video games."
+      }
+    }
+  },
+  {
+    "name": "Enphase Energy",
+    "sector": "Energia",
+    "website": "https://www.enphase.com",
+    "description": "Empresa de tecnologia energética que fabrica soluções de energia solar e armazenamento.",
+    "history": [3.9, 4.0, 4.1, 4.2],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Energia",
+        "description": "Empresa de tecnologia energética que fabrica soluções de energia solar e armazenamento."
+      },
+      "es": {
+        "sector": "Energía",
+        "description": "Empresa de tecnología energética que fabrica soluciones de energía solar y almacenamiento."
+      },
+      "en": {
+        "sector": "Energy",
+        "description": "Energy technology company that manufactures solar and storage solutions."
+      }
+    }
+  },
+  {
+    "name": "Estée Lauder Companies",
+    "sector": "Bens de Consumo",
+    "website": "https://www.elcompanies.com",
+    "description": "Fabricante e comerciante global de produtos de beleza e cuidados com a pele.",
+    "history": [4.0, 4.1, 4.2, 4.3],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Bens de Consumo",
+        "description": "Fabricante e comerciante global de produtos de beleza e cuidados com a pele."
+      },
+      "es": {
+        "sector": "Bienes de Consumo",
+        "description": "Fabricante y comercializador global de productos de belleza y cuidado de la piel."
+      },
+      "en": {
+        "sector": "Consumer Goods",
+        "description": "Global manufacturer and marketer of prestige beauty and skin care products."
+      }
+    }
+  },
+  {
+    "name": "Fortinet",
+    "sector": "Segurança Cibernética",
+    "website": "https://www.fortinet.com",
+    "description": "Empresa global de segurança cibernética que fornece soluções de segurança amplas, integradas e automatizadas.",
+    "history": [4.1, 4.2, 4.3, 4.4],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Segurança Cibernética",
+        "description": "Empresa global de segurança cibernética que fornece soluções de segurança amplas, integradas e automatizadas."
+      },
+      "es": {
+        "sector": "Seguridad Cibernética",
+        "description": "Empresa global de seguridad cibernética que proporciona soluciones de seguridad amplias, integradas y automatizadas."
+      },
+      "en": {
+        "sector": "Cybersecurity",
+        "description": "Global cybersecurity company that provides broad, integrated, and automated security solutions."
+      }
+    }
+  },
+  {
+    "name": "Gilead Sciences",
+    "sector": "Biotecnologia",
+    "website": "https://www.gilead.com",
+    "description": "Empresa biofarmacêutica que pesquisa, desenvolve e comercializa medicamentos.",
+    "history": [4.2, 4.3, 4.4, 4.5],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Biotecnologia",
+        "description": "Empresa biofarmacêutica que pesquisa, desenvolve e comercializa medicamentos."
+      },
+      "es": {
+        "sector": "Biotecnología",
+        "description": "Empresa biofarmacéutica que investiga, desarrolla y comercializa medicamentos."
+      },
+      "en": {
+        "sector": "Biotechnology",
+        "description": "Biopharmaceutical company that researches, develops, and commercializes medicines."
+      }
+    }
+  },
+  {
+    "name": "GlobalFoundries",
+    "sector": "Semicondutores",
+    "website": "https://www.gf.com",
+    "description": "Fundição global de semicondutores.",
+    "history": [4.3, 4.4, 4.5, 4.6],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Fundição global de semicondutores."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Fundición global de semiconductores."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Global semiconductor foundry."
+      }
+    }
+  },
+  {
+    "name": "HP",
+    "sector": "Tecnologia",
+    "website": "https://www.hp.com",
+    "description": "Empresa de tecnologia da informação que desenvolve e fornece uma ampla variedade de hardware, software e serviços relacionados.",
+    "history": [4.4, 4.5, 4.6, 4.7],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Tecnologia",
+        "description": "Empresa de tecnologia da informação que desenvolve e fornece uma ampla variedade de hardware, software e serviços relacionados."
+      },
+      "es": {
+        "sector": "Tecnología",
+        "description": "Empresa de tecnología de la información que desarrolla y suministra una amplia variedad de hardware, software y servicios relacionados."
+      },
+      "en": {
+        "sector": "Technology",
+        "description": "Information technology company that develops and provides a wide variety of hardware, software, and related services."
+      }
+    }
+  },
+  {
+    "name": "Illumina",
+    "sector": "Biotecnologia",
+    "website": "https://www.illumina.com",
+    "description": "Líder global em tecnologias de sequenciamento de DNA.",
+    "history": [4.5, 4.6, 4.7, 4.8],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Biotecnologia",
+        "description": "Líder global em tecnologias de sequenciamento de DNA."
+      },
+      "es": {
+        "sector": "Biotecnología",
+        "description": "Líder mundial en tecnologías de secuenciación de ADN."
+      },
+      "en": {
+        "sector": "Biotechnology",
+        "description": "Global leader in DNA sequencing technologies."
+      }
+    }
+  },
+  {
+    "name": "Intel",
+    "sector": "Semicondutores",
+    "website": "https://www.intel.com",
+    "description": "Gigante da tecnologia conhecido por seus microprocessadores e outras tecnologias de computação.",
+    "history": [4.6, 4.7, 4.8, 4.9],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Gigante da tecnologia conhecido por seus microprocessadores e outras tecnologias de computação."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Gigante tecnológico conocido por sus microprocesadores y otras tecnologías de computación."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Technology giant known for its microprocessors and other computing technologies."
+      }
+    }
+  },
+  {
+    "name": "Intuit",
+    "sector": "Software",
+    "website": "https://www.intuit.com",
+    "description": "Empresa de software que desenvolve e vende software financeiro e de preparação de impostos.",
+    "history": [4.7, 4.8, 4.9, 5.0],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software que desenvolve e vende software financeiro e de preparação de impostos."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software que desarrolla y vende software financiero y de preparación de impuestos."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Software company that develops and sells financial and tax preparation software."
+      }
+    }
+  },
+  {
+    "name": "Intuitive Surgical",
+    "sector": "Equipamento Médico",
+    "website": "https://www.intuitivesurgical.com",
+    "description": "Líder global em cirurgia robótica.",
+    "history": [4.8, 4.9, 5.0, 5.1],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Equipamento Médico",
+        "description": "Líder global em cirurgia robótica."
+      },
+      "es": {
+        "sector": "Equipamiento Médico",
+        "description": "Líder mundial en cirugía robótica."
+      },
+      "en": {
+        "sector": "Medical Equipment",
+        "description": "Global leader in robotic surgery."
+      }
+    }
+  },
+  {
+    "name": "Keysight Technologies",
+    "sector": "Equipamento de Teste e Medição",
+    "website": "https://www.keysight.com",
+    "description": "Fabricante de equipamentos eletrônicos de teste e medição e software.",
+    "history": [4.9, 5.0, 5.1, 5.2],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Equipamento de Teste e Medição",
+        "description": "Fabricante de equipamentos eletrônicos de teste e medição e software."
+      },
+      "es": {
+        "sector": "Equipamiento de Prueba y Medición",
+        "description": "Fabricante de equipos electrónicos de prueba y medición y software."
+      },
+      "en": {
+        "sector": "Test & Measurement Equipment",
+        "description": "Manufacturer of electronic test and measurement equipment and software."
+      }
+    }
+  },
+  {
+    "name": "Lam Research",
+    "sector": "Equipamento de Semicondutores",
+    "website": "https://www.lamresearch.com",
+    "description": "Fornecedor de equipamentos e serviços de fabricação de wafers para a indústria de semicondutores.",
+    "history": [5.0, 5.1, 5.2, 5.3],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Equipamento de Semicondutores",
+        "description": "Fornecedor de equipamentos e serviços de fabricação de wafers para a indústria de semicondutores."
+      },
+      "es": {
+        "sector": "Equipamiento para Semiconductores",
+        "description": "Proveedor de equipos y servicios de fabricación de obleas para la industria de semiconductores."
+      },
+      "en": {
+        "sector": "Semiconductor Equipment",
+        "description": "Supplier of wafer fabrication equipment and services to the semiconductor industry."
+      }
+    }
+  },
+  {
+    "name": "Lucid Group",
+    "sector": "Automóveis Elétricos",
+    "website": "https://www.lucidmotors.com",
+    "description": "Empresa de fabricação de veículos elétricos de luxo.",
+    "history": [5.1, 5.2, 5.3, 5.4],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Automóveis Elétricos",
+        "description": "Empresa de fabricação de veículos elétricos de luxo."
+      },
+      "es": {
+        "sector": "Automóviles Eléctricos",
+        "description": "Empresa de fabricación de vehículos eléctricos de lujo."
+      },
+      "en": {
+        "sector": "Electric Vehicles",
+        "description": "Luxury electric vehicle manufacturing company."
+      }
+    }
+  },
+  {
+    "name": "Marvell Technology",
+    "sector": "Semicondutores",
+    "website": "https://www.marvell.com",
+    "description": "Empresa de semicondutores que desenvolve soluções de infraestrutura de dados.",
+    "history": [5.2, 5.3, 5.4, 5.5],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de semicondutores que desenvolve soluções de infraestrutura de dados."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de semiconductores que desarrolla soluciones de infraestructura de datos."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Semiconductor company that develops data infrastructure solutions."
+      }
+    }
+  },
+  {
+    "name": "Meta Platforms (Facebook)",
+    "sector": "Mídia Social",
+    "website": "https://www.meta.com",
+    "description": "Conglomerado de tecnologia e mídia social.",
+    "history": [5.3, 5.4, 5.5, 5.6],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Mídia Social",
+        "description": "Conglomerado de tecnologia e mídia social."
+      },
+      "es": {
+        "sector": "Redes Sociales",
+        "description": "Conglomerado de tecnología y redes sociales."
+      },
+      "en": {
+        "sector": "Social Media",
+        "description": "Social media and technology conglomerate."
+      }
+    }
+  },
+  {
+    "name": "Micron Technology",
+    "sector": "Semicondutores",
+    "website": "https://www.micron.com",
+    "description": "Fabricante de dispositivos de armazenamento e memória de computador.",
+    "history": [5.4, 5.5, 5.6, 5.7],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Fabricante de dispositivos de armazenamento e memória de computador."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Fabricante de dispositivos de almacenamiento y memoria de computadora."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Manufacturer of computer memory and storage devices."
+      }
+    }
+  },
+  {
+    "name": "Moderna",
+    "sector": "Biotecnologia",
+    "website": "https://www.modernatx.com",
+    "description": "Empresa de biotecnologia focada em terapias e vacinas de RNA mensageiro (mRNA).",
+    "history": [5.5, 5.6, 5.7, 5.8],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Biotecnologia",
+        "description": "Empresa de biotecnologia focada em terapias e vacinas de RNA mensageiro (mRNA)."
+      },
+      "es": {
+        "sector": "Biotecnología",
+        "description": "Empresa de biotecnología centrada en terapias y vacunas de ARN mensajero (ARNm)."
+      },
+      "en": {
+        "sector": "Biotechnology",
+        "description": "Biotechnology company focused on messenger RNA (mRNA) therapeutics and vaccines."
+      }
+    }
+  },
+  {
+    "name": "Netflix",
+    "sector": "Entretenimento",
+    "website": "https://www.netflix.com",
+    "description": "Serviço de streaming de assinatura e empresa de produção.",
+    "history": [5.6, 5.7, 5.8, 5.9],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Entretenimento",
+        "description": "Serviço de streaming de assinatura e empresa de produção."
+      },
+      "es": {
+        "sector": "Entretenimiento",
+        "description": "Servicio de streaming por suscripción y productora."
+      },
+      "en": {
+        "sector": "Entertainment",
+        "description": "Subscription streaming service and production company."
+      }
+    }
+  },
+  {
+    "name": "Nvidia",
+    "sector": "Semicondutores",
+    "website": "https://www.nvidia.com",
+    "description": "Empresa de tecnologia conhecida por suas unidades de processamento gráfico (GPUs).",
+    "history": [5.7, 5.8, 5.9, 6.0],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de tecnologia conhecida por suas unidades de processamento gráfico (GPUs)."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de tecnología conocida por sus unidades de procesamiento gráfico (GPU)."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Technology company known for its graphics processing units (GPUs)."
+      }
+    }
+  },
+  {
+    "name": "NXP Semiconductors",
+    "sector": "Semicondutores",
+    "website": "https://www.nxp.com",
+    "description": "Fabricante de semicondutores para diversas aplicações, incluindo automotiva, industrial e móvel.",
+    "history": [5.8, 5.9, 6.0, 6.1],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Fabricante de semicondutores para diversas aplicações, incluindo automotiva, industrial e móvel."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Fabricante de semiconductores para diversas aplicaciones, incluyendo automotriz, industrial y móvil."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Semiconductor manufacturer for various applications, including automotive, industrial, and mobile."
+      }
+    }
+  },
+  {
+    "name": "Okta",
+    "sector": "Software",
+    "website": "https://www.okta.com",
+    "description": "Empresa de gerenciamento de identidade e acesso.",
+    "history": [5.9, 6.0, 6.1, 6.2],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de gerenciamento de identidade e acesso."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de gestión de identidad y acceso."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Identity and access management company."
+      }
+    }
+  },
+  {
+    "name": "Oracle",
+    "sector": "Software",
+    "website": "https://www.oracle.com",
+    "description": "Empresa de tecnologia que vende software de banco de dados, sistemas de nuvem e software empresarial.",
+    "history": [6.0, 6.1, 6.2, 6.3],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de tecnologia que vende software de banco de dados, sistemas de nuvem e software empresarial."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de tecnología que vende software de base de datos, sistemas en la nube y software empresarial."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Technology company that sells database software, cloud systems, and enterprise software."
+      }
+    }
+  },
+  {
+    "name": "Palo Alto Networks",
+    "sector": "Segurança Cibernética",
+    "website": "https://www.paloaltonetworks.com",
+    "description": "Empresa global de segurança cibernética.",
+    "history": [6.1, 6.2, 6.3, 6.4],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Segurança Cibernética",
+        "description": "Empresa global de segurança cibernética."
+      },
+      "es": {
+        "sector": "Seguridad Cibernética",
+        "description": "Empresa global de seguridad cibernética."
+      },
+      "en": {
+        "sector": "Cybersecurity",
+        "description": "Global cybersecurity company."
+      }
+    }
+  },
+  {
+    "name": "Paychex",
+    "sector": "Serviços Financeiros",
+    "website": "https://www.paychex.com",
+    "description": "Fornecedor de soluções integradas de gestão de capital humano para pequenas e médias empresas.",
+    "history": [6.2, 6.3, 6.4, 6.5],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Serviços Financeiros",
+        "description": "Fornecedor de soluções integradas de gestão de capital humano para pequenas e médias empresas."
+      },
+      "es": {
+        "sector": "Servicios Financieros",
+        "description": "Proveedor de soluciones integradas de gestión de capital humano para pequeñas y medianas empresas."
+      },
+      "en": {
+        "sector": "Financial Services",
+        "description": "Provider of integrated human capital management solutions for small- to medium-sized businesses."
+      }
+    }
+  },
+  {
+    "name": "PayPal",
+    "sector": "Processamento de Pagamentos",
+    "website": "https://www.paypal.com",
+    "description": "Empresa de processamento de pagamentos online.",
+    "history": [6.3, 6.4, 6.5, 6.6],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Processamento de Pagamentos",
+        "description": "Empresa de processamento de pagamentos online."
+      },
+      "es": {
+        "sector": "Procesamiento de Pagos",
+        "description": "Empresa de procesamiento de pagos en línea."
+      },
+      "en": {
+        "sector": "Payment Processing",
+        "description": "Online payment processing company."
+      }
+    }
+  },
+  {
+    "name": "Pinduoduo",
+    "sector": "Comércio Eletrônico",
+    "website": "https://www.pinduoduo.com",
+    "description": "Plataforma de comércio eletrônico que conecta compradores e vendedores para compras em grupo.",
+    "history": [6.4, 6.5, 6.6, 6.7],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Comércio Eletrônico",
+        "description": "Plataforma de comércio eletrônico que conecta compradores e vendedores para compras em grupo."
+      },
+      "es": {
+        "sector": "Comercio Electrónico",
+        "description": "Plataforma de comercio electrónico que conecta a compradores y vendedores para compras en grupo."
+      },
+      "en": {
+        "sector": "E-commerce",
+        "description": "E-commerce platform that connects buyers and sellers for group shopping."
+      }
+    }
+  },
+  {
+    "name": "Qualcomm",
+    "sector": "Semicondutores",
+    "website": "https://www.qualcomm.com",
+    "description": "Empresa de semicondutores e equipamentos de telecomunicações sem fio.",
+    "history": [6.5, 6.6, 6.7, 6.8],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de semicondutores e equipamentos de telecomunicações sem fio."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de semiconductores y equipos de telecomunicaciones inalámbricas."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Semiconductor and wireless telecommunications equipment company."
+      }
+    }
+  },
+  {
+    "name": "Regeneron Pharmaceuticals",
+    "sector": "Biotecnologia",
+    "website": "https://www.regeneron.com",
+    "description": "Empresa de biotecnologia que descobre, desenvolve, fabrica e comercializa medicamentos para uso humano.",
+    "history": [6.6, 6.7, 6.8, 6.9],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Biotecnologia",
+        "description": "Empresa de biotecnologia que descobre, desenvolve, fabrica e comercializa medicamentos para uso humano."
+      },
+      "es": {
+        "sector": "Biotecnología",
+        "description": "Empresa de biotecnología que descubre, desarrolla, fabrica y comercializa medicamentos para uso humano."
+      },
+      "en": {
+        "sector": "Biotechnology",
+        "description": "Biotechnology company that discovers, develops, manufactures, and commercializes medicines for human use."
+      }
+    }
+  },
+  {
+    "name": "Rivian Automotive",
+    "sector": "Automóveis Elétricos",
+    "website": "https://www.rivian.com",
+    "description": "Fabricante de veículos elétricos e tecnologia automotiva.",
+    "history": [6.7, 6.8, 6.9, 7.0],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Automóveis Elétricos",
+        "description": "Fabricante de veículos elétricos e tecnologia automotiva."
+      },
+      "es": {
+        "sector": "Automóviles Eléctricos",
+        "description": "Fabricante de vehículos eléctricos y tecnología automotriz."
+      },
+      "en": {
+        "sector": "Electric Vehicles",
+        "description": "Electric vehicle manufacturer and automotive technology company."
+      }
+    }
+  },
+  {
+    "name": "Roku",
+    "sector": "Entretenimento",
+    "website": "https://www.roku.com",
+    "description": "Empresa de mídia de streaming.",
+    "history": [6.8, 6.9, 7.0, 7.1],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Entretenimento",
+        "description": "Empresa de mídia de streaming."
+      },
+      "es": {
+        "sector": "Entretenimiento",
+        "description": "Empresa de medios de streaming."
+      },
+      "en": {
+        "sector": "Entertainment",
+        "description": "Streaming media company."
+      }
+    }
+  },
+  {
+    "name": "Sirius XM Holdings",
+    "sector": "Entretenimento",
+    "website": "https://www.siriusxm.com",
+    "description": "Empresa de rádio via satélite.",
+    "history": [6.9, 7.0, 7.1, 7.2],
+    "index": "NASDAQ",
+    "translations": {
+      "pt": {
+        "sector": "Entretenimento",
+        "description": "Empresa de rádio via satélite."
+      },
+      "es": {
+        "sector": "Entretenimiento",
+        "description": "Empresa de radio por satélite."
+      },
+      "en": {
+        "sector": "Entertainment",
+        "description": "Satellite radio company."
+      }
+    }
+  },
+    {
+    "name": "Skyworks Solutions",
+    "sector": "Semicondutores",
+    "website": "https://www.skyworksinc.com",
+    "description": "Empresa de semicondutores que projeta, desenvolve e comercializa semicondutores de radiofrequência.",
+    "history": [
+      7.0,
+      7.1,
+      7.2,
+      7.3
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de semicondutores que projeta, desenvolve e comercializa semicondutores de radiofrequência."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de semiconductores que diseña, desarrolla y comercializa semiconductores de radiofrecuencia."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Semiconductor company that designs, develops, and markets radio frequency semiconductors."
+      }
+    }
+  },
+  {
+    "name": "Snap",
+    "sector": "Mídia Social",
+    "website": "https://www.snap.com",
+    "description": "Empresa de câmera e mídia social.",
+    "history": [
+      7.1,
+      7.2,
+      7.3,
+      7.4
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Mídia Social",
+        "description": "Empresa de câmera e mídia social."
+      },
+      "es": {
+        "sector": "Redes Sociales",
+        "description": "Empresa de cámara y redes sociales."
+      },
+      "en": {
+        "sector": "Social Media",
+        "description": "Camera and social media company."
+      }
+    }
+  },
+  {
+    "name": "Synopsys",
+    "sector": "Software",
+    "website": "https://www.synopsys.com",
+    "description": "Empresa de software que fornece produtos e serviços de automação de design eletrônico.",
+    "history": [
+      7.2,
+      7.3,
+      7.4,
+      7.5
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software que fornece produtos e serviços de automação de design eletrônico."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software que proporciona productos y servicios de automatización de diseño electrónico."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Software company that provides electronic design automation products and services."
+      }
+    }
+  },
+  {
+    "name": "T-Mobile US",
+    "sector": "Telecomunicações",
+    "website": "https://www.t-mobile.com",
+    "description": "Operadora de rede móvel.",
+    "history": [
+      7.3,
+      7.4,
+      7.5,
+      7.6
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Telecomunicações",
+        "description": "Operadora de rede móvel."
+      },
+      "es": {
+        "sector": "Telecomunicaciones",
+        "description": "Operador de red móvil."
+      },
+      "en": {
+        "sector": "Telecommunications",
+        "description": "Mobile network operator."
+      }
+    }
+  },
+  {
+    "name": "Tesla",
+    "sector": "Automóveis Elétricos",
+    "website": "https://www.tesla.com",
+    "description": "Empresa de veículos elétricos e energia limpa.",
+    "history": [
+      7.4,
+      7.5,
+      7.6,
+      7.7
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Automóveis Elétricos",
+        "description": "Empresa de veículos elétricos e energia limpa."
+      },
+      "es": {
+        "sector": "Automóviles Eléctricos",
+        "description": "Empresa de vehículos eléctricos y energía limpia."
+      },
+      "en": {
+        "sector": "Electric Vehicles",
+        "description": "Electric vehicle and clean energy company."
+      }
+    }
+  },
+  {
+    "name": "Texas Instruments",
+    "sector": "Semicondutores",
+    "website": "https://www.ti.com",
+    "description": "Empresa de semicondutores que projeta e fabrica semicondutores e vários circuitos integrados.",
+    "history": [
+      7.5,
+      7.6,
+      7.7,
+      7.8
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de semicondutores que projeta e fabrica semicondutores e vários circuitos integrados."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de semiconductores que diseña y fabrica semiconductores y varios circuitos integrados."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Semiconductor company that designs and manufactures semiconductors and various integrated circuits."
+      }
+    }
+  },
+  {
+    "name": "Trade Desk",
+    "sector": "Publicidade",
+    "website": "https://www.thetradedesk.com",
+    "description": "Empresa de tecnologia que fornece uma plataforma de compra de publicidade programática.",
+    "history": [
+      7.6,
+      7.7,
+      7.8,
+      7.9
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Publicidade",
+        "description": "Empresa de tecnologia que fornece uma plataforma de compra de publicidade programática."
+      },
+      "es": {
+        "sector": "Publicidad",
+        "description": "Empresa de tecnología que proporciona una plataforma de compra de publicidad programática."
+      },
+      "en": {
+        "sector": "Advertising",
+        "description": "Technology company that provides a programmatic advertising buying platform."
+      }
+    }
+  },
+  {
+    "name": "VeriSign",
+    "sector": "Tecnologia",
+    "website": "https://www.verisign.com",
+    "description": "Empresa que opera a infraestrutura para uma variedade de serviços de internet, incluindo .com, .net, e .name domínios.",
+    "history": [
+      7.7,
+      7.8,
+      7.9,
+      8.0
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Tecnologia",
+        "description": "Empresa que opera a infraestrutura para uma variedade de serviços de internet, incluindo .com, .net, e .name domínios."
+      },
+      "es": {
+        "sector": "Tecnología",
+        "description": "Empresa que opera la infraestructura para una variedad de servicios de internet, incluyendo dominios .com, .net, y .name."
+      },
+      "en": {
+        "sector": "Technology",
+        "description": "Company that operates the infrastructure for a variety of internet services, including .com, .net, and .name domains."
+      }
+    }
+  },
+  {
+    "name": "Vertex Pharmaceuticals",
+    "sector": "Biotecnologia",
+    "website": "https://www.vrtx.com",
+    "description": "Empresa de biotecnologia que desenvolve e comercializa terapias para fibrose cística.",
+    "history": [
+      7.8,
+      7.9,
+      8.0,
+      8.1
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Biotecnologia",
+        "description": "Empresa de biotecnologia que desenvolve e comercializa terapias para fibrose cística."
+      },
+      "es": {
+        "sector": "Biotecnología",
+        "description": "Empresa de biotecnología que desarrolla y comercializa terapias para la fibrosis quística."
+      },
+      "en": {
+        "sector": "Biotechnology",
+        "description": "Biotechnology company that develops and commercializes therapies for cystic fibrosis."
+      }
+    }
+  },
+  {
+    "name": "Warner Bros. Discovery",
+    "sector": "Mídia",
+    "website": "https://www.wbd.com",
+    "description": "Empresa global de mídia e entretenimento.",
+    "history": [
+      7.9,
+      8.0,
+      8.1,
+      8.2
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Mídia",
+        "description": "Empresa global de mídia e entretenimento."
+      },
+      "es": {
+        "sector": "Medios",
+        "description": "Empresa global de medios y entretenimiento."
+      },
+      "en": {
+        "sector": "Media",
+        "description": "Global media and entertainment company."
+      }
+    }
+  },
+  {
+    "name": "Workday",
+    "sector": "Software",
+    "website": "https://www.workday.com",
+    "description": "Empresa de software de aplicativos empresariais baseados em nuvem para recursos humanos e finanças.",
+    "history": [
+      8.0,
+      8.1,
+      8.2,
+      8.3
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Software",
+        "description": "Empresa de software de aplicativos empresariais baseados em nuvem para recursos humanos e finanças."
+      },
+      "es": {
+        "sector": "Software",
+        "description": "Empresa de software de aplicaciones empresariales basadas en la nube para recursos humanos y finanzas."
+      },
+      "en": {
+        "sector": "Software",
+        "description": "Software company of cloud-based enterprise applications for human resources and finance."
+      }
+    }
+  },
+  {
+    "name": "Xilinx",
+    "sector": "Semicondutores",
+    "website": "https://www.xilinx.com",
+    "description": "Empresa de tecnologia, agora parte da AMD, que desenvolve semicondutores programáveis.",
+    "history": [
+      8.1,
+      8.2,
+      8.3,
+      8.4
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Semicondutores",
+        "description": "Empresa de tecnologia, agora parte da AMD, que desenvolve semicondutores programáveis."
+      },
+      "es": {
+        "sector": "Semiconductores",
+        "description": "Empresa de tecnología, ahora parte de AMD, que desarrolla semiconductores programables."
+      },
+      "en": {
+        "sector": "Semiconductors",
+        "description": "Technology company, now part of AMD, that develops programmable semiconductors."
+      }
+    }
+  },
+  {
+    "name": "Zoom Video Communications",
+    "sector": "Comunicações",
+    "website": "https://www.zoom.us",
+    "description": "Empresa de tecnologia de comunicações.",
+    "history": [
+      8.2,
+      8.3,
+      8.4,
+      8.5
+    ],
+    "index": "NASDAQ",
+        "translations": {
+      "pt": {
+        "sector": "Comunicações",
+        "description": "Empresa de tecnologia de comunicações."
+      },
+      "es": {
+        "sector": "Comunicaciones",
+        "description": "Empresa de tecnología de comunicaciones."
+      },
+      "en": {
+        "sector": "Communications",
+        "description": "Communications technology company."
+      }
+    }
+  }
+]
+
