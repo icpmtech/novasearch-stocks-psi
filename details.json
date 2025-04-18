@@ -1,11 +1,23 @@
 [
   {
     "name": "Altri",
-    "sector": "Pasta & Papel",
     "website": "https://altri.pt",
-    "description": "Produtora portuguesa de pasta de papel e biomassa florestal.",
     "history": [0.18, 0.20, 0.25, 0.28, 0.30],
-    "index": "PSI"
+    "index": "PSI",
+    "translations": {
+      "pt": {
+        "sector": "Pasta & Papel",
+        "description": "Produtora portuguesa de pasta de papel e biomassa florestal."
+      },
+      "es": {
+        "sector": "Pulpa y Papel",
+        "description": "Productora portuguesa de pulpa de papel y biomasa forestal."
+      },
+      "en": {
+        "sector": "Pulp & Paper",
+        "description": "Portuguese producer of paper pulp and forest biomass."
+      }
+    }
   },
   {
     "name": "BCP",
