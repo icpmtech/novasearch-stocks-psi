@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simulador de Reinvestimento +20%</title>
+  <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #00ffff;
+      text-align: center;
+    }
+    label {
+      margin-right: 10px;
+    }
+    input[type=number] {
+      width: 80px;
+      padding: 5px;
+      margin: 0 20px 20px 0;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+    button {
+      background: #00ffff;
+      color: #111;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #444;
+      text-align: center;
+    }
+    th {
+      background: #222;
+    }
+    #chart {
+      margin-top: 40px;
+    }
+    .controls {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Simulador de Reinvestimento com Lucro Percentual</h1>
+
+  <div class="controls">
+    <label for="capitalInicial">Capital Inicial (€):</label>
+    <input type="number" id="capitalInicial" value="6790" min="1" step="any" />
+
+    <label for="lucroPercentual">Lucro por ciclo (%):</label>
+    <input type="number" id="lucroPercentual" value="20" min="0" step="any" />
+
+    <label for="numCiclos">Número de ciclos:</label>
+    <input type="number" id="numCiclos" value="5" min="1" max="50" />
+
+    <button id="simularBtn">Simular</button>
+  </div>
+
+  <table id="simulacaoTabela">
+    <thead>
+      <tr>
+        <th>Ciclo</th>
+        <th>Capital Inicial (€)</th>
+        <th>Lucro (€)</th>
+        <th>Capital Final (€)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div id="chart"></div>
+
+  <script>
+    const tbody = document.querySelector("#simulacaoTabela tbody");
+    const btn = document.getElementById("simularBtn");
+
+    function formatEuro(value) {
+      return Number(value).toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' });
+    }
+
+    function simular() {
+      tbody.innerHTML = "";
+
+      let capitalInicial = parseFloat(document.getElementById("capitalInicial").value);
+      let lucroPercentual = parseFloat(document.getElementById("lucroPercentual").value) / 100;
+      let numCiclos = parseInt(document.getElementById("numCiclos").value);
+
+      if (isNaN(capitalInicial) || capitalInicial <= 0) {
+        alert("Capital inicial deve ser um número positivo.");
+        return;
+      }
+      if (isNaN(lucroPercentual) || lucroPercentual < 0) {
+        alert("Lucro percentual deve ser zero ou positivo.");
+        return;
+      }
+      if (isNaN(numCiclos) || numCiclos < 1 || numCiclos > 50) {
+        alert("Número de ciclos deve estar entre 1 e 50.");
+        return;
+      }
+
+      let data = [];
+      let capital = capitalInicial;
+
+      for (let i = 1; i <= numCiclos; i++) {
+        let lucro = capital * lucroPercentual;
+        let capitalFinal = capital + lucro;
+
+        data.push({
+          ciclo: i,
+          capitalInicial: capital,
+          lucro,
+          capitalFinal
+        });
+
+        capital = capitalFinal;
+      }
+
+      // Preencher tabela
+      data.forEach(row => {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${row.ciclo}</td>
+          <td>${formatEuro(row.capitalInicial)}</td>
+          <td>${formatEuro(row.lucro)}</td>
+          <td>${formatEuro(row.capitalFinal)}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Plotar gráfico
+      const trace = {
+        x: data.map(d => `Ciclo ${d.ciclo}`),
+        y: data.map(d => d.capitalFinal),
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: 'Capital (€)',
+        line: { shape: 'spline' }
+      };
+
+      const layout = {
+        title: 'Evolução do Capital com Reinvestimento',
+        plot_bgcolor: "#111",
+        paper_bgcolor: "#111",
+        font: { color: "#fff" },
+        xaxis: { title: 'Ciclo' },
+        yaxis: { title: 'Capital (€)' }
+      };
+
+      Plotly.newPlot('chart', [trace], layout);
+    }
+
+    btn.addEventListener("click", simular);
+
+    // Simular inicialmente
+    simular();
+  </script>
+
+</body>
+</html>
