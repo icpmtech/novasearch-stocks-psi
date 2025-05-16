@@ -2,27 +2,319 @@
 <html lang="pt-PT">
 <head>
   <meta charset="UTF-8">
-  <title>Dashboard Gainers & Losers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Style Dashboard</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://unpkg.com/i18next@22.4.11/dist/umd/i18next.min.js"></script>
   <style>
-    body { background: #111; color: #fff; font-family: sans-serif; margin: 0; padding: 0; }
-    header { background: #222; padding: 20px; text-align: center; color: #0ff; position: relative; }
-    .lang-switch { position: absolute; top: 10px; right: 10px; }
-    .lang-switch button { margin: 0 3px; padding: 5px 10px; background: #444; color: #fff; border: none; cursor: pointer; }
-    .lang-switch button.active { background: #0ff; color: #222; }
-    .charts-container { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; }
-    .chart-box { background: #1a1a1a; padding: 20px; margin: 10px; flex: 1 1 45%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
-    table { width: 100%; margin-top: 20px; border-collapse: collapse; background: #222; }
-    th, td { padding: 10px; border: 1px solid #444; text-align: center; }
-    th { background: #333; }
-    .loading { text-align: center; padding: 40px; font-size: 18px; }
-    .error-message { background: rgba(255,0,0,0.2); color: #ff7777; padding: 10px; border-radius: 5px; margin: 10px 0; text-align: center; }
-    .refresh-btn { background: #0ff; color: #222; border: none; padding: 10px 20px; margin: 10px auto; display: block; cursor: pointer; border-radius: 5px; }
-    .positive { color: lime; }
-    .negative { color: red; }
-    .date-info { text-align: center; margin: 10px 0; color: #ccc; }
-    @media (max-width: 768px) { .chart-box { flex: 1 1 100%; } }
+    :root {
+      --tiktok-bg: #010101;
+      --tiktok-card-bg: #121212;
+      --tiktok-text: #ffffff;
+      --tiktok-subtext: #8a8a8a;
+      --tiktok-cyan: #22f5ff;
+      --tiktok-pink: #fe2c55;
+      --tiktok-blue: #69c9d0;
+      --positive: #20E37B;
+      --negative: #FE2C55;
+      --font-main: 'Segoe UI', Roboto, sans-serif;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: var(--tiktok-bg);
+      color: var(--tiktok-text);
+      font-family: var(--font-main);
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+    
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    header {
+      background: linear-gradient(45deg, var(--tiktok-pink), var(--tiktok-blue));
+      background-size: 200% 200%;
+      animation: gradient 3s ease infinite;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+      margin-bottom: 5px;
+    }
+    
+    .lang-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      z-index: 10;
+    }
+    
+    .lang-switch button {
+      margin: 0 3px;
+      padding: 8px 15px;
+      background: rgba(0, 0, 0, 0.5);
+      color: var(--tiktok-text);
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    
+    .lang-switch button.active {
+      background: #fff;
+      color: var(--tiktok-pink);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+    
+    .charts-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 15px;
+      gap: 20px;
+    }
+    
+    .chart-box {
+      background: var(--tiktok-card-bg);
+      padding: 20px;
+      margin: 10px;
+      flex: 1 1 45%;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      animation: slideIn 0.5s ease-out forwards;
+      transition: transform 0.3s ease;
+    }
+    
+    .chart-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    }
+    
+    .chart-box h2 {
+      color: var(--tiktok-text);
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 10px;
+    }
+    
+    .chart-box h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 20px;
+      background: var(--tiktok-cyan);
+      margin-right: 10px;
+      border-radius: 2px;
+    }
+    
+    #gainersChart h2::before {
+      background: var(--positive);
+    }
+    
+    #losersChart h2::before {
+      background: var(--negative);
+    }
+    
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      background: transparent;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    
+    th {
+      background: rgba(0, 0, 0, 0.3);
+      color: var(--tiktok-subtext);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+    }
+    
+    tr:hover {
+      background: rgba(255, 255, 255, 0.03);
+    }
+    
+    .loading {
+      text-align: center;
+      padding: 60px;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+    }
+    
+    .loading::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin-top: 20px;
+      border: 3px solid transparent;
+      border-top-color: var(--tiktok-cyan);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .error-message {
+      background: rgba(254, 44, 85, 0.15);
+      color: var(--tiktok-pink);
+      padding: 15px;
+      border-radius: 10px;
+      margin: 20px;
+      text-align: center;
+      border-left: 4px solid var(--tiktok-pink);
+      animation: slideIn 0.3s ease-out forwards;
+    }
+    
+    .refresh-btn {
+      background: linear-gradient(45deg, var(--tiktok-pink), var(--tiktok-blue));
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      margin: 20px auto;
+      display: block;
+      cursor: pointer;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(254, 44, 85, 0.3);
+    }
+    
+    .refresh-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(254, 44, 85, 0.4);
+      animation: pulse 1s infinite;
+    }
+    
+    .positive {
+      color: var(--positive);
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    
+    .negative {
+      color: var(--negative);
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    
+    .positive::before, .negative::before {
+      content: "";
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-right: 5px;
+    }
+    
+    .positive::before {
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 10px solid var(--positive);
+    }
+    
+    .negative::before {
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid var(--negative);
+    }
+    
+    .date-info {
+      text-align: center;
+      margin: 15px 0;
+      color: var(--tiktok-subtext);
+      font-size: 0.9rem;
+    }
+    
+    .ticker-cell {
+      font-weight: bold;
+      color: var(--tiktok-cyan);
+    }
+    
+    .ticker-badge {
+      background: rgba(34, 245, 255, 0.1);
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      color: var(--tiktok-cyan);
+      display: inline-block;
+    }
+    
+    .stock-name {
+      color: var(--tiktok-text);
+      font-weight: 500;
+    }
+    
+    @media (max-width: 768px) {
+      .chart-box {
+        flex: 1 1 100%;
+      }
+      
+      header h1 {
+        font-size: 1.8rem;
+      }
+      
+      .lang-switch {
+        top: 10px;
+        right: 10px;
+      }
+      
+      th, td {
+        padding: 10px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -181,35 +473,69 @@
         x: gainers.map(s => s.ticker),
         y: gainers.map(s => s.change),
         type: 'bar',
-        marker: { color: 'lime' }
+        marker: { 
+          color: 'rgba(32, 227, 123, 0.8)',
+          line: {
+            color: 'rgba(32, 227, 123, 1)',
+            width: 1
+          }
+        },
+        hoverinfo: 'y+text',
+        hovertext: gainers.map(s => s.name),
       }], { 
-        paper_bgcolor: '#1a1a1a', 
-        plot_bgcolor: '#1a1a1a', 
-        font: { color: '#fff' },
-        margin: { t: 10, r: 10, b: 40, l: 40 },
-        yaxis: { title: '%' }
+        paper_bgcolor: 'rgba(0,0,0,0)', 
+        plot_bgcolor: 'rgba(0,0,0,0)', 
+        font: { color: '#fff', family: 'Segoe UI, Roboto, sans-serif' },
+        margin: { t: 10, r: 10, b: 40, l: 50 },
+        yaxis: { 
+          title: '%',
+          gridcolor: 'rgba(255,255,255,0.1)',
+          zerolinecolor: 'rgba(255,255,255,0.2)',
+        },
+        xaxis: {
+          tickangle: -45
+        }
+      }, {
+        responsive: true
       });
 
       Plotly.newPlot("losersChart", [{
         x: losers.map(s => s.ticker),
         y: losers.map(s => s.change),
         type: 'bar',
-        marker: { color: 'red' }
+        marker: { 
+          color: 'rgba(254, 44, 85, 0.8)',
+          line: {
+            color: 'rgba(254, 44, 85, 1)',
+            width: 1
+          }
+        },
+        hoverinfo: 'y+text',
+        hovertext: losers.map(s => s.name),
       }], { 
-        paper_bgcolor: '#1a1a1a', 
-        plot_bgcolor: '#1a1a1a', 
-        font: { color: '#fff' },
-        margin: { t: 10, r: 10, b: 40, l: 40 },
-        yaxis: { title: '%' }
+        paper_bgcolor: 'rgba(0,0,0,0)', 
+        plot_bgcolor: 'rgba(0,0,0,0)', 
+        font: { color: '#fff', family: 'Segoe UI, Roboto, sans-serif' },
+        margin: { t: 10, r: 10, b: 40, l: 50 },
+        yaxis: { 
+          title: '%',
+          gridcolor: 'rgba(255,255,255,0.1)',
+          zerolinecolor: 'rgba(255,255,255,0.2)',
+        },
+        xaxis: {
+          tickangle: -45
+        }
+      }, {
+        responsive: true
       });
 
       const tbody = document.querySelector("#stocksTable tbody");
       tbody.innerHTML = "";
-      data.forEach(s => {
+      sorted.forEach(s => {
         tbody.innerHTML += `
           <tr>
-            <td>${s.ticker}</td>
-            <td>${s.name}</td>
+            <td><span class="ticker-badge">${s.ticker}</span></td>
+            <td><span class="stock-name">${s.name}</span></td>
             <td class="${s.change >= 0 ? 'positive' : 'negative'}">${s.change.toFixed(2)}%</td>
           </tr>`;
       });
@@ -219,31 +545,31 @@
     const resources = {
       pt: {
         translation: {
-          dashboard_title: "Dashboard de Ações",
-          top_gainers: "Top Ganhadores",
-          top_losers: "Top Perdedores",
-          full_table: "Tabela Completa",
+          dashboard_title: "TikStocks 📈",
+          top_gainers: "🔥 Top Ganhadores",
+          top_losers: "📉 Top Perdedores",
+          full_table: "📊 Tabela Completa",
           ticker: "Ticker",
           name: "Nome",
           change: "Variação",
-          loading: "Carregando dados...",
-          error_fetching: "Erro ao buscar dados. Tente novamente mais tarde.",
-          refresh_data: "Atualizar Dados",
+          loading: "Carregando...",
+          error_fetching: "Erro ao buscar dados. Tente novamente!",
+          refresh_data: "🔄 Atualizar",
           last_updated: "Última atualização"
         }
       },
       en: {
         translation: {
-          dashboard_title: "Stock Dashboard",
-          top_gainers: "Top Gainers",
-          top_losers: "Top Losers",
-          full_table: "Full Table",
+          dashboard_title: "TikStocks 📈",
+          top_gainers: "🔥 Top Gainers",
+          top_losers: "📉 Top Losers",
+          full_table: "📊 Full Table",
           ticker: "Ticker",
           name: "Name",
           change: "Change",
-          loading: "Loading data...",
-          error_fetching: "Error fetching data. Please try again later.",
-          refresh_data: "Refresh Data",
+          loading: "Loading...",
+          error_fetching: "Error fetching data. Try again!",
+          refresh_data: "🔄 Refresh",
           last_updated: "Last updated"
         }
       }
@@ -277,6 +603,14 @@
       
       // Set initial active language button
       document.getElementById('pt-btn').classList.add('active');
+    });
+
+    // Add entrance animations
+    document.addEventListener('DOMContentLoaded', () => {
+      const chartBoxes = document.querySelectorAll('.chart-box');
+      chartBoxes.forEach((box, index) => {
+        box.style.animationDelay = `${index * 0.1}s`;
+      });
     });
 
     // Event listeners
