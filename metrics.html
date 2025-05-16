@@ -10,24 +10,37 @@
     header { background: #222; padding: 20px; text-align: center; color: #0ff; position: relative; }
     .lang-switch { position: absolute; top: 10px; right: 10px; }
     .lang-switch button { margin: 0 3px; padding: 5px 10px; background: #444; color: #fff; border: none; cursor: pointer; }
+    .lang-switch button.active { background: #0ff; color: #222; }
     .charts-container { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; }
-    .chart-box { background: #1a1a1a; padding: 20px; margin: 10px; flex: 1 1 45%; border-radius: 10px; }
+    .chart-box { background: #1a1a1a; padding: 20px; margin: 10px; flex: 1 1 45%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
     table { width: 100%; margin-top: 20px; border-collapse: collapse; background: #222; }
     th, td { padding: 10px; border: 1px solid #444; text-align: center; }
     th { background: #333; }
+    .loading { text-align: center; padding: 40px; font-size: 18px; }
+    .error-message { background: rgba(255,0,0,0.2); color: #ff7777; padding: 10px; border-radius: 5px; margin: 10px 0; text-align: center; }
+    .refresh-btn { background: #0ff; color: #222; border: none; padding: 10px 20px; margin: 10px auto; display: block; cursor: pointer; border-radius: 5px; }
+    .positive { color: lime; }
+    .negative { color: red; }
+    .date-info { text-align: center; margin: 10px 0; color: #ccc; }
     @media (max-width: 768px) { .chart-box { flex: 1 1 100%; } }
   </style>
 </head>
 <body>
   <header>
     <div class="lang-switch">
-      <button onclick="changeLang('pt')">PT</button>
-      <button onclick="changeLang('en')">EN</button>
+      <button id="pt-btn" onclick="changeLang('pt')">PT</button>
+      <button id="en-btn" onclick="changeLang('en')">EN</button>
     </div>
     <h1 data-i18n="dashboard_title">Dashboard de Ações</h1>
   </header>
 
-  <div class="charts-container">
+  <div class="date-info" id="lastUpdated"></div>
+  <button class="refresh-btn" id="refreshBtn" data-i18n="refresh_data">Atualizar Dados</button>
+
+  <div id="loadingIndicator" class="loading" data-i18n="loading">Carregando dados...</div>
+  <div id="errorMessage" class="error-message" style="display: none;"></div>
+
+  <div class="charts-container" id="chartsContainer" style="display: none;">
     <div class="chart-box">
       <h2 data-i18n="top_gainers">Top Ganhadores</h2>
       <div id="gainersChart"></div>
@@ -38,7 +51,7 @@
     </div>
   </div>
 
-  <div class="chart-box" style="margin: 20px;">
+  <div class="chart-box" id="tableContainer" style="margin: 20px; display: none;">
     <h2 data-i18n="full_table">Tabela Completa</h2>
     <table id="stocksTable">
       <thead>
@@ -53,7 +66,7 @@
   </div>
 
   <script>
-    const API_KEY = "LQA8H3ISM6DV6H8Q";
+    // Configuration
     const stocks = [
       { ticker: "AAPL", name: "Apple Inc" },
       { ticker: "MSFT", name: "Microsoft" },
@@ -67,49 +80,114 @@
       { ticker: "NFLX", name: "Netflix" }
     ];
 
-    async function fetchData() {
-      const results = [];
+    // Use localStorage to cache data to reduce API calls
+    let stocksData = [];
+    let lastFetchDate = null;
 
-      for (let i = 0; i < stocks.length; i++) {
-        const stock = stocks[i];
-        try {
-          const res = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${stock.ticker}&apikey=${API_KEY}`);
-          const json = await res.json();
+    function showError(message) {
+      const errorElement = document.getElementById('errorMessage');
+      errorElement.textContent = message;
+      errorElement.style.display = 'block';
+    }
 
-          if (!json["Time Series (Daily)"]) continue;
+    function clearError() {
+      document.getElementById('errorMessage').style.display = 'none';
+    }
 
-          const daily = json["Time Series (Daily)"];
-          const dates = Object.keys(daily).sort((a, b) => new Date(b) - new Date(a));
-          const todayClose = parseFloat(daily[dates[0]]["4. close"]);
-          const prevClose = parseFloat(daily[dates[1]]["4. close"]);
-          const change = ((todayClose - prevClose) / prevClose) * 100;
+    function setLoading(isLoading) {
+      document.getElementById('loadingIndicator').style.display = isLoading ? 'block' : 'none';
+      document.getElementById('chartsContainer').style.display = isLoading ? 'none' : 'flex';
+      document.getElementById('tableContainer').style.display = isLoading ? 'none' : 'block';
+    }
 
-          results.push({ ...stock, change });
-        } catch (e) {
-          console.warn("Erro ao buscar", stock.ticker, e);
-        }
-
-        await new Promise(r => setTimeout(r, 15000)); // Delay entre chamadas
+    function updateLastUpdatedText() {
+      const dateElement = document.getElementById('lastUpdated');
+      if (lastFetchDate) {
+        const dateTimeFormat = new Intl.DateTimeFormat(i18next.language, {
+          dateStyle: 'medium',
+          timeStyle: 'medium'
+        });
+        dateElement.textContent = `${i18next.t('last_updated')}: ${dateTimeFormat.format(lastFetchDate)}`;
+      } else {
+        dateElement.textContent = '';
       }
+    }
 
-      render(results);
+    // We'll use mock data for demonstration since we can't securely call Alpha Vantage API directly from frontend
+    function getMockData() {
+      // In a real app, you'd use a backend server to securely fetch this data
+      return new Promise(resolve => {
+        setTimeout(() => {
+          const mockData = stocks.map(stock => {
+            // Generate random change between -5% and +5%
+            const change = (Math.random() * 10 - 5).toFixed(2);
+            return { ...stock, change: parseFloat(change) };
+          });
+          resolve(mockData);
+        }, 1500); // Simulate network delay
+      });
+    }
+
+    async function fetchData(useCache = true) {
+      clearError();
+      setLoading(true);
+      
+      // Check if we have cached data and it's recent (less than 30 minutes old)
+      const cachedData = localStorage.getItem('stocksData');
+      const cachedDate = localStorage.getItem('lastFetchDate');
+      
+      if (useCache && cachedData && cachedDate) {
+        const parsedDate = new Date(cachedDate);
+        const now = new Date();
+        // Use cache if it's less than 30 minutes old
+        if ((now - parsedDate) < 30 * 60 * 1000) {
+          stocksData = JSON.parse(cachedData);
+          lastFetchDate = parsedDate;
+          updateLastUpdatedText();
+          render(stocksData);
+          setLoading(false);
+          return;
+        }
+      }
+      
+      try {
+        // In a real implementation, this would call your backend API
+        // which would then securely use your Alpha Vantage API key
+        stocksData = await getMockData();
+        
+        // Update cache
+        localStorage.setItem('stocksData', JSON.stringify(stocksData));
+        lastFetchDate = new Date();
+        localStorage.setItem('lastFetchDate', lastFetchDate.toISOString());
+        updateLastUpdatedText();
+        
+        render(stocksData);
+      } catch (e) {
+        console.error("Error fetching data:", e);
+        showError(i18next.t('error_fetching'));
+      } finally {
+        setLoading(false);
+      }
     }
 
     function render(data) {
+      if (!data || data.length === 0) return;
+      
       const sorted = [...data].sort((a, b) => b.change - a.change);
-      const gainers = sorted.slice(0, 5);
-      const losers = sorted.slice(-5).reverse();
+      const gainers = sorted.filter(s => s.change > 0).slice(0, 5);
+      const losers = sorted.filter(s => s.change < 0).slice(-5).reverse();
 
       Plotly.newPlot("gainersChart", [{
         x: gainers.map(s => s.ticker),
         y: gainers.map(s => s.change),
         type: 'bar',
         marker: { color: 'lime' }
-      }], {
-        paper_bgcolor: '#1a1a1a',
-        plot_bgcolor: '#1a1a1a',
+      }], { 
+        paper_bgcolor: '#1a1a1a', 
+        plot_bgcolor: '#1a1a1a', 
         font: { color: '#fff' },
-        title: 'Top Gainers (%)'
+        margin: { t: 10, r: 10, b: 40, l: 40 },
+        yaxis: { title: '%' }
       });
 
       Plotly.newPlot("losersChart", [{
@@ -117,11 +195,12 @@
         y: losers.map(s => s.change),
         type: 'bar',
         marker: { color: 'red' }
-      }], {
-        paper_bgcolor: '#1a1a1a',
-        plot_bgcolor: '#1a1a1a',
+      }], { 
+        paper_bgcolor: '#1a1a1a', 
+        plot_bgcolor: '#1a1a1a', 
         font: { color: '#fff' },
-        title: 'Top Losers (%)'
+        margin: { t: 10, r: 10, b: 40, l: 40 },
+        yaxis: { title: '%' }
       });
 
       const tbody = document.querySelector("#stocksTable tbody");
@@ -131,11 +210,12 @@
           <tr>
             <td>${s.ticker}</td>
             <td>${s.name}</td>
-            <td style="color:${s.change >= 0 ? 'lime' : 'red'}">${s.change.toFixed(2)}%</td>
+            <td class="${s.change >= 0 ? 'positive' : 'negative'}">${s.change.toFixed(2)}%</td>
           </tr>`;
       });
     }
 
+    // Translations
     const resources = {
       pt: {
         translation: {
@@ -145,7 +225,11 @@
           full_table: "Tabela Completa",
           ticker: "Ticker",
           name: "Nome",
-          change: "Variação"
+          change: "Variação",
+          loading: "Carregando dados...",
+          error_fetching: "Erro ao buscar dados. Tente novamente mais tarde.",
+          refresh_data: "Atualizar Dados",
+          last_updated: "Última atualização"
         }
       },
       en: {
@@ -156,23 +240,47 @@
           full_table: "Full Table",
           ticker: "Ticker",
           name: "Name",
-          change: "Change"
+          change: "Change",
+          loading: "Loading data...",
+          error_fetching: "Error fetching data. Please try again later.",
+          refresh_data: "Refresh Data",
+          last_updated: "Last updated"
         }
       }
     };
 
-    i18next.init({ lng: 'pt', resources }, () => updateTexts());
     function changeLang(lang) {
-      i18next.changeLanguage(lang, updateTexts);
+      i18next.changeLanguage(lang, () => {
+        updateTexts();
+        updateLastUpdatedText();
+        
+        // Update active button styling
+        document.getElementById('pt-btn').classList.toggle('active', lang === 'pt');
+        document.getElementById('en-btn').classList.toggle('active', lang === 'en');
+      });
     }
-
+    
     function updateTexts() {
       document.querySelectorAll("[data-i18n]").forEach(el => {
         el.textContent = i18next.t(el.getAttribute("data-i18n"));
       });
     }
 
-    fetchData();
+    // Initialize
+    i18next.init({ 
+      lng: 'pt', 
+      resources,
+      fallbackLng: 'en'
+    }, () => {
+      updateTexts();
+      fetchData();
+      
+      // Set initial active language button
+      document.getElementById('pt-btn').classList.add('active');
+    });
+
+    // Event listeners
+    document.getElementById('refreshBtn').addEventListener('click', () => fetchData(false));
   </script>
 </body>
 </html>
